@@ -1,0 +1,322 @@
+// Menu
+.dropmenu ul li a.active {
+    color: $menu-color-active !important;
+}
+
+.dropmenu ul li a:hover {
+    color: $menu-color-hover
+}
+
+#header a,
+.dropmenu ul li a {
+    color: $menu-color
+}
+
+.mobile-menu .button_container span {
+    background-color: $primary-color !important
+}
+
+
+.u-url {
+    color: $primary-color
+}
+
+// Links
+
+a {
+    &:visited {
+        color: $link-color;
+    }
+
+    &:selected {
+        text-decoration: none;
+    }
+
+    &:focus,
+    &:hover,
+    &.active {
+        color: $link-color-light;
+        text-decoration: none;
+    }
+
+    color: $link-color;
+}
+
+// Tags
+.label.label-primary {
+    color: $label-color-active;
+    background-color: $tag-background;
+}
+
+.label.label-secondary {
+    color: $label-color-inactive;
+    background-color: $tag-background;
+}
+
+// Hamburger Menu
+.mobile-menu {
+
+    display: none;
+    top: 0;
+    right: 0;
+    z-index: 3;
+
+    .header-fixed & {
+        position: fixed;
+    }
+
+    @include breakpoint(md) {
+        display: block;
+    }
+
+    .button_container {
+        position: absolute;
+        top: 1.3rem;
+        right: $horiz-padding;
+        height: $mobile-button-height;
+        width: $mobile-button-width;
+        cursor: pointer;
+        z-index: 100;
+        transition: opacity .25s ease, top 0.5s ease;
+
+        $bar-offset: $mobile-button-height / 3;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &.active {
+            position: fixed;
+
+            .top {
+                transform: translateY($bar-offset) translateX(0) rotate(45deg);
+                background: $mobile-color-active;
+            }
+
+            .middle {
+                opacity: 0;
+                background: $mobile-color-active;
+            }
+
+            .bottom {
+                transform: translateY(-($bar-offset)) translateX(0) rotate(-45deg);
+                background: $mobile-color-active;
+            }
+        }
+
+        span {
+            background: $mobile-color-main;
+            border: none;
+            height: 4px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .35s ease;
+            cursor: pointer;
+
+            &:nth-of-type(2) {
+                top: $bar-offset;
+            }
+
+            &:nth-of-type(3) {
+                top: $bar-offset * 2;
+            }
+        }
+    }
+}
+
+.overlay {
+    position: fixed;
+    background: #f8f6f6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+
+    &.open {
+        opacity: .95;
+        visibility: visible;
+        height: 100%;
+
+    }
+
+    nav {
+
+        position: relative;
+        margin: 0 auto;
+        margin-top: 12em;
+        text-align: center;
+    }
+}
+
+.overlay-menu {
+    height: calc(100% - 90px);
+    overflow-y: scroll;
+
+    &>.tree {
+        text-align: left;
+    }
+}
+
+
+.treemenu {
+
+    &.treemenu-root {
+        margin: 1rem;
+    }
+
+    li {
+        list-style: none;
+        margin: 0 0 1px;
+        padding: 5px 0;
+        line-height: 2rem;
+
+        background: rgba($gray-color-dark, 0.1);
+
+        a {
+            display: block;
+            margin-left: 1.2rem;
+            font-size: 1rem;
+
+            &:hover,
+            &:focus,
+            &.active {
+                color: $primary-color-light !important;
+                text-decoration: none;
+            }
+        }
+    }
+
+    ul {
+        margin: 0 0 0 10rem;
+    }
+
+    .toggler {
+        cursor: pointer;
+        vertical-align: top;
+        font-size: 1.1rem;
+        line-height: 1rem;
+        padding-left: 5px;
+        float: left;
+
+        &:before {
+            display: inline-block;
+            margin-right: 2pt;
+        }
+    }
+
+    li.tree-empty>.toggler {
+        opacity: 0.3;
+        cursor: default;
+
+        &:before {
+            content: "\2022";
+        }
+    }
+
+    li.tree-closed>.toggler:before {
+        content: "+";
+    }
+
+    li.tree-opened>.toggler:before {
+        content: "\2212";
+    }
+}
+
+// Search Result List
+.search-item {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+// Breadcrumbs
+#breadcrumbs a:not(:first-child)::before,
+#breadcrumbs span:not(:first-child)::before {
+    padding-right: .2rem;
+    content: '/';
+    color: #e7e9ed;
+}
+
+#breadcrumbs a,
+#breadcrumbs span {
+    padding: 0 .1rem;
+}
+
+#breadcrumbs {
+    height: 2rem;
+    line-height: 1rem;
+    padding-inline-start: .5rem;
+}
+
+
+.galleryimage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.dir-gallery-thumbnails-masonry {
+    justify-content: center;
+}
+
+// song page
+
+.dir-gallery-tmp3-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px 8px;
+    border: 1px solid $link-color;
+    border-radius: 8px;
+    background-color: $tag-background;
+    gap: 24px;
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.mp3-title {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mp3-controls {
+    display: none;
+    align-items: center;
+    gap: 12px;
+}
+
+.mp3-controls-small {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+audio {
+    width: 200px;
+    height: 54px;
+}
+
+@media only screen and (min-width: 512px) {
+    .mp3-controls {
+        display: flex;
+    }
+
+    .mp3-controls-small {
+        display: none;
+    }
+
+    audio {
+        width: 300px;
+        height: 54px;
+    }
+}

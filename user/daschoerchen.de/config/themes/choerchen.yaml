@@ -1,0 +1,32 @@
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '': ['user://themes/choerchen', 'user://themes/quark']
+enabled: true
+production-mode: true
+grid-size: grid-lg
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+blog-page: /blog
+spectre:
+  exp: false
+  icons: false
+custom_logo:
+  user/themes/choerchen/images/logo/musical-score-long.svg:
+    name: musical-score-long.svg
+    full_path: musical-score-long.svg
+    type: image/svg+xml
+    size: 5616
+    path: user/themes/choerchen/images/logo/musical-score-long.svg
+custom_logo_mobile:
+  user/themes/choerchen/images/logo/musical-score-long.svg:
+    name: musical-score-long.svg
+    full_path: musical-score-long.svg
+    type: image/svg+xml
+    size: 5616
+    path: user/themes/choerchen/images/logo/musical-score-long.svg

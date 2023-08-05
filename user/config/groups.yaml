@@ -1,0 +1,32 @@
+Administratoren:
+  access:
+    site:
+      login: true
+    admin:
+      login: true
+      super: true
+      cache: true
+      configuration: true
+      pages: true
+      maintenance: true
+      statistics: true
+      plugins: true
+      themes: true
+      tools: true
+      users: true
+      flex-objects: true
+  readableName: Administratoren
+  enabled: true
+Chormitglieder:
+  access:
+    site:
+      login: true
+    admin:
+      pages:
+        create: false
+        read: true
+        update: false
+        delete: false
+        list: true
+  readableName: Chormitglieder
+  enabled: true

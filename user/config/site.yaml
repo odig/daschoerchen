@@ -1,0 +1,19 @@
+title: 'Das Chörchen'
+default_lang: de
+author:
+  name: null
+  email: info@daschoerchen.de
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Das Chörchen Diedersdorf/Dahlewitz'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog

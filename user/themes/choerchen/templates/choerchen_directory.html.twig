@@ -1,0 +1,45 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
+{% set collection = page.collection() %}
+{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+
+
+{% block body %}
+	<section id="body-wrapper" class="section blog-listing">
+		<section class="container {{ grid_size }}">
+
+			{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+				{% include 'partials/breadcrumbs.html.twig' %}
+			{% endif %}
+			<div class="center">
+
+				<span class="h2">
+					<a href="{{ base_url }}/choerchen-intern/choerchennoten{{ uri.params() }}">Chörchennoten</a>
+				</span>
+
+				<sub>MP3 und PDF</sub>
+
+			</div>
+
+			{{ page.summary|raw }}
+
+			{% set settings = {
+				'exclude_main': true,
+    			'exclude_modular': true,
+				'links': false,
+    			'route': '/choerchen-intern/choerchennoten',
+				'exclude_additional': [ '*.md' ],
+				'order.by':'title',
+				'order.dir':'asc',
+				'level':3
+			} %}
+
+			{{ directorylisting(settings)|raw }}
+		</section>
+	</section>
+	<script>
+		// Bricklayer
+var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
+	</script>
+{% endblock %}

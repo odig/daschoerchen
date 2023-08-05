@@ -1,0 +1,63 @@
+{% set grid_size = theme_var('grid-size') %}
+{% if page.header.image %}
+    {% set image = '/'~page.relativePagePath()~'/'~page.header.image %}
+{% else %}
+    {% set image = page.media.files['image.svg'].html %}
+{% endif %}
+
+{% set imageRight = page.header.imageRight %}
+
+{% if page.header.video != "" %}
+    {% if file_exists(page.path()~'/'~page.header.video) %}
+        <div class="stage">
+            <video class="stage-video" autoplay loop muted role="presentation">
+                <source src="{{ '/'~page.relativePagePath()~'/'~page.header.video }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    {% endif %}
+{% endif %}
+
+{% if page.header.banner != "" %}
+    {% if file_exists(page.path()~'/'~page.header.banner) %}
+        <div class="stage">
+            <img class="stage-banner" src="{{ '/'~page.relativePagePath()~'/'~page.header.banner }}" role="presentation">
+        </div>
+    {% endif %}
+{% endif %}
+
+<section class="section modular-text {{ page.header.class }} bg-modular">
+    {% if image %}
+        <section class="container {{ grid_size }}">
+            <div class="columns {{ page.header.image_align|default('align-right') }}">
+                {% if imageRight %}
+                <div class="column col-9 col-md-12 modular-content-even">
+                    {{ content|raw }}
+                </div>
+                <div class="column col-3 col-md-12 modular-image">
+                    <h3/>
+                    <img src="{{image}}" alt="{{page.header.image}}" width="182">
+                </div>
+                {% else %}
+                <div class="column col-3 col-md-12 modular-image">
+                    <h3/>
+                    <img src="{{image}}" alt="{{page.header.image}}" margin-top="1em" width="182">
+                </div>
+                <div class="column col-9 col-md-12 modular-content-odd">
+                    {{ content|raw }}
+                </div>
+                {% endif %}
+            </div>
+        </section>
+    {% else %}
+        <section class="container {{ grid_size }}">
+            <section class="container markdown-content">
+                <div class="columns {{ page.header.image_align|default('align-right') }}">
+                    <div class="column col-12">
+                        {{ content|raw }}
+                    </div>
+                </div>
+            </section>
+        </section>
+    {% endif %}
+</section>

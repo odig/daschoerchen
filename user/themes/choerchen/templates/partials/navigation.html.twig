@@ -1,0 +1,8 @@
+{% import 'macros/macros.html.twig' as macros %}
+
+<ul {{ tree ? 'class="tree"' : '' }}>
+	{{ macros.nav_loop(pages) }}
+	{% if config.plugins.login.enabled and grav.user.username %}
+		{% include 'partials/menu-login-status.html.twig' %}
+	{% endif %}
+</ul>

@@ -1,0 +1,17 @@
+{% if page.header.use_taxonomy %}
+	{% set taxlist = children_only is defined ? taxonomylist.getChildPagesTags() : taxonomylist.get() %}
+	{% if taxlist %}
+		<span class="tags">
+			{% set label_class = uri.param(taxonomy) == "" ? 'label-primary' : 'label-secondary' %}
+
+			<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/query:Noten">Alle Noten</a>
+
+
+			{% for tax,value in taxlist[taxonomy] %}
+				{% set label_class = uri.param(taxonomy) == tax ? 'label-primary' : 'label-secondary' %}
+				<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/{{ taxonomy }}{{ config.system.param_sep }}{{ tax }}/query:{{ tax }}">{{ tax }}</a>
+
+			{% endfor %}
+		</span>
+	{% endif %}
+{% endif %}

@@ -1,0 +1,26 @@
+state: enabled
+email: gido@ukuechler.de
+fullname: Admin
+title: Administrator
+hashed_password: $2y$10$Ezy4ojMwKXeXniNI1Q14KeX3o3nq1cJf.yhurHKUADQJpPXU11gR.
+language: en
+content_editor: default
+twofa_enabled: false
+twofa_secret: TCARJKUNTR3CGDLM5ZTPUJYIM6NVAVE5
+avatar: {  }
+access:
+  site:
+    login: true
+  admin:
+    login: true
+    super: true
+    cache: true
+    configuration: true
+    pages: true
+    maintenance: true
+    statistics: true
+    plugins: true
+    themes: true
+    tools: true
+    users: true
+    flex-objects: true

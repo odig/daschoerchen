@@ -1,0 +1,30 @@
+state: enabled
+email: info@daschoerchen.de
+fullname: Chörchenmitglied
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: G5LX2LNOO66PRJMU7GJLV67NPZLEW7MO
+avatar: {  }
+hashed_password: $2y$10$ae2vnt9Auh.Z.eM6S8Eq5.hM8gYy9rDxdApDSEapoI1NIdLGfGBrK
+access:
+  site:
+    login: true
+  admin:
+    login: false
+    super: false
+    cache: false
+    configuration: false
+    pages:
+      create: false
+      read: true
+      update: false
+      delete: false
+      list: true
+    maintenance: false
+    statistics: false
+    plugins: false
+    themes: false
+    tools: false
+    users: false
+    flex-objects: false

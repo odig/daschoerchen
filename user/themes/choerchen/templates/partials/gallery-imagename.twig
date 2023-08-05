@@ -1,0 +1,72 @@
+{% set imagename = image.filename|replace('_',' ')|split('.') %}
+{% set newname = '' %}
+
+
+{% for txt in imagename %}
+	{% if txt != imagename|last %}
+		{% if txt == imagename|first %}
+			{% set newname =  txt %}
+		{% else %}
+			{% set newname = newname ~ '.' ~ txt %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+{% if use_ahref %}
+	{% if style == 'mp3' %}
+		<div class="mp3">
+			<div class="mp3-title">
+				{{ image.filename }}
+			</div>
+			<div class="mp3-controls">
+				<audio controls>
+					<source src='{{ slug }}/{{ image.filename}}' type='audio/mp3'>Your browser does not support the audio tag.
+				</audio>
+				<a href='{{ slug }}/{{ image.filename}}' download>
+					<i class="fa fa-download fa-lg" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="mp3-controls-small">
+				<audio id='{{ newname }}'>
+					<source src='{{ slug }}/{{ image.filename}}' type='audio/mp3'>Your browser does not support the audio tag.
+				</audio>
+				<button onclick="document.getElementById('{{ newname }}').play()">
+					<i class="fa fa-play fa-lg" aria-hidden="true"></i>
+				</button>
+
+				<button onclick="document.getElementById('{{ newname }}').pause()">
+					<i class="fa fa-pause fa-lg" aria-hidden="true"></i>
+				</button>
+
+
+				<a href='{{ slug }}/{{ image.filename}}' download>
+					<i class="fa fa-download fa-lg" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	{% elseif style == 'pdf' %}
+		<div>
+
+			<a href='{{ slug }}/{{ image.filename}}' target="_blank">
+				{{ image.filename }}</a>
+			<a href='{{ slug }}/{{ image.filename}}' download>
+				<i class="fa fa-download fa-lg" aria-hidden="true"></i>
+			</a>
+
+
+		</div>
+	{% else %}
+
+		<div class="galleryimage">
+			<a href="{{ slug }}/{{ image.filename }}" class="glightbox" data-gallery="gallery_{{ gallery_id }}">
+				{{ image.cropResize(300,300).html(newname, newname, 'sds')|raw }}
+			</a>
+			<div class="galleryimagetext">{{ newname|slice(0, 25)  }}</div>
+		</div>
+	{% endif %}
+{% else %}
+
+	{{ image.html(newname, newname, 'sds')|raw }}
+	{{ newname  }}
+
+{% endif %}

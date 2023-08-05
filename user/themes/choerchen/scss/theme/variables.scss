@@ -1,0 +1,19 @@
+$color-red: #e94420;
+$color-blue: #0a2c7d;
+
+
+$mobile-color-active: #0d0c0cee;
+
+$primary-color: $color-blue;
+$primary-color-light: lighten($primary-color, 50%);
+
+$menu-color: $color-blue;
+$menu-color-active: $color-red;
+$menu-color-hover: lighten($primary-color, 50%);
+
+$label-color-active: #000;
+$label-color-inactive: lighten($label-color-active, 50%);
+
+$link-color: $primary-color;
+
+$tag-background: #f4f0f0;

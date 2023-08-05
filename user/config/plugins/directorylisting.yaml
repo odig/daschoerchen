@@ -1,0 +1,14 @@
+enabled: true
+level: 1
+max_depth: 3
+showfiles: true
+links: false
+builtin_css: true
+builtin_js: true
+exclude_main: false
+exclude_modular: true
+order:
+  by: title
+  dir: asc
+include_additional: null
+exclude_additional: null

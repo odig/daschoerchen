@@ -1,0 +1,14 @@
+version: '1.2'
+timestamp: 1688804024
+count: 2
+index:
+  admin:
+    storage_key: admin
+    storage_timestamp: 1688804024
+    key: admin
+    email: gido@ukuechler.de
+  chörli:
+    storage_key: chörli
+    storage_timestamp: 1688802935
+    key: chörli
+    email: info@daschoerchen.de

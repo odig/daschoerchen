@@ -1,0 +1,32 @@
+form: flex-pages
+id: 'tmp://forms/session/007c83bd5a3d1881ea01c9e1c6a6dc77'
+unique_id: 007c83bd5a3d1881ea01c9e1c6a6dc77
+url: '/pages/choerchen-intern/choerchennoten/gloria/:add'
+user:
+  username: admin
+  email: gido@ukuechler.de
+timestamps:
+  created: 1689336703
+  updated: 1689336703
+data: null
+files: {  }
+object:
+  type: pages
+  key: choerchen-intern/choerchennoten/gloria
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META:
+      clone: true
+    storage_key: ''
+    parent_key: 03.choerchen-intern/03.choerchennoten
+    order: false
+    folder: gloria
+    template: item
+    lang: de
+    root: false
+    route: /choerchen-intern/choerchennoten
+    name: item
+    header:
+      title: Gloria
+    frontmatter: "title: Gloria\n"

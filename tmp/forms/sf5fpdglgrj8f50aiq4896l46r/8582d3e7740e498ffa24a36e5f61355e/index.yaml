@@ -1,0 +1,111 @@
+form: flex-pages
+id: 'tmp://forms/session/8582d3e7740e498ffa24a36e5f61355e'
+unique_id: 8582d3e7740e498ffa24a36e5f61355e
+url: 'https://www.daschoerchen.de/admin/pages/choerchen-intern/choerchenerinnerungen/2010-10-jahre-choerchen'
+user:
+  username: admin
+  email: gido@ukuechler.de
+timestamps:
+  created: 1691237972
+  updated: 1691238055
+data:
+  header:
+    title: '2010: 10 Jahre Chörchen'
+    media_order: 'Briefe zum 5 jährigen.jpg'
+    body_classes: null
+    order_by: null
+    order_manual: null
+    hero_classes: null
+    hero_image: null
+    content:
+      items:
+        - '@self.children'
+      limit: 5
+      order:
+        by: date
+        dir: desc
+      pagination: true
+      url_taxonomy_filters: true
+    login:
+      visibility_requires_access: true
+    permissions:
+      inherit: true
+      authors: null
+      groups: null
+    published: null
+    date: null
+    publish_date: null
+    unpublish_date: null
+    metadata: null
+    taxonomy: null
+    dateformat: null
+    menu: null
+    slug: null
+    redirect: null
+    process: null
+    twig_first: null
+    never_cache_twig: null
+    child_type: null
+    routable: null
+    cache_enable: null
+    visible: null
+    debugger: null
+    template: null
+    append_url_extension: null
+    redirect_default_route: null
+    routes:
+      default: null
+      canonical: null
+      aliases: null
+    admin:
+      children_display_order: null
+    blog_url: null
+    show_sidebar: null
+    show_breadcrumbs: null
+    show_pagination: null
+    access: null
+  content: "[Briefe zwischen Chorleitung und Chor.pdf](Briefe%20zwischen%20Chorleitung%20und%20Chor.pdf)\n\n===\n\n![Briefe%20zum%205%20ja%CC%88hrigen](Briefe%20zum%205%20ja%CC%88hrigen.jpg \"Briefe%20zum%205%20ja%CC%88hrigen\")\n"
+  folder: 2010-10-jahre-choerchen
+  route: /choerchen-intern/choerchenerinnerungen
+  name: item
+  ordering: false
+  order: null
+  blueprint: null
+  lang: de
+  xss_check: null
+  _post_entries_save: null
+files: {  }
+object:
+  type: pages
+  key: choerchen-intern/choerchenerinnerungen/2010-10-jahre-choerchen
+  storage_key: 03.choerchen-intern/06.choerchenerinnerungen/2010-10-jahre-choerchen|blog.de
+  timestamp: 1691237941
+  serialized:
+    __META:
+      key: choerchen-intern/choerchenerinnerungen/2010-10-jahre-choerchen
+      storage_key: 03.choerchen-intern/06.choerchenerinnerungen/2010-10-jahre-choerchen|blog.de
+      template: blog
+      storage_timestamp: 1691237941
+      markdown:
+        de: { blog: 1691237917 }
+      checksum: aa042407972eca6248780e68753c7739
+      exists: true
+      lang: de
+    storage_key: 03.choerchen-intern/06.choerchenerinnerungen/2010-10-jahre-choerchen|blog.de
+    parent_key: 03.choerchen-intern/06.choerchenerinnerungen
+    order: false
+    folder: 2010-10-jahre-choerchen
+    template: blog
+    lang: de
+    header:
+      title: '2010: 10 Jahre Chörchen'
+      login:
+        visibility_requires_access: true
+      permissions:
+        inherit: true
+      media_order: 'Briefe zum 5 jährigen.jpg'
+    root: false
+    frontmatter: "title: '2010: 10 Jahre Chörchen'\nlogin:\n    visibility_requires_access: true\npermissions:\n    inherit: true\nmedia_order: 'Briefe zum 5 jährigen.jpg'"
+    markdown: "[Briefe zwischen Chorleitung und Chor.pdf](Briefe%20zwischen%20Chorleitung%20und%20Chor.pdf)\n\n===\n\n![Briefe%20zum%205%20ja%CC%88hrigen](Briefe%20zum%205%20ja%CC%88hrigen.jpg \"Briefe%20zum%205%20ja%CC%88hrigen\")\n"
+    slug: 2010-10-jahre-choerchen
+    name: blog.de.md
