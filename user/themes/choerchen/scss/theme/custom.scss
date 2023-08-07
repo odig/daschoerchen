@@ -320,3 +320,28 @@ audio {
         height: 54px;
     }
 }
+
+.newsiteminfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 4px 0px;
+    border: 0px;
+    gap: 0px;
+
+    &>div {
+        font-size: smaller;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.newsinfo {
+    margin: 0px 0px 24px 0px;
+}
+
+.notices {
+    margin: 0px 25px 0px 0px;
+    padding: 1px 1px 1px 8px;
+    box-shadow: 0 10px 45px -9px rgba(0, 0, 0, .1)
+}

@@ -8,7 +8,7 @@ cache_enable: false
 visible: false
 taxonomy:
     category:
-        - admin
+        - adminbuthidden
 ---
 
 ! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)

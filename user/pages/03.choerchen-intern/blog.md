@@ -7,8 +7,8 @@ content:
       category: [intern]    
     limit: 6
     order:
-        by: date
-        dir: desc
+        by: folder
+        dir: asc
     pagination: true
     url_taxonomy_filters: true
 access:

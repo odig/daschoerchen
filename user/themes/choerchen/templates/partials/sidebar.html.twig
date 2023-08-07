@@ -23,7 +23,9 @@
 	</div>
 {% endif %}
 
-{{ page.find('/modules/sidebar').content|raw }}
+{% set sidebarpage = '/sidebar-test' %}
+{{ page.find('/' ~ page.slug ~ sidebarpage).content|raw }}
+
 
 {% if config.plugins.taxonomylist.enabled %}
 	{% if page.header.use_taxonomy  %}

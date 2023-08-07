@@ -3,7 +3,7 @@
 {% set collection = page.collection() %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
-{# {% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %} #}
+{% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(true)  %}
 {% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
 
 {% block stylesheets %}
@@ -18,10 +18,14 @@
 {% endblock %}
 
 
+{% block hero %}
+	{% include 'partials/hero.html.twig' with {id: 'blog-hero', content: page.content, hero_image: blog_image} %}
+{% endblock %}
+
+
 {% block body %}
 	<section id="body-wrapper" class="section blog-listing">
 		<section class="container {{ grid_size }}">
-
 
 			{% if page.header.use_taxonomy %}
 				{% include 'partials/taxonomylist.html.twig' with {base_url: '/choerchen-intern/choerchennoten', taxonomy: 'tag', children_only: true} %}
@@ -31,15 +35,14 @@
 				{% include 'partials/breadcrumbs.html.twig' %}
 			{% endif %}
 
-			{% include 'partials/news-item.html.twig' %}
+			{% embed 'partials/layout.html.twig' with {blog: page.children.last} %}
 
 
-			{% embed 'partials/layout.html.twig' with {blog: page} %}
 				{% block item %}
 
 					<div class="bricklayer">
 						{% for child in collection %}
-							{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+							{% include 'partials/blog-list-item-wchild.html.twig' with {blog: page, page: child} %}
 						{% endfor %}
 					</div>
 

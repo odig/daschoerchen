@@ -4,10 +4,12 @@
 		<span class="tags">
 			{% set label_class = uri.param(taxonomy) == "" ? 'label-primary' : 'label-secondary' %}
 
-			<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/query:Noten">Alle Noten</a>
+			{% if page.folder == "02.choerchennoten" %}
+				<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/query:Noten">Alle Noten</a>
+			{% endif %}
 
+			{% for tax,value in taxlist[taxonomy]|ksort('value') %}
 
-			{% for tax,value in taxlist[taxonomy] %}
 				{% set label_class = uri.param(taxonomy) == tax ? 'label-primary' : 'label-secondary' %}
 				<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/{{ taxonomy }}{{ config.system.param_sep }}{{ tax }}/query:{{ tax }}">{{ tax }}</a>
 

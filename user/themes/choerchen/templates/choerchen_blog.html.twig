@@ -27,30 +27,41 @@
 
 			{{ page.summary|raw }}
 
+			<div>
+				<br>
+				<p>
+					{% if page.header.use_taxonomy %}
 
-			{% embed 'partials/layout.html.twig' with {blog: page} %}
-				{% block item %}
-
-					<div class="bricklayer">
-						{% for child in collection %}
-							{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
-						{% endfor %}
-					</div>
-
-					{% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
-						<div id="listing-footer">
-							{% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
-						</div>
+						{% include 'partials/taxonomylist.html.twig' with {base_url: page.url , taxonomy: 'category', children_only: true} %}
 					{% endif %}
 
-				{% endblock %}
+				</p>
+			</p>
+		</div>
 
-	
-			{% endembed %}
-		</section>
+
+		{% embed 'partials/layout.html.twig' with {blog: page} %}
+			{% block item %}
+
+				<div class="bricklayer">
+					{% for child in collection %}
+						{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+					{% endfor %}
+				</div>
+
+				{% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
+					<div id="listing-footer">
+						{% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
+					</div>
+				{% endif %}
+
+			{% endblock %}
+
+
+		{% endembed %}
 	</section>
-	<script>
-		// Bricklayer
+</section>
+<script>
+	// Bricklayer
 var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
-	</script>
-{% endblock %}
+</script>{% endblock %}
