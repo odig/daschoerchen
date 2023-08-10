@@ -25,6 +25,10 @@
 			{% endif %}
 
 			{% include 'partials/news-item.html.twig' %}
+			{{ stars(page.route)|raw }}
+			{% set my_data = star_data(page.route) %}
+			{{ my_data.count }}
+
 
 			<div>
 				<br>
@@ -37,6 +41,57 @@
 				</p>
 			</p>
 		</div>
+
+		{% set pageList = [] %}
+		{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
+			{% set my_vote = star_data(p.route) %}
+			{% if my_vote.count > 0 %}
+				{% set pageItem = {
+					'score': my_vote.score,
+					'title': p.title,
+					'url': p.url,
+					'count': my_vote.count
+				} %}
+				{% set pageList = pageList|merge([pageItem]) %}
+			{% endif %}
+		{% endfor %}
+		{# {% set sortedPageList = pageList|sort((a, b) => b.score <= a.score) %} #}
+		{% set sortedPageList = pageList|sort|reverse %}
+		{# {% set sortedPageList = pageList|sort('score') %} #}
+
+		<ul>
+			{% for pageItem in sortedPageList %}
+				<li>
+					<a href="{{ pageItem.url }}">
+						{{ pageItem.title }}
+						({{pageItem.score}}
+						Punkte)
+						{{pageItem.count}}</a>
+				</li>
+			{% endfor %}
+		</ul>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Votes</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for pageItem in sortedPageList %}
+					<tr>
+						<td>
+							<a href="{{ pageItem.url }}">{{ pageItem.title }}</a>
+						</td>
+						<td>{{ pageItem.count }}</td>
+						<td>{{ pageItem.score  }}</td>
+
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
 
 
 		{% embed 'partials/layout.html.twig' with {blog: page} %}

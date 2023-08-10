@@ -9,15 +9,15 @@
 			{% endif %}
 			{% include 'partials/blog/date.html.twig' %}
 			{% include 'partials/taxonomy.html.twig' %}
+			{% include 'partials/stars.html.twig' %}
 
 
 		</div>
 	{% endif %}
 	<div class="e-content">
 		{{ page.summary|raw }}
-
-
 	</div>
+
 
 	{% if page.header.continue_link is same as(true) and config.plugins.comments.enabled %}
 		{% include 'partials/comments.html.twig' %}

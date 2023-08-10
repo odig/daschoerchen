@@ -345,3 +345,24 @@ audio {
     padding: 1px 1px 1px 8px;
     box-shadow: 0 10px 45px -9px rgba(0, 0, 0, .1)
 }
+
+.star-rating-container {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: smaller;
+}
+
+.star-ratings {
+    margin-top: 0.5rem;
+}
+
+.star-ratings .star-count {
+    margin-left: 1rem;
+    font-size: smaller;
+}
+
+.star-ratings .star-score {
+    margin-left: 0.5rem;
+    font-size: smaller;
+}

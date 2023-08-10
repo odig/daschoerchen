@@ -1,0 +1,21 @@
+de:
+  PLUGIN_STAR_RATINGS:
+    VOTES_TEXT: '<span class="star-count"><span>%1$s</span> Bewertung(en)</span>'
+    SCORE_TEXT: '<span class="star-score">%1$s</span>'
+    VOTE_SUCCESS: 'Deine Bewertung wurde hinzugefügt.'
+    VOTE_FAIL_IP: 'Du hast bereits bewertet.'
+    LOGIN_REQUIRED: 'Zum Bewerten ist eine Anmeldung erforderlich.'
+en:
+  PLUGIN_STAR_RATINGS:
+    VOTES_TEXT: '<span class="star-count">(<span>%1$s</span> votes)</span>'
+    SCORE_TEXT: '<span class="star-score">%1$s</span>'
+    VOTE_SUCCESS: 'Your vote has been added!'
+    VOTE_FAIL_IP: 'You have already voted'
+    LOGIN_REQUIRED: 'Login required in order to vote'
+fr:
+  PLUGIN_STAR_RATINGS:
+    VOTES_TEXT: '<span class="star-count">(<span>%1$s</span> votes)</span>'
+    SCORE_TEXT: '<span class="star-score">%1$s</span>'
+    VOTE_SUCCESS: 'Votre vote a pris en compte!'
+    VOTE_FAIL_IP: 'Vous avez déjà voté'
+    LOGIN_REQUIRED: 'Vous devez être connecté pour voter'

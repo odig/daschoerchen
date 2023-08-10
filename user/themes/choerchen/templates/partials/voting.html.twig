@@ -1,0 +1,39 @@
+<section class="container grid-lg">
+	<div class='simple-responsive-table'>
+		<div>
+			<table id="tstableid1" class="tablesorter tablesorter-blue" role="grid">
+				<thead>
+					<tr role="row" class="tablesorter-headerRow">
+						<th data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="Titel: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
+							<div class="tablesorter-header-inner">Titel</div>
+						</th>
+						<th data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="b: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
+							<div class="tablesorter-header-inner">Bewertung</div>
+						</th>
+						<th data-column="2" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="c: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
+							<div class="tablesorter-header-inner">Count</div>
+						</th>
+					</tr>
+				</thead>
+			</tr>
+		</thead>
+		<tbody aria-live="polite" aria-relevant="all">
+
+
+			{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
+				{% set my_votes = star_data(p.route) %}
+				{% if my_votes.count > 0 %}
+					<tr role="row" class="tablesorter-headerRow"></tr>
+
+
+					<td>
+						<a href="{{ p.url|e }}">{{ p.title|e }}</a>
+					</td>
+					<td>{{ my_votes.score}}</td>
+					<td>
+						{{ my_votes.count }}</td>
+				</tr>
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table></div></div></section>

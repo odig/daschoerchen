@@ -8,15 +8,15 @@
 		</div>
 
 		<!--<div class="search-details">
-															<span class="search-date">{{ page.date|date(config.system.pages.dateformat.short) }}</span>
-														</div>-->
+																	<span class="search-date">{{ page.date|date(config.system.pages.dateformat.short) }}</span>
+																</div>-->
 
 
 		<!--<p>{{ page.summary(200)|raw }}</p>-->
 		<p>{% set content = page.content|slice(page.summary|length) %}
 			{{ content|raw }}
 		</p>
-
+		{% include 'partials/stars.html.twig' %}
 
 		{% include 'partials/taxonomy.html.twig' %}
 		<hr/>

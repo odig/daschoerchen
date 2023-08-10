@@ -22,6 +22,9 @@ permissions:
 admin: {  }
 cache_enable: false
 visible: true
+star-ratings:
+  star_size: 20
+  total_stars: 5
 ---
 
 Admin page

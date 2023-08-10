@@ -1,4 +1,4 @@
-last_checked: 1691405415
+last_checked: 1691695781
 data:
   -
     title: 'macOS 13.0 Ventura Apache Setup: Upgrading Homebrew'
@@ -19,7 +19,7 @@ data:
     title: 'macOS 13.0 Ventura Apache Setup: Multiple PHP Versions'
     url: 'https://getgrav.org/blog/macos-ventura-apache-multiple-php-versions'
     date: 1671962400
-    nicetime: '7 months ago'
+    nicetime: '8 months ago'
   -
     title: 'Big changes for Email plugin'
     url: 'https://getgrav.org/blog/new-email-plugin'
