@@ -3,16 +3,20 @@
 
 <div class="newsinfo">
 	<div class="notices blue">
-		<a href={{ newspage.url }}>{{ content|raw }}
+		<a href={{ newspage.url }}>
+			<div>
+				{{ content|raw }}
+			</div>
 			<div class="newsiteminfo">
 				<div>
 					<time class="dt-published" datetime="{{ newspage.date|date("c") }}">
 						<i class="fa fa-calendar"></i>
 						{{ newspage.date|date(system.pages.dateformat.short) }}
 					</time>
-					<div>
+					<a href={{ newspage.url }}>
 						<i class="fa fa-hand-o-right"></i>
-						weiterlesen...</div>
+						weiterlesen...
+					</a>
 				</div>
 			</div>
 		</a>
