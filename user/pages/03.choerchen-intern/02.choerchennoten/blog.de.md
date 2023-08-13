@@ -23,6 +23,7 @@ visible: false
 taxonomy:
     category:
         - intern
+addtag_allenoten: true
 ---
 
 <span class="h2">Chörchennoten</span> <sub>Das Repertoire</sub>

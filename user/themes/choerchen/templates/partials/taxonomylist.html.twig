@@ -4,7 +4,8 @@
 		<span class="tags">
 			{% set label_class = uri.param(taxonomy) == "" ? 'label-primary' : 'label-secondary' %}
 
-			{% if page.folder == "02.choerchennoten" %}
+			{% if page.header.addtag_allenoten %}
+			{# {% if page.folder == "02.choerchennoten" %} #}
 				<a class="label label-rounded {{ label_class }}" href="{{ base_url }}/query:Noten">Alle Noten</a>
 			{% endif %}
 
