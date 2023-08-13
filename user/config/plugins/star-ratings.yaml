@@ -4,9 +4,9 @@ callback: /star-ratings
 built_in_css: true
 unique_ip_check: true
 initial_stars: 0
-total_stars: 5
+total_stars: '5'
 star_size: 20
-use_full_stars: false
+use_full_stars: true
 empty_color: '#e3e3e3'
 hover_color: '#1bb3e9'
 active_color: '#ffd700'
