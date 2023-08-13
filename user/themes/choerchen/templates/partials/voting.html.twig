@@ -1,7 +1,9 @@
+{% set vote_category = page.header.votingcategory %}
+{% set vote_tag = page.header.votingtag %}
+
+
 <div class="e-content">
 	{{ page.content|raw }}
-
-
 </div>
 
 
@@ -26,8 +28,8 @@
 		</thead>
 		<tbody aria-live="polite" aria-relevant="all">
 
-
-			{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
+			{% for p in taxonomy.findTaxonomy({'tag':[vote_tag],'category':vote_category}) %}
+				{# {% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %} #}
 				{% set my_votes = star_data(p.route) %}
 				{% if my_votes.count > 0 %}
 					<tr role="row" class="tablesorter-headerRow"></tr>

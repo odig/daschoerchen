@@ -6,6 +6,8 @@ tablesorter:
     active: true
 permissions:
     inherit: true
+votingtag: 'Weihnachten'
+votingcategory: 'Noten'
 ---
 
 ===
