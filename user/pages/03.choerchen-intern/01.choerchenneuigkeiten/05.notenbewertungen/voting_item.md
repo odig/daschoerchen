@@ -4,6 +4,8 @@ simple-responsive-tables:
     active: true
 tablesorter:
     active: true
+    args:
+        sortList: [[2,1],[1,1]]
 permissions:
     inherit: true
 votingtag: 'Weihnachten'
