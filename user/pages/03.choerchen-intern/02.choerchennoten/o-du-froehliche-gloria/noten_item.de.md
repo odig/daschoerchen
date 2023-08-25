@@ -6,8 +6,12 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2020'
 media_order: 'O du froehliche - Gloria.pdf'
 ---
+
+Die Melodie des Liedes geht auf ein sizilianisches Fischerlied „An die Jungfrau Maria“ zurück, das Johann Gottfried Herder nach  seiner Italienreise 1788 aufzeichnete. Der deutsche Text "O du fröhliche" wurde wahrscheinlich 1815 geschrieben. 
+Im lateinischen Text  „O sanctissima“ wird Maria angebetet und um Hilfe für uns und unser Leben gebeten. 
 
 EG 44, Lat. Marienlied 1792
 

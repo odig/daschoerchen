@@ -8,7 +8,7 @@ taxonomy:
 media_order: 'Gloria in excelsis Deo.pdf'
 ---
 
-Gloria aus missa brevis
+Gloria aus Messe breve no.7, Charles Gounod
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 
