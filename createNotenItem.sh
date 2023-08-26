@@ -59,3 +59,9 @@ else
 fi
 
 ls -l $newpath/$newfolder
+
+echo ""
+echo "PDF-Folder = $newfolder/pdf/."
+echo "MP3-Folder = $newfolder/mp3/."
+echo ""
+
