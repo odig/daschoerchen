@@ -5,7 +5,7 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: ['']
+    tag: []
 
 ---
 

@@ -5,7 +5,7 @@ permissions:
 taxonomy:
     category:
         - DUMMY-CAT
-    tag: ['DUMMY-TAG']
+    tag: [DUMMY-TAG]
 
 ---
 
