@@ -4,12 +4,14 @@
 
 DUMMYSTR="DUMMY-TITLE"
 DUMMYTAG="DUMMY-TAG"
-DUMMYTAGL="tag: [''DUMMY-TAG'']"
+DUMMYCAT="DUMMY-CAT"
 
 dummy="./user/pages/04.choerchen-admin/dummy-noten"
-#newpath="./user/pages/03.choerchen-intern/02.choerchennoten"
-newpath="./user/pages/04.choerchen-admin"
+newpath="./user/pages/03.choerchen-intern/02.choerchennoten"
+#newpath="./user/pages/04.choerchen-admin"
+
 itemname="noten_item.md"
+newcat="Noten"
 
 newtitle=$1	
 newtag=$2
@@ -34,6 +36,14 @@ newfolder="${newfolder//ü/ue}"
 newfolder="${newfolder//ß/ss}"
 echo "Folder=<"$newfolder">"
 
+if [[ -d "$newpath/$newfolder" ]]
+then
+	echo ""
+	echo "Ein Folder mit dem Namen <$newpath/$newfolder> existiert bereits!"
+	echo ""
+	exit
+fi
+
 cp -pr $dummy $newpath/$newfolder
 
 FILENAME=$newpath/$newfolder/$itemname
@@ -43,6 +53,7 @@ if [[ -e $FILENAME ]]
 then
 	sed -i "s/${DUMMYSTR}/${newtitle}/g" $FILENAME
 	sed -i "s/${DUMMYTAG}/${newtag}/g" $FILENAME
+	sed -i "s/${DUMMYCAT}/${newcat}/g" $FILENAME
 else
 	echo "new file $FILENAME is missing!"
 fi

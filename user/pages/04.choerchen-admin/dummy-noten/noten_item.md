@@ -4,7 +4,7 @@ permissions:
     inherit: true
 taxonomy:
     category:
-        - Noten
+        - DUMMY-CAT
     tag: ['DUMMY-TAG']
 
 ---

@@ -1,14 +1,13 @@
 ---
-title: 'The lord bless you and keep you'
+title: Come all who thirst
+permissions:
+    inherit: true
 taxonomy:
     category:
         - Noten
-    tag:
-        - Erntedank
-media_order: 'The Lord bless you and keep you.pdf'
----
+    tag: ['Erntedank']
 
-John Rutter
+---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 
