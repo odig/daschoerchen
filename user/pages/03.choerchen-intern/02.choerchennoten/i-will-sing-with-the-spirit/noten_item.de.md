@@ -3,6 +3,7 @@ title: 'I will sing with the spirit'
 taxonomy:
     category:
         - Noten
+    tag: [Pfingsten]
 media_order: 'I will sing with the spirit.pdf'
 ---
 

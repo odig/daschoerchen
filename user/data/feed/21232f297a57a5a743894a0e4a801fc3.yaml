@@ -1,4 +1,4 @@
-last_checked: 1692905534
+last_checked: 1693562248
 data:
   -
     title: 'macOS 13.0 Ventura Apache Setup: Upgrading Homebrew'
@@ -29,7 +29,7 @@ data:
     title: 'Skeleton Build Automation'
     url: 'https://getgrav.org/blog/skeletons-build-automation'
     date: 1614347940
-    nicetime: '2 years ago'
+    nicetime: '3 years ago'
   -
     title: 'Using Grav''s new built-in Web Server'
     url: 'https://getgrav.org/blog/using-builtin-webserver'

@@ -13,4 +13,4 @@ media_order: wanted.svg
 * Gewachsen zu einem 4-stimmigen Chor mit anspruchsvollem Repertoire.
 * Sängerinnen und Sänger aus Diedersdorf, Dahlewitz, Blankenfelde, Großbeeren, Groß Kienitz, Berlin
 * 2 Chorleiterinnen, 4 Bässe, 5 Tenösen und Tenöre, 4 Sopranistinnen und ganze viele Altösen.
-* Gesungen wird, was den Chorleiterinnen gefällt, entsprechend umfangreich ist das Repertoire. Von Brahm bis Rutter ist alles dabei.
+* Gesungen wird, was den Chorleiterinnen gefällt, entsprechend umfangreich ist das Repertoire. Von Brahms bis Rutter ist alles dabei.

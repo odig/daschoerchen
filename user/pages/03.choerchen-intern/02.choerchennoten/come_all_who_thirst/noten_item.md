@@ -1,5 +1,5 @@
 ---
-title: Come all who thirst
+title: Come, all who thirst
 permissions:
     inherit: true
 taxonomy:
