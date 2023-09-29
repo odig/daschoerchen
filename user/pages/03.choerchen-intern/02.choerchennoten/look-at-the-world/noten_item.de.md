@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Pfingsten 2023'
+        - 'Erntedank 2023'
+        - Erntedank
 media_order: 'Look at the world.pdf'
 ---
 

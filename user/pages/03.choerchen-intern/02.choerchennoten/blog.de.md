@@ -2,6 +2,14 @@
 title: Chörchennoten
 use_taxonomy: true
 use_simplesearch: true
+simplesearch:
+    process: true
+    route: @self
+    filters:
+        category:
+            - Noten
+    filter_combinator: and
+    template: choerchen_results
 content:
     items:
         - '@self.children'

@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - Erntedank
+        - 'Erntedank 2023'
 permissions:
     inherit: true
 media_order: 'All things bright an beautiful .pdf'

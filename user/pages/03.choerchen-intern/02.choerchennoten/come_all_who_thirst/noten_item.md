@@ -1,12 +1,13 @@
 ---
-title: Come, all who thirst
+title: 'Come, all who thirst'
 permissions:
     inherit: true
 taxonomy:
     category:
         - Noten
-    tag: ['Erntedank']
-
+    tag:
+        - Erntedank
+        - 'Erntedank 2023'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
