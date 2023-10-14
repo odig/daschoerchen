@@ -8,6 +8,7 @@ taxonomy:
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2018'
+        - 'Weihnachtskonzert 2024'
 media_order: 'In tbe bleak mid-winter.pdf'
 ---
 

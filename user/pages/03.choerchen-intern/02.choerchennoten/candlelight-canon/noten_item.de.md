@@ -7,6 +7,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
+        - 'Weihnachtskonzert 2024'
         - Kanon
 permissions:
     inherit: true

@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2024'
 ---
 
 Words and music by John Rutter,

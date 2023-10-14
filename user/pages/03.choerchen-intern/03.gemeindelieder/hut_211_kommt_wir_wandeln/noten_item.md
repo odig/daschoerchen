@@ -1,5 +1,5 @@
 ---
-title: HuT 211 Kommt wir wandeln / We are marching /Siyahamb'
+title: HuT 211 Kommt wir wandeln / We are marching / Siyahamba
 permissions:
     inherit: true
 taxonomy:

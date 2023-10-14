@@ -1,9 +1,12 @@
-{% set newspage = page.children.first.children.first %}
+{% set collection = page.children.first.children %}
+{% set sortedCollection = collection.order('date','asc') %}
+{% set newspage = sortedCollection.last %}
 {% set content = newspage.content|slice(newspage.summary|length) %}
 
 <div class="newsinfo">
 	<div class="notices blue">
 		<a href={{ newspage.url }}>
+			<b>{{ newspage.title }}</b>
 			<div>
 				{{ content|raw }}
 			</div>
@@ -15,7 +18,7 @@
 					</time>
 					<a href={{ newspage.url }}>
 						<i class="fa fa-hand-o-right"></i>
-						weiterlesen...
+						weiterlesen ...
 					</a>
 				</div>
 			</div>

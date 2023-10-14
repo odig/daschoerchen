@@ -8,6 +8,7 @@ taxonomy:
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2018'
+        - 'Weihnachtskonzert 2024'
 media_order: 'Candellight carol.pdf'
 ---
 

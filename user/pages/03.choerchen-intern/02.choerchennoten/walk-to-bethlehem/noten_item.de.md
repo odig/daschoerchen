@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2024'
 
 ---
 

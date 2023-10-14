@@ -8,6 +8,7 @@ taxonomy:
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2018'
+        - 'Weihnachtskonzert 2024'
 media_order: 'Jul jul.pdf'
 ---
 

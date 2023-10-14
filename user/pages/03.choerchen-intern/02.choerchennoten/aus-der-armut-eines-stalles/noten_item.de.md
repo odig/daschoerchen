@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
+        - 'Weihnachtskonzert 2024'
 media_order: 'Aus der Armut eines Stalles.pdf'
 ---
 

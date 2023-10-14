@@ -7,6 +7,7 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2024'
 media_order: 'Tollite hostias.pdf'
 ---
 
