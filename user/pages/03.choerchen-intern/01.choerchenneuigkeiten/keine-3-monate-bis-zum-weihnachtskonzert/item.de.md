@@ -1,5 +1,5 @@
 ---
-title: 'Keine 3 Monate bis zum Weihnachtskonzert'
+title: 'Es gibt neue MP3 für Donkey Carol, Adore, A Doo-Wop Christmas'
 permissions:
     inherit: true
 published: true
@@ -8,11 +8,13 @@ media_order: 240107_mgl-STUECKE.pdf
 
 ===
 
-* Die **nächste Probe** ist am Freitag, den 20.10.23, um 19:30 Uhr in Dahlewitz.
-* **Chörchenprobentage** _(in Planung, Abstimmung folgt noch)_: 28.10.23, 18.11.23
+* Die **nächste Probe** ist am Freitag, den 27.10.23, um 19:30 Uhr im Pfarrhaus Diedersdorf (Achtung: Es ist immer noch Oktoberfest).
+* **Chörchenprobentage**
+	* 28.10.23 ab 10 Uhr im Pfarrhaus Diedersdorf (Parken in der Straße ist nicht erlaubt.)
+	* und vielleicht am 18.11.23 
 * **"Auftritte"** in der Weihnachtszeit (weiter Infos dazu folgen noch):
-	* in Dahlewitz beim Familienadvent am 2.12.23 
-	* in Marienfelde im Gottesdienst am 10.12.23
+	* in Dahlewitz beim Familienadvent am 2.12.23 (ab 17 Uhr?)
+	* in Marienfelde im Gottesdienst am 17.12.23
 
 Die aktuelle Stückliste für das Weihnachtskonzert hat Birgit in der Nacht vom 13. zum 14.10.23 geschickt:
 * [240107_mgl-STUECKE.pdf](240107_mgl-STUECKE.pdf) 

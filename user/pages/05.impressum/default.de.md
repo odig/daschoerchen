@@ -8,7 +8,9 @@ title: Impressum
 <h4>Das Chörchen </h3><br/>
 Der Chor der Ev. Kirchengemeinde Diedersdorf-Dahlewitz
 
-<p>Ev. Kirchengemeinde Diedersdorf-Dahlewitz<br/>Alte Dorfstr. 38<br/>14979 Großbeeren OT Diedersdorf</p>
+<p>Ev. Kirchengemeinde Diedersdorf-Dahlewitz<br/>Alte Dorfstr. 38<br/>14979 Großbeeren OT Diedersdorf<br/>
+<a href=http://www.ev-kirche-dahlewitz-diedersdorf.de target=_blank>ev-kirche-dahlewitz-diedersdorf.de</a>
+</p>
 <br/>
 <h5>Chorleitung</h5>
   Birgit Lutter und Jessica Kochan-Lutter<br/><br/>

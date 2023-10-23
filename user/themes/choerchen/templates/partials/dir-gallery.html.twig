@@ -64,7 +64,8 @@
 				<i class="fa fa-file-audio-o"></i>MP3-Dateien
 			</h4>
 			<div class="dir-gallery-tmp3-item {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
-				{%~ for image in gallery_images %}
+				{%~ for image in gallery_images|sort %}
+
 				{% set use_ahref = true %}
 				{% include 'partials/gallery-imagename.twig' %}
 				{%~ endfor %}
