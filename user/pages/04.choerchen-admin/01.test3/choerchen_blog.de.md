@@ -5,7 +5,6 @@ taxonomy:
         - admin
 ---
 
-
 test3 summary
 
 ===

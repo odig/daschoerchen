@@ -1,5 +1,5 @@
 ---
-title: 'Es gibt neue MP3 für Donkey Carol, Adore, A Doo-Wop Christmas'
+title: 'Es gibt neue MP3 für Donkey Carol, Adore, A Doo-Wop Christmas, Tollite Hostias, Psallite und HUMMS '
 permissions:
     inherit: true
 published: true
