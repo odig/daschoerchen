@@ -4,6 +4,7 @@
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
 
+
 {% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
 
 {% block stylesheets %}
@@ -31,8 +32,12 @@
 				<br>
 				<p>
 					{% if page.header.use_taxonomy %}
+						{% if page.header.use_which_taxonomy == 'tag' %}
+							{% include 'partials/taxonomylist.html.twig' with {base_url: page.url , taxonomy: 'tag', children_only: true} %}
+						{% else %}
+							{% include 'partials/taxonomylist.html.twig' with {base_url: page.url , taxonomy: 'category', children_only: true} %}
+						{% endif %}
 
-						{% include 'partials/taxonomylist.html.twig' with {base_url: page.url , taxonomy: 'category', children_only: true} %}
 					{% endif %}
 
 				</p>
