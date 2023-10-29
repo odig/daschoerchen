@@ -7,6 +7,7 @@ permissions:
 taxonomy:
     category:
         - admin
+date: '09-08-2023 13:34'
 ---
 
 test1

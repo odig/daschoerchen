@@ -17,4 +17,4 @@ content:
 
 ===
 
-!!!! Weihnachtskonzert am 7. Januar 2024 in der Dorfkirche Dahlewitz
+!!!! Weihnachtskonzert am 7. Januar 2024 um 17 Uhr in der Dorfkirche Dahlewitz

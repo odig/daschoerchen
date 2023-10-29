@@ -26,7 +26,7 @@ taxonomy:
 * Haselnüsse grob zerkleinern
 * Ei, Butter, Zucker und Vanillezucker schaumig rühren
 * Mehlmischung und anschließend die Haselnüsse dazugeben
-* auf einem Backbleck 2 cm dick ausstreichen 
+* auf einem Backbleck 4 cm dick ausstreichen 
 * im Backofen bei Umluft 175 Grad backen (nach dem Vorheizen ca. 25 Minuten)
 * abkühlen lassen und in kleine Stücke schneiden
 

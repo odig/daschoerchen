@@ -18,6 +18,5 @@ Einmal pro Jahr gibt es eine mehrtägige Chorfahrt (in der Regel zu Himmelfahrt)
 _Keine Proben in Schulferien (Ausnahmen bestätigen die Regel)._
 
 
-!!!! Nächste Probe: 25.08.23 mit Spekulatius und Dominosteinen.  
 
 !!! Neuzugänge sind herzlich willkommen. Voraussetzung: Freude am Singen und regelmäßige Teilnahme an den Proben.

@@ -1,4 +1,4 @@
-{% extends 'partials/base.html.twig' %}
+{% extends 'partials/base2.html.twig' %}
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
 {% set collection = page.collection() %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
@@ -97,9 +97,25 @@
 		{% embed 'partials/layout.html.twig' with {blog: page} %}
 			{% block item %}
 
+				{{ date('-50days')|date("m/d/Y")}}
+
+
 				<div class="bricklayer">
-					{% for child in collection %}
+					{% for child in collection|filter(child => date(child.date) > date('-50days')) -%}
 						{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+						xxx
+						{{ child.header.eventdate }}xxx
+
+
+						{% if date(child.header.eventdate) > date %}
+							yes
+						{% else %}
+							not
+						{% endif %}
+
+					{% endfor %}
+					{% for child in collection|filter(child => date(child.date) < date('-50days')) -%}
+						{% include 'partials/blog-list-item_past.html.twig' with {blog: page, page: child} %}
 					{% endfor %}
 				</div>
 
