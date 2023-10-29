@@ -5,7 +5,7 @@ content:
     items:
      '@taxonomy':
       category: [intern]    
-    limit: 6
+    limit: 8
     order:
         by: folder
         dir: asc
