@@ -30,3 +30,27 @@ Chormitglieder:
         list: true
   readableName: Chormitglieder
   enabled: true
+Choerchenadmin:
+  access:
+    site:
+      login: true
+    admin:
+      login: true
+      super: false
+      cache: false
+      configuration: false
+      pages:
+        create: false
+        read: true
+        update: true
+        delete: false
+        list: true
+      maintenance: false
+      statistics: false
+      plugins: false
+      themes: false
+      tools: false
+      users: false
+      flex-objects: false
+  readableName: Chörchenadmin
+  enabled: true

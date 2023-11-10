@@ -4,7 +4,7 @@ use_taxonomy: true
 use_simplesearch: true
 simplesearch:
     process: true
-    route: @self
+    route: '@self'
     filters:
         category:
             - Noten

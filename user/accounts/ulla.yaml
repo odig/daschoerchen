@@ -1,0 +1,16 @@
+username: Ulla
+state: enabled
+email: ulla@ukuechler.de
+fullname: Ulla
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: GITPR2KCOVUR33TK6WL6IZ2MCHJZBPL2
+avatar: {  }
+hashed_password: $2y$10$DgUgIEAzVCbfcPqD./Pw0.bOv3QN631yeyGg0yYjM4XphhxfDEBHC
+groups:
+  - Choerchenadmin
+  - Administratoren
+access:
+  site:
+    login: true
