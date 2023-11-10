@@ -1,0 +1,15 @@
+username: Margitta
+state: enabled
+email: margitta.ketzer@gmx.net
+fullname: Margitta
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: 3756ZW7PBZJVLQJZHXE5XQYAP5ILDBQN
+avatar: {  }
+hashed_password: $2y$10$.QJkmOczgq7tOp.2LwpLEuJkaEoQXk.ce3A7ocvtyOnNNlDIb2ypW
+groups:
+  - Chormitglieder
+access:
+  site:
+    login: true

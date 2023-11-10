@@ -9,7 +9,7 @@ taxonomy:
         - Eintopf
 ---
 
-Eine süß-scharfe Variante des aktbekannten Chili con Carne...
+Eine süß-scharfe Variante des altbekannten Chili con Carne...
 
 Man nehme (so ungefähr und was grad im Schrank zu finden ist):
 * 1 EL Öl

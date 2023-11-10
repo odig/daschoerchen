@@ -1,6 +1,6 @@
 version: '1.2'
-timestamp: 1688804024
-count: 2
+timestamp: 1699107597
+count: 3
 index:
   admin:
     storage_key: admin
@@ -12,3 +12,8 @@ index:
     storage_timestamp: 1688802935
     key: chörli
     email: info@daschoerchen.de
+  margitta:
+    storage_key: margitta
+    storage_timestamp: 1699107597
+    key: margitta
+    email: margitta.ketzer@gmx.net
