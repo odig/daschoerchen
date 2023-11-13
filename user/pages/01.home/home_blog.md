@@ -11,10 +11,22 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: false
+permissions:
+    groups:
+        Administratoren:
+            create: true
+            read: true
+            update: true
+            delete: true
+        Choerchenadmin:
+            create: false
+            read: true
+            update: false
+            delete: false
 ---
 
 <span class="h1">Das Chörchen</span> <sub>Diedersdorf / Dahlewitz</sub>
 
 ===
 
-!!!! Weihnachtskonzert am 7. Januar 2024 um 17 Uhr in der Dorfkirche Dahlewitz
+

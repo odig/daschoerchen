@@ -1,6 +1,6 @@
 ---
 title: 'Weihnachtskonzert 2024'
-publish_date: '02-12-2023 01:00'
+publish_date: '10-11-2023 22:45'
 eventdate: 07.01.2024
 media_order: 'Weihnachtskonzert_07-01-2024.jpg,Weihnachtskonzert_07-01-2024.pdf'
 ---

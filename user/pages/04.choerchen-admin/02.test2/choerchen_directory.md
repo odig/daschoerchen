@@ -28,7 +28,7 @@ routable: true
 cache_enable: true
 taxonomy:
     category:
-        - adminbuthidden
+        - admin
 ---
 
 test2
