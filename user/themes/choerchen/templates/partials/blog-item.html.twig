@@ -9,8 +9,9 @@
 			{% endif %}
 			{% include 'partials/blog/date.html.twig' %}
 			{% include 'partials/taxonomy.html.twig' %}
-
-			
+			{% if page.header.metadata.vote == '1' %}
+				{% include 'partials/stars.html.twig' %}
+			{% endif %}
 
 
 		</div>
@@ -25,7 +26,6 @@
 		{% include 'partials/comments.html.twig' %}
 	{% endif %}
 </div>
-
 <p class="prev-next text-center">
 	{% if not page.isLast %}
 

@@ -1,10 +1,33 @@
 ---
 title: '8 Wochen bis zum Konzert'
 media_order: 'Weihnachtskonzert-20240107.jpeg,Weihnachtskonzert-20240107.pdf'
+content:
+    items:
+        - '@self.children'
+    limit: 6
+    order:
+        by: header.taxonomy.category
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
+    visible: false
+simple-responsive-tables:
+    active: true
+tablesorter:
+    active: true
+    args:
+        sortList:
+            -
+                - 2
+                - 1
+            -
+                - 1
+                - 1
+permissions:
+    inherit: true
+votingtag: 'Weihnachtskonzert 2024'
+votingcategory: Flyer
 ---
-
-![Weihnachtskonzert_07-01-2024](/home/weihnachtskonzert-2024/Weihnachtskonzert_07-01-2024.jpg "Weihnachtskonzert_07-01-2024")
-![Weihnachtskonzert-20240107](Weihnachtskonzert-20240107.jpeg "Weihnachtskonzert-20240107")
 
 ===
 
@@ -12,7 +35,7 @@ Die **aktuelle Stückliste** für die Proben:
 * [240107_mgl-STUECKE.pdf](../keine-3-monate-bis-zum-weihnachtskonzert/240107_mgl-STUECKE.pdf) 
 * [<i class="fa fa-hand-o-right"></i> Hier gehts direkt zu den Liedern ...](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202024/query:Weihnachtskonzert%202024)
 
-Das Chörchen singt in Dahlewitz beim **Familienadvent am 2.12.23** (ab 17 Uhr? - weiter Infos folgen).
+Das Chörchen singt in Dahlewitz beim **Familienadvent am 2.12.23** (ab 17 Uhr? - weitere Infos folgen).
 Es findet kein Singen im Gottesdienst in Marienfelde statt.
 
 
@@ -27,7 +50,6 @@ Es findet kein Singen im Gottesdienst in Marienfelde statt.
 * Mittwoch, 03.01.24, um 19 Uhr im Pfarrhaus Diedersdorf
 * **_Generalprobe_** am Sonnabend, 06.01.24, um 10 Uhr in der Dahlewitzer Kirche
 
-Dank Margitta haben wir auch schon einen **Flyer** für das Konzert: 
-[Weihnachtskonzert_07-01-2024.pdf](/home/weihnachtskonzert-2024/Weihnachtskonzert_07-01-2024.pdf)
-Und hier noch eine zweite Variante (auch von Margitta): [Weihnachtskonzert-20240107.pdf](Weihnachtskonzert-20240107.pdf)
+
+Dank Margitta haben wir zwei **Flyer** für das Konzert... 
 

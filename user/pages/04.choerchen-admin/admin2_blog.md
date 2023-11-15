@@ -1,5 +1,7 @@
 ---
 title: Admin
+metadata:
+    meta1: xcv
 content:
     items:
         '@taxonomy':
@@ -40,3 +42,7 @@ star-ratings:
 ---
 
 Admin page
+
+===
+
+ADMIN
