@@ -7,7 +7,6 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2018'
-        - 'Weihnachtskonzert 2024'
 media_order: 'Gib mir nicht Glanz.pdf'
 ---
 

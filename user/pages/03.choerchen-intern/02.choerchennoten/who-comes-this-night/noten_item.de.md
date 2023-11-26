@@ -6,7 +6,6 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
-        - 'Weihnachtskonzert 2024'
 media_order: 'Who comes this night.pdf'
 ---
 

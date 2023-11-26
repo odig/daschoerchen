@@ -1,5 +1,8 @@
 {% set vote_category = page.header.votingcategory %}
 {% set vote_tag = page.header.votingtag %}
+{% set tabnr = page.header.votingtabnr is defined and page.header.votingtabnr  is not empty ? page.header.votingtabnr : '2' %}
+{% set tabcolor = page.header.votingcolor is defined and page.header.votingcolor  is not empty ? page.header.votingcolor : 'blue' %}
+
 
 {% if not hero_image_name %}
 	<div class="content-title text-center">
@@ -21,7 +24,8 @@
 <section class="container grid-lg">
 	<div class='simple-responsive-table'>
 		<div>
-			<table id="tstableid1" class="tablesorter tablesorter-blue" role="grid">
+			<table id="tstableid{{ tabnr }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
+
 				<thead>
 					<tr role="row" class="tablesorter-headerRow">
 						<th data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="Titel: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">

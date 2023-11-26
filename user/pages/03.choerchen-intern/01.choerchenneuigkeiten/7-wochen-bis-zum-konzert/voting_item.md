@@ -15,7 +15,16 @@ simple-responsive-tables:
 tablesorter:
     table_nums: '1,2'
     active: true
+    themes: green,blue
     args:
+       1:
+         theme: green
+         headers: {
+                    0: { sorter: false },
+                    1: { sorter: false},
+                    2: { sorter: false },
+                    3: { sorter: false }
+         }
        2:
          sortList: [[1,1]]
  
@@ -23,6 +32,8 @@ permissions:
     inherit: true
 votingtag: 'Weihnachtskonzert 2024'
 votingcategory: Flyer
+votingtabnr: 2
+votingcolor: 'green'
 published: true
 ---
 

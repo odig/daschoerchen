@@ -50,7 +50,7 @@
 			// *** functionality
 			cancelSelection  : true,       // prevent text selection in the header
 			tabIndex         : true,       // add tabindex to header for keyboard accessibility
-			dateFormat       : 'mmddyyyy', // other options: 'ddmmyyy' or 'yyyymmdd'
+			dateFormat       : 'ddmmyyyy', // other options: 'ddmmyyy' or 'yyyymmdd'
 			sortMultiSortKey : 'shiftKey', // key used to select additional columns
 			sortResetKey     : 'ctrlKey',  // key used to remove sorting on a column
 			usNumberFormat   : true,       // false for German '1.234.567,89' or French '1 234 567,89'
@@ -68,7 +68,7 @@
 
 			sortInitialOrder : 'asc',      // sort direction on first click
 			sortLocaleCompare: false,      // replace equivalent character (accented characters)
-			sortReset        : false,      // third click on the header will reset column to default - unsorted
+			sortReset        : true,      // third click on the header will reset column to default - unsorted
 			sortRestart      : false,      // restart sort to 'sortInitialOrder' when clicking on previously unsorted columns
 
 			emptyTo          : 'bottom',   // sort empty cell to bottom, top, none, zero, emptyMax, emptyMin

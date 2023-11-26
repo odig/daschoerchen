@@ -41,11 +41,12 @@
 				</p>
 			</p>
 		</div>
-		ccc
+		!!! ccc
 		{{ page.header.metadata.meta1 }}
 		ccc
 		{{ page.summary }}
 		ccc
+
 		{% set pageList = [] %}
 		{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
 			{% set my_vote = star_data(p.route) %}
