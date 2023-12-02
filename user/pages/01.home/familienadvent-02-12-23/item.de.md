@@ -8,4 +8,4 @@ eventdate: 02.12.2023
 Alle Kinder, Eltern, Großeltern, Nachbarn, Freunde und Gäste sind zum **Familienadvent** am Sonnabend, den **02. Dezember 2023**, in und um die Dahlewitzer Dorfkirche eingeladen.
 **Beginn ist um 15 Uhr** mit einer Andacht in der Kirche. Danach geht es auf dem Kirchhof weiter. 
 
-**Ab 17 Uhr präsentiert das Chörchen Weihnachtslieder** zum Zuhören und zum Mitsingen in der Kirche.
+**Ab 18 Uhr präsentiert das Chörchen Weihnachtslieder** zum Zuhören und zum Mitsingen in der Kirche.

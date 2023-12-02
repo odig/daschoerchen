@@ -44,8 +44,8 @@ published: true
 
 | Datum | Wochentag | Zeit | Beschreibung |  
 | :------------ | :------------ | :------------- | : ------------------------------------------- |
-| 02.12.23 (*) | Sonnabend | 12 bis 16 Uhr | **_Sonderprobe_** im Pfarrhaus Diedersdorf |
-|    |   | ab 17 Uhr? | Singen beim **Familienadvent in der Dorfkirche Dahlewitz** (**) |
+| 02.12.23 (*) | Sonnabend | ab 12 Uhr | **_Sonderprobe_** im Pfarrhaus Diedersdorf |
+|    |   | ab 18 Uhr | Singen beim **Familienadvent in der Dorfkirche Dahlewitz** (**) |
 | 08.12.23 | Freitag | ab 19:30 Uhr | Probe im Pfarrhaus Diedersdorf |  
 | 15.12.23 | Freitag | ab 19:30 Uhr | Probe im Pfarrhaus Diedersdorf |  
 | 22.12.23 | Freitag | ab 19:30 Uhr | Probe im Pfarrhaus Diedersdorf |  
@@ -55,7 +55,7 @@ published: true
 
 (*) Keine Probe am Freitag, den 01.12.23.
 <br/>
-(**) Beim Familienadvent singen wir Weihnachtslieder mit den Besuchern sowie drei Lieder aus unserem Konzertrepertoire. Ab 17 Uhr oder erst ab 18 Uhr????
+(**) Beim Familienadvent singen wir ab 18 Uhr (laut "Die Einladung") Weihnachtslieder mit den Besuchern sowie drei Lieder aus unserem Konzertrepertoire. 
 
 
 [<i class="fa fa-hand-o-right"></i><b> Hier gehts zu den Liedern, die geprobt werden </b><i class="fa fa-hand-o-left"></i> ](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202024/query:Weihnachtskonzert%202024)
