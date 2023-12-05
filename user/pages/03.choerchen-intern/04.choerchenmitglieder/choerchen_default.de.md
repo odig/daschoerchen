@@ -5,6 +5,7 @@ simple-responsive-tables:
     active: true
 tablesorter:
     active: true
+    themes: green
 login:
     visibility_requires_access: true
 access:

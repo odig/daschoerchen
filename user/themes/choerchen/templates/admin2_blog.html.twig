@@ -110,16 +110,20 @@
 						{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
 						xxx
 						{{ child.header.eventdate }}xxx
+						{{ date('NOW')|date("Y-m-d") }}xxx
 
 
-						{% if date(child.header.eventdate) > date %}
+						{% if date(child.header.eventdate) > date('NOW') %}
 							yes
 						{% else %}
 							not
 						{% endif %}
 
 					{% endfor %}
+				</hr>
+				<VVV</hr>
 					{% for child in collection|filter(child => date(child.date) < date('-50days')) -%}
+						ARCHIV
 						{% include 'partials/blog-list-item_past.html.twig' with {blog: page, page: child} %}
 					{% endfor %}
 				</div>

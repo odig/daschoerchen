@@ -1,6 +1,6 @@
 ---
 title: test3
-eventdate: '2023-12-09'
+eventdate: '09.12.2023'
 taxonomy:
     category:
         - admin

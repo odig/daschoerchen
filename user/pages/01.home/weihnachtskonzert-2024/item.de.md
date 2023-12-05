@@ -2,7 +2,7 @@
 title: 'Weihnachtskonzert 2024'
 publish_date: '10-11-2023 22:45'
 eventdate: 07.01.2024
-media_order: 'Weihnachtskonzert_07-01-2024.jpg,Weihnachtskonzert_07-01-2024.pdf'
+media_order: 'Weihnachtskonzert_07-01-2024.jpg,Weihnachtskonzert_07-01-2024.pdf,Weihnachtskonzert_07-01-2024-zweiseitig.pdf'
 ---
 
 ENDLICH IST ES WIEDER SO WEIT
@@ -15,7 +15,7 @@ Der Eintritt ist frei, es wird um eine Spende gebeten.
 
 Herzliche Einladung !
 
-[Weihnachtskonzert_07-01-2024.pdf](Weihnachtskonzert_07-01-2024.pdf)
+[Weihnachtskonzert_07-01-2024.pdf](Weihnachtskonzert_07-01-2024-zweiseitig.pdf)
 
 ===
 
