@@ -1,6 +1,7 @@
 ---
 title: 'Familienadvent 02.12.23'
 eventdate: '2023-12-02'
+date: '03-12-23 19:42'
 ---
 
 ===

@@ -1,6 +1,8 @@
 ---
 title: 'Erntedank 2023'
 published: true
+date: '17-09-23 13:18'
+eventdate: '01.10.2023'
 ---
 
 ===

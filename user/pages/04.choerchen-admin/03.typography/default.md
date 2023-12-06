@@ -5,7 +5,7 @@ login:
 permissions:
     inherit: true
 cache_enable: false
-visible: false
+visible: true
 taxonomy:
     category:
         - admin
