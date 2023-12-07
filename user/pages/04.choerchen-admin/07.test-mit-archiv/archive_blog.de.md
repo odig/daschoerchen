@@ -15,6 +15,7 @@ permissions:
     inherit: true
 archivetype: 'news'
 archivesched: '-2days'
+archivedate: 'eventdate'
 ---
 
 ein test blog mit Archiv

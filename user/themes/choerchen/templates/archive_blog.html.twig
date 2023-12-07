@@ -1,13 +1,22 @@
 {% extends 'partials/base.html.twig' %}
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
 {% set collection = page.collection() %}
+
+{% if page.header.archivetype == 'news' %}
+	{% set datefield = page.header.archivedate|defined('date') %}
+{% else %}
+	{% set datefield = page.parent.header.archivedate|defined('date') %}
+{% endif %}
 {% set activediff = page.header.archivesched|defined('-90days') %}
 {% set archivediff = page.parent.header.archivesched|defined('-90days') %}
-{% set activecoll = collection|filter(child => date(child.header.eventdate) >= date(activediff)) %}
-{% set archivecoll = collection|filter(child => date(child.header.eventdate) < date(archivediff)) %}
+{% set activecoll = collection|filter(child => date(attribute(child.header, datefield)) >= date(activediff)) %}
+{% set archivecoll = collection|filter(child => date(attribute(child.header, datefield)) < date(archivediff)) %}
+
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
 {% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(false)  %}
+
+{% set show_pagination = header_var('show_pagination', [page, blog])|defined(true) %}
 
 {% block stylesheets %}
 	{% do assets.addCss('theme://css/bricklayer.css') %}
@@ -21,9 +30,6 @@
 {% endblock %}
 
 
-{% block hero %}
-	{% include 'partials/hero.html.twig' with {id: 'blog-hero', content: page.content, hero_image: blog_image} %}
-{% endblock %}
 
 {% block body %}
 
@@ -33,7 +39,7 @@
 			{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
 				{% include 'partials/breadcrumbs.html.twig' %}
 			{% endif %}
-
+{{ page.summary|raw }}
 			{% embed 'partials/layout.html.twig' with {blog: page} %}
 				{% block item %}
 
