@@ -14,7 +14,7 @@ login:
 permissions:
     inherit: true
 archivetype: 'news'
-archivesched: '-2days'
+archivesched: '-1days'
 archivedate: 'eventdate'
 ---
 

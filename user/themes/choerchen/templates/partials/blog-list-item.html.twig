@@ -1,3 +1,4 @@
+{% set acount = archivecount|default(0) %}
 <div class="card">
 	<div class="card-header">
 		<div class="card-subtitle text-gray">
@@ -24,8 +25,17 @@
 	</div>
 	<div class="card-body">
 		{% set content = page.content|slice(page.summary|length) %}
-		<a href="{{ page.url }}" class="u-url">{{ content|raw }}</a>
-
+		{% if page.header.archivetype == 'archive' %}
+			{% if acount > 1 %}
+				{% set astr = 'archivierte Artikel' %}
+			{% else %}
+				{% set astr = 'archivierter Artikel' %}
+			{% endif %}
+			<a href="{{ page.url }}" class="u-url">{{ acount }}
+				{{ astr }}</a>
+		{% else %}
+			<a href="{{ page.url }}" class="u-url">{{ content|raw }}</a>
+		{% endif %}
 	</div>
 	<div class="card-footer">
 		{% include 'partials/blog/taxonomy.html.twig' %}

@@ -1,0 +1,63 @@
+---
+title: '2 Wochen vor Weihnachten und 4 Wochen bis zum Konzert'
+content:
+    items:
+        - '@page.children': '/choerchen-intern/choerchenneuigkeiten/8-wochen-bis-zum-konzert'
+    limit: 6
+    order:
+        by: header.taxonomy.category
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
+    visible: false
+simple-responsive-tables:
+    active: true
+tablesorter:
+    table_nums: '1,2'
+    active: true
+    themes: green,blue
+    args:
+       1:
+         theme: green
+         headers: {
+                    0: { sorter: false },
+                    1: { sorter: false},
+                    2: { sorter: false },
+                    3: { sorter: false }
+         }
+       2:
+         sortList: [[1,1]]
+ 
+permissions:
+    inherit: true
+votingtag: 'Weihnachtskonzert 2024'
+votingcategory: Flyer
+votingtabnr: 2
+votingcolor: 'green'
+published: true
+---
+
+===
+
+!! KEINE PROBE am Freitag, den 08.12.2023 !!
+
+
+| Datum | Wochentag | Zeit | Beschreibung |  
+| :------------ | :------------ | :------------- | : ------------------------------------------- |
+| 15.12.23 | Freitag | ab 19:30 Uhr | Probe im Pfarrhaus Diedersdorf |  
+| 22.12.23 | Freitag | ab 19:30 Uhr | Probe im Pfarrhaus Diedersdorf |  
+| 03.01.24 | Mittwoch | ab 19 Uhr | Probe im Pfarrhaus Diedersdorf |  
+| 06.01.24 | Sonnabend | ab 10 Uhr | **Generalprobe** in der Dorfkirche Dahlewitz |  
+
+
+
+
+[<i class="fa fa-hand-o-right"></i><b> Hier gehts zu den Liedern, die geprobt werden </b><i class="fa fa-hand-o-left"></i> ](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202024/query:Weihnachtskonzert%202024)
+
+
+
+Für das Konzert gibt es dank Margitta zwei **[Flyer](.#flyer)** ... 
+<span id=flyer></span>
+
+---
+

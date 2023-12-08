@@ -23,6 +23,9 @@ permissions:
             read: true
             update: false
             delete: false
+archivetype: 'news'
+archivesched: '-60days'
+archivedate: 'eventdate'
 ---
 
 <span class="h1">Das Chörchen</span> <sub>Diedersdorf / Dahlewitz</sub>
