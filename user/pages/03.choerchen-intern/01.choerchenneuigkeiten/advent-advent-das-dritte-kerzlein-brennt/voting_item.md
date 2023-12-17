@@ -68,5 +68,8 @@ published: true
 Für das Konzert gibt es dank Margitta zwei **[Flyer](.#flyer)** ... 
 <span id=flyer></span>
 
+
+!!!! Neueste Neuigkeit: Wenn ihr bei den Noten das Bildchen <i class="fa fa-youtube"></i> entdeckt, dann sind dort YouTube-Videos eingebunden (z.B. beim Adore).
+
 ---
 

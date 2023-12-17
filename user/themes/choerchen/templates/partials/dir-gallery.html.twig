@@ -30,6 +30,16 @@
 		</a>
 	{% endif %}
 
+{% elseif style == 'countyoutube' %}
+	{% set thispath = slug|split('/')|join('/','#') %}
+
+	<a href='{{ thispath }}'>
+
+		<i class="fa fa-youtube fa-lg"></i>
+		{% if gallery_images.count > 0 %}
+			{{ gallery_images.count }}
+		{% endif %}
+	</a>
 
 {% elseif style == 'cardimages' %}
 	<!-- show all images with filename starting with "__"	or first image -->
@@ -87,6 +97,27 @@
 			</div>
 		</div>
 	{% endif %}
+{% elseif style == 'youtube' %}
+	{% if gallery_images.count > 0 %}
+		<div class="dir-gallery-pdf">
+			<h4 id='ytlinks' class="dir-gallery-pdf-title">
+				<i class="fa fa-youtube"></i>YouTube-Videos
+
+			</h4>
+			<div class="dir-gallery-tmp3-item {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
+				{%~ for image in gallery_images %}
+				{% set ytlink = image.filename|replace('_',' ')|split('.')|first %}
+
+				Youtube-Link: "https://www.youtube.com/embed/{{ ytlink }}"
+				<div class="grav-youtube">
+					<iframe src="https://www.youtube.com/embed/{{ ytlink }}" frameborder="0" allowfullscreen=""></iframe>
+				</div>
+
+				{%~ endfor %}
+			</div>
+		</div>
+	{% endif %}
+
 {% elseif style == 'masonry' %}
 
 
