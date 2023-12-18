@@ -46,6 +46,18 @@
 		ccc
 		{{ page.summary }}
 		ccc
+		{{ page.path() }}
+		vvv
+		{% set ytlinkcontent = ( '07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') %}
+<br/>{{ ytlinkcontent }} 
+<br/>"pages/04.choerchen-admin/07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt"<br/>
+		{% set dummypage = pages.find(ytlinkcontent) %}
+		slug={{ dummypage.slug }}</br>
+content={{ filecontent( '07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}
+</br>
+content={{ filecontent( ytlinkcontent ) }}
+</br>
+content={{ filecontent( 'test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}
 
 		{% set pageList = [] %}
 		{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}

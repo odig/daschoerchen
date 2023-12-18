@@ -107,8 +107,12 @@
 			<div class="dir-gallery-tmp3-item {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
 				{%~ for image in gallery_images %}
 				{% set ytlink = image.filename|replace('_',' ')|split('.')|first %}
+				{% set ytlinkpath = 'ytlinks/' ~ image.filename %}
 
-				Youtube-Link: "https://www.youtube.com/embed/{{ ytlink }}"
+				YouTube-Link: "https://www.youtube.com/embed/{{ ytlink }}"
+				</br>
+				{{ filecontent( ytlinkpath ) }}
+
 				<div class="grav-youtube">
 					<iframe src="https://www.youtube.com/embed/{{ ytlink }}" frameborder="0" allowfullscreen=""></iframe>
 				</div>
