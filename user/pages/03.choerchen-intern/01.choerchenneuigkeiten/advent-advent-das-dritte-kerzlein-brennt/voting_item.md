@@ -45,13 +45,14 @@ published: true
 
 ===
 
-!!! Sonderproben: 19.12. + 29.12.23
+!! Keine Probe am 19.12.23
+
+!!! Sonderproben: 29.12.23
 
 
 
 | Datum | Wochentag | Zeit | Beschreibung |  
-| :------------ | :------------ | :------------- | : ------------------------------------------- |
-| 19.12.23 | Dienstag | ab 19:30 Uhr | Probe in **Groß Kienitz**|  
+| :------------ | :------------ | :------------- | : -------------------------------------------  
 | 22.12.23 | Freitag | ab 19:30 Uhr | Probe in **Groß Kienitz** |  
 | 29.12.23 | Freitag | abends (*) | Probe in der Dorfkirche Dahlwitz |
 | 03.01.24 | Mittwoch | ab 19 Uhr | Probe im Pfarrhaus Diedersdorf |  
