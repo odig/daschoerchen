@@ -5,7 +5,6 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
-        - 'Weihnachtskonzert 2024'
 media_order: 'Sussex carol.pdf'
 ---
 
