@@ -1,5 +1,5 @@
 ---
-title: 'All Bells in Paradies'
+title: 'All bells in Paradise'
 taxonomy:
     category:
         - Noten
