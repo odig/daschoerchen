@@ -1,5 +1,5 @@
 ---
-title: '2010: 10 Jahre Chörchen'
+title: '2010: 5 Jahre Chörchen'
 login:
     visibility_requires_access: true
 permissions:
