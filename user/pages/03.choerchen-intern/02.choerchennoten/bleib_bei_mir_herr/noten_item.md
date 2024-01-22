@@ -1,12 +1,11 @@
 ---
-title: Bleib bei mir, Herr
+title: 'Bleib bei mir, Herr'
 permissions:
     inherit: true
 taxonomy:
     category:
         - Noten
-    tag: []
-
+published: false
 ---
 
 Text: Theodor Werner 1952 nach dem englischen "Abide with me" von Henry Francis Lyte 1847; 
