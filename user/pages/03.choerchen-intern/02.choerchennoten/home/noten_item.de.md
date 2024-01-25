@@ -6,6 +6,7 @@ taxonomy:
         - Noten
     tag:
         - 'Sommerkonzert 2023'
+        - 'Jubiläumskonzert 2025'
 permissions:
     inherit: true
 ---

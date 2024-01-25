@@ -5,8 +5,8 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: []
-
+    tag:
+        - 'Jubiläumskonzert 2025'
 ---
 
 w&m: George and Ira Gershwin

@@ -3,6 +3,8 @@ title: 'This is the day'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Jubiläumskonzert 2025'
 media_order: 'This is the day.pdf'
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: Locus iste
+title: 'Locus iste'
 permissions:
     inherit: true
 taxonomy:
     category:
         - Noten
-    tag: []
-
+    tag:
+        - 'Jubiläumskonzert 2025'
 ---
 
 Musica sacra Nr. 86, Anton Bruckner

@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - 'Sommerkonzert 2023'
+        - 'Jubiläumskonzert 2025'
 media_order: Daisy.pdf
 permissions:
     inherit: true

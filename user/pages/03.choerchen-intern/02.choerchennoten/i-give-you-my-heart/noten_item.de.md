@@ -3,6 +3,8 @@ title: 'I give you my heart'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Jubiläumskonzert 2025'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

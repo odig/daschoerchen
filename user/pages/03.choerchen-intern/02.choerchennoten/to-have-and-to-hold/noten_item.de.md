@@ -3,6 +3,8 @@ title: 'To have and to hold'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Jubiläumskonzert 2025'
 media_order: 'TO HAVE AND TO HOLD_Chor-Soli - Partitur.pdf'
 ---
 

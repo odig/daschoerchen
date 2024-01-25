@@ -3,6 +3,8 @@ title: 'O my love is like a red, red rose'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Jubiläumskonzert 2025'
 media_order: 'O MY LOVE IS LIKE A RED, RED ROSE - Partitur.pdf'
 ---
 

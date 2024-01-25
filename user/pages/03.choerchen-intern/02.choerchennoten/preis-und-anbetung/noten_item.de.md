@@ -3,6 +3,8 @@ title: 'Preis und Anbetung'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Jubiläumskonzert 2025'
 media_order: 'Preis und Anbetung.pdf'
 ---
 
