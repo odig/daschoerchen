@@ -1,12 +1,12 @@
 ---
-title: Möge die Straße uns zusammenführen
+title: 'Möge die Straße uns zusammenführen'
 permissions:
     inherit: true
 taxonomy:
     category:
         - Noten
-    tag: []
-
+    tag:
+        - 'Jubiläumskonzert 2025'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
