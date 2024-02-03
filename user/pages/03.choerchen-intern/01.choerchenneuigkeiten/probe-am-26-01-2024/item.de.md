@@ -1,6 +1,7 @@
 ---
 title: 'Probe am 26.01.2024'
 media_order: 'Mögliche Stücke für das Jubiläumskonzert 2025.pdf'
+date: '26-01-2024 15:20'
 ---
 
 In diesem Jahr gibt es kein Sommerkonzert. <br/>

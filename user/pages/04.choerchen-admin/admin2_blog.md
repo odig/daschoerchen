@@ -8,9 +8,6 @@ content:
             category:
                 - admin
     limit: 6
-    order:
-        by: folder
-        dir: asc
     pagination: true
     sidebar: true
     url_taxonomy_filters: true
@@ -39,6 +36,7 @@ visible: true
 star-ratings:
     star_size: 20
     total_stars: 5
+dateformat: 'd-m-Y H:i'
 ---
 
 Admin page

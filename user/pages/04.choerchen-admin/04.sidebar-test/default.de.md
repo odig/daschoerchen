@@ -7,7 +7,7 @@ permissions:
 taxonomy:
     category:
         - admin
-date: '09-08-2023 13:34'
+date: '04-12-2023 18:51'
 simple-responsive-tables:
     active: true
 tablesorter:

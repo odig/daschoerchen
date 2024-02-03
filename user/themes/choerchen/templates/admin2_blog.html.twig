@@ -1,6 +1,8 @@
 {% extends 'partials/base2.html.twig' %}
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
-{% set collection = page.collection() %}
+
+{% set collection = page.collection.order("date","desc") %}
+
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
 
@@ -49,109 +51,84 @@
 		{{ page.path() }}
 		vvv
 		{% set ytlinkcontent = ( '07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') %}
-<br/>{{ ytlinkcontent }} 
-<br/>"pages/04.choerchen-admin/07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt"<br/>
+		<br/>{{ ytlinkcontent }}
+		<br/>"pages/04.choerchen-admin/07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt"<br/>
 		{% set dummypage = pages.find(ytlinkcontent) %}
 		slug={{ dummypage.slug }}</br>
-content={{ filecontent( '07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}
+	content={{ filecontent( '07.test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}
 </br>
-content={{ filecontent( ytlinkcontent ) }}
-</br>
-content={{ filecontent( 'test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}
-
-		{% set pageList = [] %}
-		{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
-			{% set my_vote = star_data(p.route) %}
-			{% if my_vote.count > 0 %}
-				{% set pageItem = {
+content={{ filecontent( ytlinkcontent ) }}</br>content={{ filecontent( 'test-mit-archiv/test-1/ytlinks/Bnb3YYU-3uI.txt') }}{% set pageList = [] %}{% for p in pages.find('/choerchen-intern/choerchennoten').children if p != page %}
+{% set my_vote = star_data(p.route) %}
+{% if my_vote.count > 0 %}
+	{% set pageItem = {
 					'score': my_vote.score,
 					'title': p.title,
 					'url': p.url,
 					'count': my_vote.count
 				} %}
-				{% set pageList = pageList|merge([pageItem]) %}
+	{% set pageList = pageList|merge([pageItem]) %}
+{% endif %}{% endfor %}{# {% set sortedPageList = pageList|sort((a, b) => b.score <= a.score) %} #}{% set sortedPageList = pageList|sort|reverse %}{# {% set sortedPageList = pageList|sort('score') %} #}<ul>
+{% for pageItem in sortedPageList %}
+	<li>
+		<a href="{{ pageItem.url }}">
+			{{ pageItem.title }}
+			({{pageItem.score}}
+			Punkte)
+			{{pageItem.count}}</a>
+	</li>
+{% endfor %}</ul><table>
+<thead>
+	<tr>
+		<th>Title</th>
+		<th>Votes</th>
+		<th>Score</th>
+	</tr>
+</thead>
+<tbody>
+	{% for pageItem in sortedPageList %}
+		<tr>
+			<td>
+				<a href="{{ pageItem.url }}">{{ pageItem.title }}</a>
+			</td>
+			<td>{{ pageItem.count }}</td>
+			<td>{{ pageItem.score  }}</td>
+
+		</tr>
+	{% endfor %}
+</tbody></table>{% embed 'partials/layout.html.twig' with {blog: page} %}
+{% block item %}
+
+	{{ date('-50days')|date("m/d/Y")}}
+
+
+	<div class="bricklayer">
+		{% for child in collection|filter(child => date(child.date) > date('-50days')) -%}
+			{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+			xxx
+			{{ child.header.eventdate }}xxx
+			{{ date('NOW')|date("Y-m-d") }}xxx
+
+
+			{% if date(child.header.eventdate) > date('NOW') %}
+				yes
+			{% else %}
+				not
 			{% endif %}
+
 		{% endfor %}
-		{# {% set sortedPageList = pageList|sort((a, b) => b.score <= a.score) %} #}
-		{% set sortedPageList = pageList|sort|reverse %}
-		{# {% set sortedPageList = pageList|sort('score') %} #}
+	</hr>
+	<VVV</hr>
+		{% for child in collection|filter(child => date(child.date) < date('-50days')) -%}
+			ARCHIV
+			{% include 'partials/blog-list-item_past.html.twig' with {blog: page, page: child} %}
+		{% endfor %}
+	</div>
 
-		<ul>
-			{% for pageItem in sortedPageList %}
-				<li>
-					<a href="{{ pageItem.url }}">
-						{{ pageItem.title }}
-						({{pageItem.score}}
-						Punkte)
-						{{pageItem.count}}</a>
-				</li>
-			{% endfor %}
-		</ul>
+	{% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
+		<div id="listing-footer">
+			{% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
+		</div>
+	{% endif %}
 
-		<table>
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Votes</th>
-					<th>Score</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% for pageItem in sortedPageList %}
-					<tr>
-						<td>
-							<a href="{{ pageItem.url }}">{{ pageItem.title }}</a>
-						</td>
-						<td>{{ pageItem.count }}</td>
-						<td>{{ pageItem.score  }}</td>
-
-					</tr>
-				{% endfor %}
-			</tbody>
-		</table>
-
-
-		{% embed 'partials/layout.html.twig' with {blog: page} %}
-			{% block item %}
-
-				{{ date('-50days')|date("m/d/Y")}}
-
-
-				<div class="bricklayer">
-					{% for child in collection|filter(child => date(child.date) > date('-50days')) -%}
-						{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
-						xxx
-						{{ child.header.eventdate }}xxx
-						{{ date('NOW')|date("Y-m-d") }}xxx
-
-
-						{% if date(child.header.eventdate) > date('NOW') %}
-							yes
-						{% else %}
-							not
-						{% endif %}
-
-					{% endfor %}
-				</hr>
-				<VVV</hr>
-					{% for child in collection|filter(child => date(child.date) < date('-50days')) -%}
-						ARCHIV
-						{% include 'partials/blog-list-item_past.html.twig' with {blog: page, page: child} %}
-					{% endfor %}
-				</div>
-
-				{% if show_pagination and config.plugins.pagination.enabled and collection.params.pagination %}
-					<div id="listing-footer">
-						{% include 'partials/pagination.html.twig' with {base_url: page.url, pagination: collection.params.pagination} %}
-					</div>
-				{% endif %}
-
-			{% endblock %}
-
-		{% endembed %}
-	</section>
-</section>
-<script>
-	// Bricklayer
-var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
-</script>{% endblock %}
+{% endblock %}{% endembed %}</section></section><script>// Bricklayer
+var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))</script>{% endblock %}

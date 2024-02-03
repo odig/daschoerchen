@@ -5,21 +5,19 @@ use_taxonomy: true
 content:
     items:
         - '@self.children'
-    limit: 6
+    limit: 4
     order:
         by: date
         dir: desc
     pagination: true
     url_taxonomy_filters: true
     visible: false
-
-
 simple-responsive-tables:
     active: true
 tablesorter:
     table_nums: '1'
     active: true
-    themes: 'green'
+    themes: green
     args:
         1:
             theme: green
@@ -28,7 +26,6 @@ tablesorter:
                     sorter: false
                 -
                     sorter: false
-
 login:
     visibility_requires_access: true
 access:
@@ -38,6 +35,7 @@ permissions:
 taxonomy:
     category:
         - intern
+dateformat: 'd-m-Y H:i'
 ---
 
 <span class="h2">Chörchenneuigkeiten</span> <sub>Infos und Termine</sub>
