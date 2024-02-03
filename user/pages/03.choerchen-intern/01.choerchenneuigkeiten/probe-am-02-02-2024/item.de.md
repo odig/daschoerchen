@@ -8,6 +8,7 @@ simple-responsive-tables:
     themes: 'green'
 tablesorter:
     active: true
+    themes: 'green'
 
 ---
 
@@ -23,17 +24,19 @@ Ab 19:30 Uhr im Pfarrhaus Diedersdorf.
 
 
 Bitte die folgenden Stücke mitbringen:
-|   |   | 
+<br/>
+
+| &nbsp; |   | 
 | :------------ | :------------ | 
-| [<i class="fa fa-hand-o-right"></i> Abide with me - Bleibe bei mir, Herr](/choerchen-intern/choerchennoten/abide_with_me_-_bleibe_bei_mir_herr) | neu | 
-| [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen) | neu | 
-| [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) |  neu | 
+| [<i class="fa fa-hand-o-right"></i> Abide with me - Bleibe bei mir, Herr](/choerchen-intern/choerchennoten/abide_with_me_-_bleibe_bei_mir_herr) | <i>&nbsp;&nbsp;neu</i> | 
+| [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen) | <i>&nbsp;&nbsp;neu</i> | 
+| [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) |  <i>&nbsp;&nbsp;neu</i> | 
 | [<i class="fa fa-hand-o-right"></i> Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir) | | 
 | [<i class="fa fa-hand-o-right"></i> Abschied vom Walde](/choerchen-intern/choerchennoten/abschied-vom-walde) | | 
 | [<i class="fa fa-hand-o-right"></i> Cuppa Cappucino](/choerchen-intern/choerchennoten/cuppa-cappucino) | | 
 | [<i class="fa fa-hand-o-right"></i> All bells in paradise](/choerchen-intern/choerchennoten/all-bells-in-paradies) | |
 | [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again) | |
-| [<i class="fa fa-hand-o-right"></i> English Country Garden](/choerchen-intern/choerchennoten/english_country_garden) | neu |
+| [<i class="fa fa-hand-o-right"></i> English Country Garden](/choerchen-intern/choerchennoten/english_country_garden) | <i>&nbsp;&nbsp;neu</i> |
 
 
 <br/>

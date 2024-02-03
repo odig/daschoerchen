@@ -6,12 +6,11 @@ image_align: left
 
 ### Proben
 
-Geprobt wird einmal pro Woche ab **19:30 Uhr**.
-* Jeden 1., 2., 3. und (falls vorhanden) 5. **Freitag** im Monat
-* und an dem **Dienstag**, an dem es keine Freitagsprobe gibt.
+Geprobt wird jeden Freitag ab **19:30 Uhr**.
+
 
 Probenort nach Absprache:
-im Pfarrhaus Diedersdorf, in der Kirche Diedersdorf oder in der Kirche Dahlewitz
+im Pfarrhaus Diedersdorf, in der Kirche Diedersdorf oder in der Kirche Dahlewitz.
 
 Einmal pro Jahr gibt es eine mehrtägige Chorfahrt (in der Regel zu Himmelfahrt).
 
@@ -19,4 +18,4 @@ _Keine Proben in Schulferien (Ausnahmen bestätigen die Regel)._
 
 
 
-!!! Neuzugänge sind herzlich willkommen. Voraussetzung: Freude am Singen und regelmäßige Teilnahme an den Proben.
+!!! Neuzugänge sind herzlich willkommen. Voraussetzung: Freude am Singen und regelmäßige Teilnahme an den Proben.<br/>Ansprechpartner: Birgit Lutter und Jessica Kochan-Lutter, Tel. 0178 - 8358353, <a href=mailto:billabogen@googlemail.com>billabogen@googlemail.com</a>
