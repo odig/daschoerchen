@@ -5,7 +5,7 @@ use_taxonomy: true
 content:
     items:
         - '@self.children'
-    limit: 4
+    limit: 6
     order:
         by: date
         dir: desc

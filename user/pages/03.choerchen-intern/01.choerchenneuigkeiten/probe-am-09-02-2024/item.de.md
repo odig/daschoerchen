@@ -30,7 +30,7 @@ Für die folgenden Stücke gibt es neue Noten:
 | [<i class="fa fa-hand-o-right"></i> Dat du min Leevsten büst](/choerchen-intern/choerchennoten/dat_du_min_leevsten_buest) | <i>&nbsp;&nbsp;korrigierte Version</i> |
 | [<i class="fa fa-hand-o-right"></i> Exsultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven) | <i>&nbsp;&nbsp;neu</i> |
 | [<i class="fa fa-hand-o-right"></i> Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir) | <i>&nbsp;&nbsp;neu in 2 Versionen</i> |
-| [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again) | <i>&nbsp;&nbsp;neue Version</i> |
+| [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again) | <i>&nbsp;&nbsp;neue Versionen</i> |
 
 
 
