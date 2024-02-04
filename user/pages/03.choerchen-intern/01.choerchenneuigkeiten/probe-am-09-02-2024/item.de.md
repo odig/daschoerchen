@@ -11,7 +11,7 @@ tablesorter:
     themes: green
 ---
 
-Im Jahr 2025 ist 20-jähriges, es soll ein Jubiläumskonzert geben - eventuell mit mehrfachen Auftritten (z.B. Diedersdorf, Jühnsdorf, Groß Kienitz, ...).
+Im Jahr 2025 ist 20-jähriges, es soll ein Jubiläumskonzert geben - eventuell mit mehrfachen Auftritten (z.B. Diedersdorf, Jühnsdorf, Groß Kienitz, Baruth, ...).
 [Mögliche Stücke für das Jubiläumskonzert 2025.pdf](Mo%CC%88gliche%20Stu%CC%88cke%20fu%CC%88r%20das%20Jubila%CC%88umskonzert%202025.pdf)
 
 Nächste Probe: Freitag, 09.02.2024
