@@ -21,7 +21,7 @@ Nächste Probe: Freitag, 09.02.2024
 (Trotz Schulferien) ab 19:30 Uhr im Pfarrhaus Diedersdorf.
 <br/>
 
-Für die folgenden Stücke gibt es neue Noten:
+Für die folgenden Stücke gibt es neue Noten/MP3:
 <br/>
 
 | &nbsp; |   | 
@@ -31,13 +31,27 @@ Für die folgenden Stücke gibt es neue Noten:
 | [<i class="fa fa-hand-o-right"></i> Exsultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven) | <i>&nbsp;&nbsp;neu</i> |
 | [<i class="fa fa-hand-o-right"></i> Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir) | <i>&nbsp;&nbsp;neu in 2 Versionen</i> |
 | [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again) | <i>&nbsp;&nbsp;neue Versionen</i> |
+| [<i class="fa fa-hand-o-right"></i> Oh my love](/choerchen-intern/choerchennoten/o-my-love-is-like-a-red-red-rose) | <i>&nbsp;&nbsp;neue MP3</i> |
+| [<i class="fa fa-hand-o-right"></i> Fascinating Rhythm](/choerchen-intern/choerchennoten/fascinating-rhythm) | <i>&nbsp;&nbsp;neue MP3</i> |
+| [<i class="fa fa-hand-o-right"></i> Dat du meen Leevsten büst](/choerchen-intern/choerchennoten/dat_du_min_leevsten_buest) | <i>&nbsp;&nbsp;neue MP3</i> |
+| [<i class="fa fa-hand-o-right"></i> Bleib bei mir Herr](/choerchen-intern/choerchennoten/abide_with_me_-_bleibe_bei_mir_herr) | <i>&nbsp;&nbsp;neue MP3</i> |
+| [<i class="fa fa-hand-o-right"></i> The Power of a Song](/choerchen-intern/choerchennoten/the_power_of_a_song) | <i>&nbsp;&nbsp;ganz neu</i> |
+| [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste) | <i>&nbsp;&nbsp;neue MP3 und PDF</i> |
+| [<i class="fa fa-hand-o-right"></i> Cuppa Cappucino](/choerchen-intern/choerchennoten/cuppa-cappucino) | <i>&nbsp;&nbsp;neue MP3</i> |
 
 
 
 <br/>
 Bitte die folgenden Stücke mitbringen:
 <br/>
-<i>folgt noch...
+| &nbsp; |   | 
+| :------------ | :------------ | 
+| [<i class="fa fa-hand-o-right"></i> My Lord has come](/choerchen-intern/choerchennoten/my-lord-has-come) | <i>&nbsp;&nbsp;</i> | 
+| [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) |  <i>&nbsp;&nbsp;</i> | 
+| [<i class="fa fa-hand-o-right"></i> Abide with me - Bleibe bei mir, Herr](/choerchen-intern/choerchennoten/abide_with_me_-_bleibe_bei_mir_herr) | <i>&nbsp;&nbsp;</i> | 
+| [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste) | <i>&nbsp;&nbsp;</i> | 
+
+
 
 
 
