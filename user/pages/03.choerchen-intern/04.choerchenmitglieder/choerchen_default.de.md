@@ -24,29 +24,33 @@ Birgit und Jessica
 <p><br/></p>
 <h3>Die Chörlis</h3>
 
-| Vorname  | Stimme |
+| Vorname  | Nachname | Wohnort | Stimme |
 |---------|----------|
-| Anke | Alt |
-| Sabine Si| Alt |
-| Sabine Ka | Alt |
-| Margitta | Alt |
-| Ulla | Alt |
-| Margret | Alt |
-| Anna | Alt |
-| Gido | Bass |
-| Sven | Bass |
-| Stefan | Bass |
-| Michael | Bass |
-| Ruth | Sopran |
-| Kerstin | Sopran |
-| Ines | Sopran |
-| Astrid | Sopran |
-| Peter | Tenor|
-| Heike | Tenor|
-| Christina | Tenor|
-| Steffi | Tenor|
-| Stephan | Tenor|
+| Anke | Voigt | Dahlewitz | Alt |
+| Sabine | Simunovic | Diedersdorf | Alt |
+| Sabine | Kaiser-Schöck | Blankenfelde | Alt |
+| Margitta | Ketzer | Blankenfelde | Alt |
+| Ulla | Küchler | Diedersdorf | Alt |
+| Margret | Felser | Blankenfelde | Alt |
+| Anna |  | Diedersdorf | Alt |
+| Gido | Küchler | Diedersdorf | Bass |
+| Sven | Herrmann | Berlin | Bass |
+| Stefan | Voigt | Dahlewitz | Bass |
+| Michael | Tietz |  | Bass |
+| Ruth | Gdanietz | Diedersdorf | Sopran |
+| Kerstin | Trebus | Groß Kienitz | Sopran |
+| Ines | Stavrinakis | Dahlewitz | Sopran |
+| Astrid | Weyer | Diedersdorf | Sopran |
+| Peter | Hanschke | Diedersdorf | Tenor|
+| Heike | Warda | Blankenfelde | Tenor|
+| Christina | Reichel | Blankenfelde | Tenor|
+| Steffi | Dittberner | Großbeeren | Tenor|
+| Stephan | Glaser-Dittberner | Großbeeren | Tenor|
+| Siegmar | Barth | Blankenfelde | Bass |
 
+</br></br>
+Monatlicher Beitrag: 5-10 Euro pro Monat </br>
+Kassenwart: Steffi
 
 
 ===
