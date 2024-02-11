@@ -4,7 +4,7 @@ published: true
 taxonomy:
     category:
         - '2024'
-media_order: 'Programm-Konzert-20240107-1.jpg,Programm-Konzert-20240107-2.jpg,Programm-Konzert-20240107.pdf,36ea8e2d-439d-4b13-81cc-91cc79beef25.jpeg'
+media_order: 'Programm-Konzert-20240107-1.jpg,Programm-Konzert-20240107-2.jpg,Programm-Konzert-20240107.pdf,Gemeindejournal_Blankenfelde-Mahlow_02_2024.jpeg'
 ---
 
 ![Programm-Konzert-20240107-1](Programm-Konzert-20240107-1.jpg "Programm-Konzert-20240107-1")
@@ -13,4 +13,4 @@ media_order: 'Programm-Konzert-20240107-1.jpg,Programm-Konzert-20240107-2.jpg,Pr
 
 ===
 
-![Das-Choerchen-blickt-zurück](36ea8e2d-439d-4b13-81cc-91cc79beef25.jpeg "36ea8e2d-439d-4b13-81cc-91cc79beef25")
+![Gemeindejournal_Blankenfelde-Mahlow_02_2024](Gemeindejournal_Blankenfelde-Mahlow_02_2024.jpeg "Gemeindejournal_Blankenfelde-Mahlow_02_2024")

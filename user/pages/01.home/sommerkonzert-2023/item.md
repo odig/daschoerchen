@@ -3,7 +3,7 @@ title: 'Sommerkonzert 2023'
 media_order: 'Blumenfeld.jpg,Einladung Sommerkonzert .jpg'
 cache_enable: false
 date: '15-07-23 10:51'
-eventdate: '02.07.2023'
+eventdate: '2023-07-02'
 ---
 
 ===
