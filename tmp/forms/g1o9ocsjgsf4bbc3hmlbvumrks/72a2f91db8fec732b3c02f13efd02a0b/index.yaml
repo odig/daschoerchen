@@ -1,0 +1,32 @@
+form: flex-pages
+id: 'tmp://forms/session/72a2f91db8fec732b3c02f13efd02a0b'
+unique_id: 72a2f91db8fec732b3c02f13efd02a0b
+url: '/pages/choerchen-intern/choerchennoten/abschied-vom-walde/archiv/:add'
+user:
+  username: admin
+  email: gido@ukuechler.de
+timestamps:
+  created: 1707839602
+  updated: 1707839602
+data: null
+files: {  }
+object:
+  type: pages
+  key: choerchen-intern/choerchennoten/abschied-vom-walde/archiv
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META:
+      clone: true
+    storage_key: ''
+    parent_key: 03.choerchen-intern/02.choerchennoten/abschied-vom-walde
+    order: false
+    folder: archiv
+    template: default
+    lang: de
+    root: false
+    route: /choerchen-intern/choerchennoten/abschied-vom-walde
+    name: default
+    header:
+      title: Archiv
+    frontmatter: "title: Archiv\n"
