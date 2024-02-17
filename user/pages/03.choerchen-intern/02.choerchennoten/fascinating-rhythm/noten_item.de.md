@@ -6,6 +6,12 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 permissions:
     inherit: true
 ---

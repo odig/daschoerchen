@@ -1,5 +1,5 @@
 ---
-title: English Country Garden
+title: 'English Country Garden'
 permissions:
     inherit: true
 taxonomy:
@@ -7,6 +7,12 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

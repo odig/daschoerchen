@@ -1,5 +1,5 @@
 ---
-title: Dat du min Leevsten büst
+title: 'Dat du min Leevsten büst'
 permissions:
     inherit: true
 taxonomy:
@@ -7,6 +7,10 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Deutsch
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

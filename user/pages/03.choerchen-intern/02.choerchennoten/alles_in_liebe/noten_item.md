@@ -7,6 +7,13 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Deutsch
+    instrumente:
+        - Piano
+        - Flöte
 ---
 
 Lied des Evangelischen Jugendwerks in Württemberg (EJW) zur Jahreslosung 2024

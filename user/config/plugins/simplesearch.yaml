@@ -9,6 +9,8 @@ search_content: rendered
 #filters:
 #  category:
 #    - Noten
+filters:
+    - @taxonomy: [tag]
 filter_combinator: and
 order:
   by: folder

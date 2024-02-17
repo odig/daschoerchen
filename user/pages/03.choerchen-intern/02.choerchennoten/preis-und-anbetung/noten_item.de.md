@@ -5,6 +5,10 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Deutsch
 media_order: 'Preis und Anbetung.pdf'
 ---
 

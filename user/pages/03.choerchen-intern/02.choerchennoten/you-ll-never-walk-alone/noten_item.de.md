@@ -6,6 +6,12 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 media_order: 'You ll never walk alone.pdf,You ll never walk alone - lang.pdf'
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Exsultate in Seven
+title: 'Exsultate in Seven'
 permissions:
     inherit: true
 taxonomy:
@@ -7,6 +7,8 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

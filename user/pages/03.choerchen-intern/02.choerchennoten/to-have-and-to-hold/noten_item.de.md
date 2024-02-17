@@ -5,6 +5,12 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 media_order: 'TO HAVE AND TO HOLD_Chor-Soli - Partitur.pdf'
 ---
 

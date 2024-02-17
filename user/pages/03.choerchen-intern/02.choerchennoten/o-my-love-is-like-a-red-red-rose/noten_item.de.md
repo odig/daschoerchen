@@ -5,6 +5,12 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 media_order: 'O MY LOVE IS LIKE A RED, RED ROSE - Partitur.pdf'
 ---
 

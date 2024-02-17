@@ -5,6 +5,12 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

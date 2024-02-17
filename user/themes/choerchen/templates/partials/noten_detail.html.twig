@@ -1,0 +1,73 @@
+{% set tabnr=1 %}
+{% set tabcolor='green' %}
+{% set tagdir='' %}
+{% for tag in page.taxonomy.dirigat %}
+	{% if tagdir|trim is empty %}
+
+
+		{% set tagdir=tag %}
+	{% else %}
+		{% set tagdir=tagdir~', '~tag %}
+	{% endif %}
+{% endfor %}
+{% set taglang='' %}
+{% for tag in page.taxonomy.sprache %}
+	{% if taglang|trim is empty %}
+
+
+		{% set taglang=tag %}
+	{% else %}
+		{% set taglang=taglang~', '~tag %}
+
+	{% endif %}
+{% endfor %}
+{% set taginstr='' %}
+{% for tag in page.taxonomy.instrumente %}
+	{% if taginstr|trim is empty %}
+
+
+		{% set taginstr=tag %}
+
+	{% else %}
+		{% set taginstr=taginstr~', '~tag %}
+
+
+	{% endif %}
+{% endfor %}
+
+
+<section class="container grid-lg">
+	<div class='simple-responsive-table'>
+		<div>
+			<table id="tstableid{{ tabnr }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
+
+				<tbody aria-live="polite" aria-relevant="all">
+					{% if tagdir|trim is not empty %}
+
+						<tr role="row" class="tablesorter-headerRow" style="text-align:left"></tr>
+						<td style="text-align:left">Dirigat:&nbsp;&nbsp;</td>
+
+						<td style="text-align:left">{{ tagdir }}</td>
+					</tbody>
+				</tbody>
+			</tr>
+		{% endif %}
+		{% if taglang|trim is not empty %}
+
+			<tr role="row" class="tablesorter-headerRow"></tr>
+			<td style="text-align:left">Sprache:&nbsp;&nbsp;</td>
+
+
+			<td style="text-align:left">{{ taglang }}</td>
+
+		</tbody>
+	</tr>
+{% endif %}
+{% if taginstr|trim is not empty %}
+
+	<tr role="row" class="tablesorter-headerRow"></tr>
+	<td style="text-align:left">Instrumente:&nbsp;&nbsp;</td>
+
+	<td style="text-align:left">{{ taginstr }}</td>
+
+</tbody></tr>{% endif %}</tbody></table></div></div></section>

@@ -7,6 +7,8 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    sprache:
+        - Latein
 ---
 
 Musica sacra Nr. 86, Anton Bruckner

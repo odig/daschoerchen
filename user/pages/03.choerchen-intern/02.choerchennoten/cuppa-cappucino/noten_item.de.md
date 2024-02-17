@@ -6,6 +6,12 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 permissions:
     inherit: true
 media_order: 'Cuppa Cappucino - lang.pdf'

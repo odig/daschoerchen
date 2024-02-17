@@ -13,5 +13,6 @@
 		{% for tag in page.taxonomy.tag %}
 			<a class="label label-rounded {{ label_style ?: 'label-secondary' }} p-category" href="{{ thisUrl|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}/query:{{ tag }}#body-wrapper">{{ tag }}</a>
 		{% endfor %}
+
 	</span>
 {% endif %}

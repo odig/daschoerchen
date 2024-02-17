@@ -6,6 +6,10 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Deutsch
 media_order: 'Abschied vom Walde.pdf'
 permissions:
     inherit: true

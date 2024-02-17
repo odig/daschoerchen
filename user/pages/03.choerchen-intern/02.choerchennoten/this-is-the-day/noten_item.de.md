@@ -5,6 +5,12 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
 media_order: 'This is the day.pdf'
 ---
 

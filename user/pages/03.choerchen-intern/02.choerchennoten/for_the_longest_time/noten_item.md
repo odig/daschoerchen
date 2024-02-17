@@ -1,5 +1,5 @@
 ---
-title: For the longest time
+title: 'For the longest time'
 permissions:
     inherit: true
 taxonomy:
@@ -7,6 +7,10 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Englisch
 ---
 
 Text und Musik: Bily Joel

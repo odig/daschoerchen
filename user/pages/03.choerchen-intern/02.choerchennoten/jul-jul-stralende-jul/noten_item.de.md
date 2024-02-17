@@ -4,11 +4,13 @@ taxonomy:
     category:
         - Noten
     tag:
+        - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2018'
-        - 'Weihnachtskonzert 2024'
+    sprache:
+        - Schwedisch
 media_order: 'Jul jul.pdf'
 ---
 

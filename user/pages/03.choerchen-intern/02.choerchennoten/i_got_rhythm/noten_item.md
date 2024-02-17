@@ -1,5 +1,5 @@
 ---
-title: I got rhythm
+title: 'I got rhythm'
 permissions:
     inherit: true
 taxonomy:
@@ -7,6 +7,10 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Birgit
+    sprache:
+        - Englisch
 ---
 
 w&m: George and Ira Gershwin

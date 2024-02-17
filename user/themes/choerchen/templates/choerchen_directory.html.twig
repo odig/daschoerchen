@@ -1,8 +1,13 @@
 {% extends 'partials/base.html.twig' %}
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
-{% set collection = page.collection() %}
+{% if page.header.dir_tag %}
+	{% set collection = page.collection(page.header.dir_tag) %}
+{% else %}
+	{% set collection = page.collection() %}
+{% endif %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+{% set show_links = page.header.dir_links|defined(false) %}
 
 
 {% block body %}
@@ -24,10 +29,11 @@
 
 			{{ page.summary|raw }}
 
+
 			{% set settings = {
 				'exclude_main': true,
     			'exclude_modular': true,
-				'links': false,
+				'links': show_links,
     			'route': '/choerchen-intern/choerchennoten',
 				'exclude_additional': [ '*.md' ],
 				'order.by':'title',

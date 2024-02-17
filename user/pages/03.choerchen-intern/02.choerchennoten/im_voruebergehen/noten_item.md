@@ -7,6 +7,10 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+    dirigat:
+        - Jessica
+    sprache:
+        - Deutsch
 ---
 
 Komponist: Carl Loewe (1796-1869), 1836<br/>

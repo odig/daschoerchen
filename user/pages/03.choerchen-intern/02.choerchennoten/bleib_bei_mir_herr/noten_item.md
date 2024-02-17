@@ -5,6 +5,10 @@ permissions:
 taxonomy:
     category:
         - Noten
+    dirigat:
+        - Birgit
+    sprache:
+        - Deutsch
 published: false
 ---
 
