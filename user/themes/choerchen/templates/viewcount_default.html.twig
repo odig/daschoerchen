@@ -4,7 +4,7 @@
 {{ page.content|raw }}
 
 
-Views of pages ordered by count:
+<b>Page views ordered by count:</b>
 <br/><br/>
 
 <table>
@@ -13,7 +13,9 @@ Views of pages ordered by count:
 		<th>Route</th>
 	</tr>
 	{% for route,views in viewcounts|sort|reverse %}
-	</tr>
-	<td>{{ views }}</td>
-	<td>{{ route }}</td>
+		{% if route != page.route %}
+		</tr>
+		<td>{{ views }}</td>
+		<td>{{ route }}</td>
+	{% endif %}
 </tr>{% endfor %}</table>{% endblock %}
