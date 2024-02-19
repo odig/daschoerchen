@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+{{ page.content|raw }}
+
+
+Views of pages ordered by count:
+<br/><br/>
+
+<table>
+	<tr>
+		<th>Views</th>
+		<th>Route</th>
+	</tr>
+	{% for route,views in viewcounts|sort|reverse %}
+	</tr>
+	<td>{{ views }}</td>
+	<td>{{ route }}</td>
+</tr>{% endfor %}</table>{% endblock %}

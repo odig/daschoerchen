@@ -20,11 +20,14 @@
 {% endblock %}
 
 {% block body %}
+
+
 	<section id="body-wrapper" class="section blog-listing">
 		<section class="container {{ grid_size }}">
 			{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
 				{% include 'partials/breadcrumbs.html.twig' %}
 			{% endif %}
+
 
 			{% include 'partials/news-item.html.twig' %}
 			{{ stars(page.route)|raw }}
