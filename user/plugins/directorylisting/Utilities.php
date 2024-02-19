@@ -30,7 +30,9 @@ class Utilities
      */
     public function build($route)
     {
+        // dump($route);
         $config = $this->config;
+        // dump($config['exclude_additional']);
         $tree = $this->buildTree($route);
         if ($config['include_additional']) {
             foreach ($config['include_additional'] as $include) {
@@ -41,10 +43,15 @@ class Utilities
             }
         }
         if ($config['exclude_additional']) {
+            //dump($config['exclude_additional']);
             foreach ($config['exclude_additional'] as $exclude) {
-                if (is_array($exclude)) {
+                // dump($exclude);
+                //$exclude = $config['exclude_additional'];
+                
+                //if (is_array($exclude)) {
+                    //dump(array($exclude));
                     $this->arrayExcept($tree, array($exclude));
-                }
+                //}
             }
         }
         if ($tree) {
@@ -91,6 +98,7 @@ class Utilities
                 $paths[$route]['route'] = $route;
                 $paths[$route]['url'] = $page->url();
                 $paths[$route]['name'] = $page->name();
+                // dump($route);
                 if (!empty($paths[$route])) {
                     $children = $this->buildTree($route, $mode, $depth);
                     if (!empty($children)) {
@@ -184,12 +192,16 @@ class Utilities
      */
     public function arrayExcept(&$array, $except)
     {
+        //dump($except);
         foreach ($array as $key => $value) {
-            if (in_array($key, $except, true)) {
-                unset($array[$key]);
-            } else {
-                if (is_array($value)) {
-                    $this->arrayExcept($array[$key], $except);
+             //if (in_array($key, $except, true)) {
+            foreach ($except as $exceptkey ) {
+                if (strpos($key,$exceptkey) !== false) {
+                    unset($array[$key]);
+                } else {
+                    if (is_array($value)) {
+                        $this->arrayExcept($array[$key], $except);
+                    }
                 }
             }
         }

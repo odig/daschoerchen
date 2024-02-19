@@ -14,6 +14,7 @@ directorylisting:
     level: 5
     exclude_main: true
     exclude_modular: false
+    links: true
     include_additional:
         - choerchen-intern/choerchen-noten
     exclude_additional:

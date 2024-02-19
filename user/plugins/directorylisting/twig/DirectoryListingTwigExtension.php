@@ -76,6 +76,7 @@ class DirectoryListingExtension extends \Twig_Extension
         } else {
             $route = $page->route();
         }
+        // dump($route);
 
         $list = $utility->build($route);
         return '<div class="directorylist">' . $list . '</div>';

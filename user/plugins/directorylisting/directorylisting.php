@@ -93,6 +93,7 @@ class DirectoryListingPlugin extends Plugin
             $config = (array) $this->config->get('plugins.directorylisting');
             $page = $this->grav['page'];
             $route = $page->route();
+
             $config = $this->mergeConfig($page);
             $utility = new Utilities($config);
             $list = $utility->build($route);

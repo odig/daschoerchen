@@ -13,11 +13,16 @@ content:
 directorylisting:
     level: 5
     exclude_main: true
-    exclude_modular: false
+    exclude_modular: true
+    links: true
+    route: '/choerchen-intern/choerchennoten'
     include_additional:
         - choerchen-intern/choerchen-noten
     exclude_additional:
-        - das-choerchen
+        - Archiv
+        - archiv
+        - Ytlinks
+        - ytlinks
 visible: true
 login:
     visibility_requires_access: true
@@ -26,8 +31,6 @@ permissions:
 cache_enable: true
 published: true
 routable: true
-dir_tag: 'Jubiläumskonzert 2025'
-dir_folder: 'Pdf'
-dir_links: true
+
 ---
 

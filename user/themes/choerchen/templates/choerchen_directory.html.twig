@@ -1,13 +1,11 @@
 {% extends 'partials/base.html.twig' %}
 {% set blog_image = page.media.images[page.header.hero_image] ?: page.media.images|first %}
-{% if page.header.dir_tag %}
-	{% set collection = page.collection(page.header.dir_tag) %}
-{% else %}
-	{% set collection = page.collection() %}
-{% endif %}
+
+{% set collection = page.collection() %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
-{% set show_links = page.header.dir_links|defined(false) %}
+{% set show_links = page.header.directorylisting.links|defined(false) %}
+{% set dir_except = page.header.directorylisting.exclude_additional|defined(['ytlinks']) %}
 
 
 {% block body %}
@@ -35,7 +33,8 @@
     			'exclude_modular': true,
 				'links': show_links,
     			'route': '/choerchen-intern/choerchennoten',
-				'exclude_additional': [ '*.md' ],
+				'include_additional': ['/choerchen-intern/choerchennoten'],
+				'exclude_additional': [ 'Archiv', 'archiv', 'Ytlinks', 'ytlinks' ],
 				'order.by':'title',
 				'order.dir':'asc',
 				'level':3
@@ -44,8 +43,6 @@
 			{{ directorylisting(settings)|raw }}
 		</section>
 	</section>
-	<script>
-		// Bricklayer
-var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
-	</script>
-{% endblock %}
+	<script>// Bricklayer
+// var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
+</script>{% endblock %}
