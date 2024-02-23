@@ -33,3 +33,12 @@ Ab 19:30 Uhr im Pfarrhaus Diedersdorf.
 <br/>
 <br/>
 
+| Geplant ist für Freitag: |  
+| :------------ |  
+| [<i class="fa fa-hand-o-right"></i> English country garden](/choerchen-intern/choerchennoten/english_country_garden) | 
+| [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) | 
+| [<i class="fa fa-hand-o-right"></i> All bells in paradise](/choerchen-intern/choerchennoten/all-bells-in-paradies) | 
+| [<i class="fa fa-hand-o-right"></i> My Lord has come](/choerchen-intern/choerchennoten/my-lord-has-come) | 
+| [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste) | 
+
+
