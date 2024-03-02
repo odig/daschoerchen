@@ -24,7 +24,14 @@
 		</div>
 	</div>
 	<div class="card-body">
-		{% set content = page.content|slice(page.summary|length) %}
+		{% set truncate = page.header.summary.enabled|defined(false) %}
+		{% if truncate %}
+			{% set content = page.summary|raw %}
+		{% else %}
+			{% set content = page.content|slice(page.summary|length) %}
+		{% endif %}
+
+
 		{% if page.header.archivetype == 'archive' %}
 			{% if acount > 1 %}
 				{% set astr = 'archivierte Artikel' %}

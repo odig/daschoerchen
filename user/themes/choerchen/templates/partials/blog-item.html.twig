@@ -17,8 +17,13 @@
 		</div>
 	{% endif %}
 	<div class="e-content">
-		{{ page.content|raw }}
+		{% set truncate = page.header.summary.enabled|defined(false) %}
+		{% if truncate %}
+			{{ page.content|slice(page.summary|length)|raw }}
 
+		{% else %}
+			{{ page.content|raw }}
+		{% endif %}
 
 	</div>
 
