@@ -1,10 +1,8 @@
-{% set tabnr=1 %}
+{% set tabnr=9 %}
 {% set tabcolor='green' %}
 {% set tagdir='' %}
 {% for tag in page.taxonomy.dirigat %}
 	{% if tagdir|trim is empty %}
-
-
 		{% set tagdir=tag %}
 	{% else %}
 		{% set tagdir=tagdir~', '~tag %}
@@ -13,25 +11,17 @@
 {% set taglang='' %}
 {% for tag in page.taxonomy.sprache %}
 	{% if taglang|trim is empty %}
-
-
 		{% set taglang=tag %}
 	{% else %}
 		{% set taglang=taglang~', '~tag %}
-
 	{% endif %}
 {% endfor %}
 {% set taginstr='' %}
 {% for tag in page.taxonomy.instrumente %}
 	{% if taginstr|trim is empty %}
-
-
 		{% set taginstr=tag %}
-
 	{% else %}
 		{% set taginstr=taginstr~', '~tag %}
-
-
 	{% endif %}
 {% endfor %}
 
