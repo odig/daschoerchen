@@ -42,10 +42,13 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 09.-12.05.2024 | Chörchenfahrt nach Petkus |  
+| 09.-12.05.2024 | Chörchenfahrt nach Petkus | 
+| 12.05.2024 | Singen im Gottesdienst in Petkus (*) | 
+| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr (*) |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.06.**2025** | Jubiläumskonzert | 
 
+<small>* noch nicht ganz sicher</small>
 
 ===
 
@@ -54,7 +57,10 @@ Infos und Termine
 |   |   | 
 | :------------ | :------------ | 
 | 09.-12.05.2024 | Chörchenfahrt nach Petkus |  
+| 12.05.2024 | Singen im Gottesdienst in Petkus (*) | 
+| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf (*) |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.06.**2025** | Jubiläumskonzert | 
 
-
+&nbsp;</br>
+<small>* noch nicht ganz sicher</small>

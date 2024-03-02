@@ -47,6 +47,7 @@ Birgit und Jessica
 | Steffi | Dittberner | Großbeeren | Tenor|
 | Stephan | Glaser-Dittberner | Großbeeren | Tenor|
 | Siegmar | Barth | Blankenfelde | Bass |
+| Nicola | Scherr | Blankenfelde | Alt |
 
 </br></br>
 Monatlicher Beitrag: 5-10 Euro pro Monat </br>
