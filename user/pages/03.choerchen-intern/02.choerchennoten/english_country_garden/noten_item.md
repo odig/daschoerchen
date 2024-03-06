@@ -24,7 +24,7 @@ tablesorter:
 
 ---
 
-Übersetzungen 
+!> Übersetzungen 
 
 | Englisch | Deutsch |
 | :-------------------- | :------------------ |
@@ -54,7 +54,7 @@ tablesorter:
 | Thrush | [<i class="fa fa-wikipedia-w"></i> Drossel](https://de.wikipedia.org/wiki/Drosseln?target=_blank) |
 | Nightingale | Nachtigall |
 
-
+!@
 
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
