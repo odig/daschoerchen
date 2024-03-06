@@ -13,7 +13,6 @@ tablesorter:
             theme: green
         2:
             theme: green
-
 ---
 
 Im Jahr 2025 ist 20-jähriges, es soll ein Jubiläumskonzert geben - eventuell mit mehrfachen Auftritten (z.B. Diedersdorf, Jühnsdorf, Groß Kienitz, Baruth, ...).
@@ -28,9 +27,12 @@ Birgit wird dazu eine Doodle-Liste rum schicken.
 
 ===
 
-Nächste Probe: </br>
-**Sonnabend, 9. März von 10 bis 15 Uhr** </br>
-_Wenn sich genug Leute finden - in dem Fall gibt es keine Probe am Freitag, 08.03.2024._
+!! Keine Probe am Freitag, den 08.03.2024
+
+!!!! Nächste Probe: </br>
+!!!! **Sonnabend, 9. März von 10 bis 15 Uhr** </br>
+!!!! im Pfarrhaus Diedersdorf
+
 <br/>
 
 <i>Bitte bringt IMMER ALLE STÜCKE der Jubiläumsliste mit.</i>

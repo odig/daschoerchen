@@ -31,7 +31,7 @@ tablesorter:
 | Daffodil | Osterglocke |
 | Hearts ease | Stiefmütterchen |
 | Meadow sweet | [<i class="fa fa-wikipedia-w"></i> Mädesüß](https://de.wikipedia.org/wiki/Echtes_M%C3%A4des%C3%BC%C3%9F?target=_blank) |
-| Lady smocks | [<i class="fa fa-wikipedia-w"></i> Wiesenschaumkraut](https://de.wikipedia.org/wiki/Wiesen-Schaumkraut?target=_blank) |
+| Lady smocks | [<i class="fa fa-wikipedia-w"></i> Wiesen-Schaumkraut](https://de.wikipedia.org/wiki/Wiesen-Schaumkraut?target=_blank) |
 | Gentain | Enzian |
 | Tall hollihocks | Stockblumen |
 | Foxgloves | Fingerhut |
