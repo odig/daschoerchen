@@ -46,13 +46,22 @@ Birgit wird dazu eine Doodle-Liste rum schicken.
 | :------------ |  
 | [<i class="fa fa-hand-o-right"></i> English country garden](/choerchen-intern/choerchennoten/english_country_garden) | 
 | [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) | 
-| ... Fortsetzung folgt ... | 
+| [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste) | 
+| [<i class="fa fa-hand-o-right"></i> Exsultate](/choerchen-intern/choerchennoten/exsultate_in_seven) | 
+| [<i class="fa fa-hand-o-right"></i> Thank you for the music](/choerchen-intern/choerchennoten/thank_you_for_the_music) |
+| [<i class="fa fa-hand-o-right"></i> Gabriella](/choerchen-intern/choerchennoten/gabriellas-sang) |  
+| [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen) | 
+| [<i class="fa fa-hand-o-right"></i> Abschied vom Walde](/choerchen-intern/choerchennoten/abschied-vom-walde) | 
+| [<i class="fa fa-hand-o-right"></i> Daisy](/choerchen-intern/choerchennoten/daisy) | 
+| [<i class="fa fa-hand-o-right"></i> Power of a song](/choerchen-intern/choerchennoten/the_power_of_a_song) | 
 
 <br/>
 
 | Für die folgenden Stücke gibt es neue Noten/MP3:|   | 
 | :------------ | :------------ | 
 | [<i class="fa fa-hand-o-right"></i> My Lord has come](/choerchen-intern/choerchennoten/my-lord-has-come) | <i>&nbsp;&nbsp;neues PDF für BASS</i> |
+| [<i class="fa fa-hand-o-right"></i> English country garden](/choerchen-intern/choerchennoten/english_country_garden) | <i>&nbsp;&nbsp;neues PDF mit Text für alle Stimmen</i> |
+| [<i class="fa fa-hand-o-right"></i> Möge die Strasse](/choerchen-intern/choerchennoten/moege_die_strasse_uns_zusammenfuehren) | <i>&nbsp;&nbsp;neue PDFs</i> |
 
 </br>&nbsp;</br>
 
