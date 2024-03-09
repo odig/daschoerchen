@@ -42,13 +42,16 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 09.-12.05.2024 | Chörchenfahrt nach Petkus | 
-| 12.05.2024 | Singen im Gottesdienst in Petkus (*) | 
-| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr (*) |
+| 20.04.2024 | Probentag ab 10 Uhr (*) |
+| 09.-12.05.2024 | Chörchenfahrt nach Petkus |  
+| 12.05.2024 | Singen im Gottesdienst in der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) (**) | 
+| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.06.**2025** | Jubiläumskonzert | 
 
-<small>* noch nicht ganz sicher</small>
+&nbsp;</br>
+<small>* keine Probe am Freitag, 19.04.2024</small></br>
+<small>** Ort und Zeit noch nicht bekannt</small>
 
 ===
 
@@ -56,11 +59,13 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
+| 20.04.2024 | Probentag ab 10 Uhr (*) |
 | 09.-12.05.2024 | Chörchenfahrt nach Petkus |  
-| 12.05.2024 | Singen im Gottesdienst in Petkus (*) | 
-| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf (*) |
+| 12.05.2024 | Singen im Gottesdienst in der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) (**) | 
+| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.06.**2025** | Jubiläumskonzert | 
 
 &nbsp;</br>
-<small>* noch nicht ganz sicher</small>
+<small>* keine Probe am Freitag, 19.04.2024</small></br>
+<small>** Ort und Zeit noch nicht bekannt</small>
