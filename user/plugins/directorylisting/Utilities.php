@@ -6,6 +6,7 @@ use Grav\Common\Plugin;
 use Grav\Common\Page\Page;
 use Grav\Common\Page\Media;
 use Grav\Common\Page\Collection;
+use DateTime;
 
 class Utilities
 {
@@ -169,9 +170,20 @@ class Utilities
                         if ($config['links']) {
                             $list .= '<li class="file ' . $file->items()['type'] . '">';
                             $list .= '<a href="' . $file->url() . '">' . $filename . '</a>';
+                            $moddate = $file->items()['modified'] ;
+                            $dt = new DateTime("@$moddate");
+                            $list .= '<small> &nbsp;&nbsp;&nbsp;(';
+                            $list .= $dt->format('d.m.Y H:i');
+                            $list .= ')</small>';
                             $list .= '</li>';
                         } else {
-                            $list .= '<li class="file ' . $file->items()['type'] . '">' . $filename . '</li>';
+                            $list .= '<li class="file ' . $file->items()['type'] . '">' . $filename ;
+                            $moddate = $file->items()['modified'] ;
+                            $dt = new DateTime("@$moddate");
+                            $list .= '<small> &nbsp;&nbsp;&nbsp;(';
+                            $list .= $dt->format('d.m.Y H:i');
+                            $list .= ')</small>';
+                            $list .= '</li>';
                         }
                     }
                     $list .= '</ul>';
