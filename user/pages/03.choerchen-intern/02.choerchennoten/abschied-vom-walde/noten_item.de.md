@@ -13,6 +13,14 @@ taxonomy:
 media_order: 'Abschied vom Walde.pdf'
 permissions:
     inherit: true
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Joseph von Eichendorff 1810, Felix Mendelsson Bartholdy, op. 59, Nr. 3, 1843 (1809-1847)

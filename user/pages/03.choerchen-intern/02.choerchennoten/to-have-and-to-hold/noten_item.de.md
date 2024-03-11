@@ -12,6 +12,14 @@ taxonomy:
     instrumente:
         - Piano
 media_order: 'TO HAVE AND TO HOLD_Chor-Soli - Partitur.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Trina Belamide

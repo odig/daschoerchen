@@ -11,6 +11,14 @@ taxonomy:
         - Jessica
     sprache:
         - Englisch
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Text und Musik: Bily Joel

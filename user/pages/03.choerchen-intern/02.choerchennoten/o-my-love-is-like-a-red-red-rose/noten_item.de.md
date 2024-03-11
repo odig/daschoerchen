@@ -12,6 +12,14 @@ taxonomy:
     instrumente:
         - Piano
 media_order: 'O MY LOVE IS LIKE A RED, RED ROSE - Partitur.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Trd. Scottish arr. Simon Carrington - für das Chörchen: Birgit Lutter

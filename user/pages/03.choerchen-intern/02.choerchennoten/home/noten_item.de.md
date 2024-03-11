@@ -15,6 +15,14 @@ taxonomy:
         - Piano
 permissions:
     inherit: true
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Words and Music by Michael Bublé, Amy Foster-Gillies and Alan Chang

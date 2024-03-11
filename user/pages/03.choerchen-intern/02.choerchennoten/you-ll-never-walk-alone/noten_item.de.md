@@ -13,6 +13,14 @@ taxonomy:
     instrumente:
         - Piano
 media_order: 'You ll never walk alone.pdf,You ll never walk alone - lang.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Music: Richardd Rodgers

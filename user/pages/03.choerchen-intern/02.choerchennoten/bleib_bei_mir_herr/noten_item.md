@@ -10,6 +10,14 @@ taxonomy:
     sprache:
         - Deutsch
 published: false
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+
 ---
 
 Text: Theodor Werner 1952 nach dem englischen "Abide with me" von Henry Francis Lyte 1847; 

@@ -11,6 +11,14 @@ taxonomy:
         - Birgit
     sprache:
         - Englisch
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 w&m: George and Ira Gershwin

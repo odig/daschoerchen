@@ -12,6 +12,14 @@ taxonomy:
     instrumente:
         - Piano
 media_order: 'This is the day.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 John Rutter

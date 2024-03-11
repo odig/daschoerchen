@@ -11,6 +11,14 @@ taxonomy:
         - Jessica
     sprache:
         - Deutsch
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Komponist: Carl Loewe (1796-1869), 1836<br/>

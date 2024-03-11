@@ -15,6 +15,14 @@ taxonomy:
 permissions:
     inherit: true
 media_order: 'A Clare Benediction.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 _Synonyme: Klärchen, Claire - Alternativname: Eclaire ditschen_

@@ -7,6 +7,7 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+        - 'Pfingsten 2024'
     dirigat:
         - Birgit
     sprache:
@@ -14,6 +15,14 @@ taxonomy:
     instrumente:
         - Piano
         - Flöte
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
 
 Lied des Evangelischen Jugendwerks in Württemberg (EJW) zur Jahreslosung 2024
