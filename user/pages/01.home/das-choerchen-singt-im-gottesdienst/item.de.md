@@ -1,8 +1,8 @@
 ---
 title: 'Das Chörchen singt im Gottesdienst'
-publish_date: '24-02-2011 16:57'
+publish_date: '24-02-2024 16:57'
 eventdate: '2024-05-20'
-date: '24-02-2011 16:57'
+date: '24-02-2024 16:57'
 published: true
 ---
 

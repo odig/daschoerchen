@@ -5,10 +5,11 @@
 {% set archivetype = page.header.archivetype %}
 {% if archivetype == 'news' %}
 	{% set datefield = page.header.archivedate|defined('date') %}
-	{% set diff = page.header.archivesched|defined('-90days') %}
+	{% set diff = page.header.archivesched|defined('-30days') %}
 	{% set activecoll = collection|filter(child => date(attribute(child.header, datefield)) >= date(diff)) %}
 	{% set archivecoll = collection|filter(child => date(attribute(child.header, datefield)) < date(diff)) %}
 	{% set archivecount = archivecoll|length -1 %}
+
 	{% if archivecount == 0 %}
 		{% set archivetype = '' %}
 	{% endif %}
