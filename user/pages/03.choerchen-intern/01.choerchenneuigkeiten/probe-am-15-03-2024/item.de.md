@@ -28,6 +28,14 @@ Ab 19:30 Uhr im Pfarrhaus Diedersdorf.
 <br/>
 <br/>
 
+| Geplant ist für die Probe: |  
+| :------------ |  
+| [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe) | 
+| [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste) | 
+| [<i class="fa fa-hand-o-right"></i> Thank you for the music](/choerchen-intern/choerchennoten/thank_you_for_the_music) |
+| [<i class="fa fa-hand-o-right"></i> My Lord has come](/choerchen-intern/choerchennoten/my-lord-has-come) | 
+
+&nbsp;</br>
 
 
 
