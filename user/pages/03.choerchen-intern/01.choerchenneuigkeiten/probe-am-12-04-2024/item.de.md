@@ -22,14 +22,4 @@ Nächste Probe: Freitag, 12.04.2024
 
 ===
 
-Ab 19:30 Uhr im Pfarrhaus Diedersdorf.
-<br/>
-
-<i>Bitte bringt IMMER ALLE STÜCKE der Jubiläumsliste mit.</i>
-<br/>
-
-
-[<i class="fa fa-hand-o-right"></i> Hier findet ihr die möglichen Lieder für das Jubiläumskonzert ...](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)
-<br/>
-<br/>
-
+!! Die Probe fällt leider aus.
