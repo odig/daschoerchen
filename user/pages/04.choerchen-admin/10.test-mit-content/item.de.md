@@ -7,8 +7,8 @@ taxonomy:
         - admin
 ---
 
-das ist Summary
+das ist Summary...
 
 ===
 
-das ist Content
+das ist Content...
