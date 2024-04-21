@@ -1,5 +1,7 @@
 {% set collection = page.children.first.children %}
-{% set sortedCollection = collection.order('date','asc') %}
+{% set publishedChilds = collection.published %}
+{% set sortedCollection = publishedChilds.order('date','asc') %}
+
 {% set newspage = sortedCollection.last %}
 {% set content = newspage.content|slice(newspage.summary|length) %}
 
