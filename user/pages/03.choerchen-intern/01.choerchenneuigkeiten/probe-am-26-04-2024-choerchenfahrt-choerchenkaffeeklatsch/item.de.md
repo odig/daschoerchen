@@ -24,7 +24,7 @@ Bitte bringt IMMER ALLE STÜCKE der [<i class="fa fa-hand-o-right"></i> Jubiläu
 <br/>
 
 
-[<i class="fa fa-hand-o-right"></i>**Chörchenkaffeeklatsch am 20. oder 21.07.2024 ab 15 Uhr**](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch)</br>[Bitte Termin abstimmen...](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch)
+[<i class="fa fa-hand-o-right"></i>**Chörchenkaffeeklatsch am ~~20. oder~~ 21.07.2024 ab 15 Uhr**](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch)</br>[Der Termin ist festgelegt ...](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch)
 </br>
 </br>
 [<i class="fa fa-hand-o-right"></i>**Chörchenfahrt**](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#fahrt)</br>
@@ -42,9 +42,10 @@ Bitte bringt IMMER ALLE STÜCKE der [<i class="fa fa-hand-o-right"></i> Jubiläu
 </br></br>
 
 <span id=kaffeeklatsch></br></br></span>
-**Chörchenkaffeeklatsch am 20. oder 21.07.2024 ab 15 Uhr**</br>
+**Chörchenkaffeeklatsch am ~~20. oder~~ 21.07.2024 ab 15 Uhr**</br>
 Von Sabine K.-S. kam der tolle Vorschlag, sich zu einem gemeinsamen Kaffeeklatsch im Genshagener Café Dampfmaschinenhaus zu treffen.
-Da für so viele Leute rechtzeitig reserviert werden muss, wählt bitte in der <a target=_blank href=https://doodle.com/meeting/participate/id/eXkrPGVd><i class="fa fa-hand-o-right">Doodle-Liste</i></a>, die Sabine Sim. erstellt hat, schnellstmöglich den für euch möglichen Termin aus.
+~~Da für so viele Leute rechtzeitig reserviert werden muss, wählt bitte in der Doodle-Liste, die Sabine Sim. erstellt hat, schnellstmöglich den für euch möglichen Termin aus.~~</br>
+Reserviert ist für den 21.07.2024 um 15 Uhr. (Der andere Termin war schon belegt.)
 </br>
 Adresse:</br>
 Café Dampfmaschinenhaus</br>
