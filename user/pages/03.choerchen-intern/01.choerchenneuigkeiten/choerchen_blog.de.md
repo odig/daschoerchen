@@ -43,7 +43,7 @@ dateformat: 'd-m-Y H:i'
 |   |   | 
 | :------------ | :------------ | 
 | 09.-12.05.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenfahrt nach Petkus](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#fahrt) |
-| 12.05.2024 | Singen im Gottesdienst in der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) (*) | 
+| 12.05.2024 | Singen um 10:30 Uhr im [<i class="fa fa-external-link"></i> Gottesdienst in der Kirche Sernow](https://landing.churchdesk.com/e/28575168/gottesdienst-in-sernow-und-das-chorchen-?utm_medium=Widgets&utm_campaign=kalender-kg-petkus&target=_blank) der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) | 
 | 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
 | 05.01.**2025** | Weihnachtskonzert | 
@@ -51,7 +51,6 @@ dateformat: 'd-m-Y H:i'
 | 13.07.**2025** | Teilnahme am Open-air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
-<small>* Ort, Zeit (und ob tatsächlich) noch nicht bekannt</small>
 
 ===
 
@@ -60,13 +59,18 @@ Infos und Termine
 |   |   | 
 | :------------ | :------------ | 
 | 09.-12.05.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenfahrt nach Petkus](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#fahrt) |
-| 12.05.2024 | Singen im Gottesdienst in der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) (*) | 
+| <hr> | <hr> |
+| 12.05.2024 | Singen um 10:30 Uhr im [<i class="fa fa-external-link"></i> Gottesdienst in der Kirche Sernow](https://landing.churchdesk.com/e/28575168/gottesdienst-in-sernow-und-das-chorchen-?utm_medium=Widgets&utm_campaign=kalender-kg-petkus&target=_blank) der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) | 
+| <hr> | <hr> |
 | 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
+| <hr> | <hr> |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
+| <hr> | <hr> |
 | 05.01.**2025** | Weihnachtskonzert | 
+| <hr> | <hr> |
 | 22.06.**2025** | Jubiläumskonzert | 
+| <hr> | <hr> |
 | 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
-<small>* Ort, Zeit (und ob tatsächlich) noch nicht bekannt</small>
 
