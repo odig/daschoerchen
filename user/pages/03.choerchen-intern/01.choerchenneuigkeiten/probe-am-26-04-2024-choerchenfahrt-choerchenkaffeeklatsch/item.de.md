@@ -18,7 +18,8 @@ summary:
     enabled: '1'
 ---
 
-!!!! Die nächste Probe ist am 03.05.24 um 19:30 Uhr im Pfarrhaus Diedersdorf.
+!! Die Probe am 03.05.24 fällt leider aus.
+
 <br/>
 
 
@@ -32,7 +33,7 @@ summary:
 
 
 
-!!!! Die nächste Probe ist am 03.05.24 um 19:30 Uhr im Pfarrhaus Diedersdorf.
+!! Die Probe am 03.05.24 fällt leider aus.
 
 
 </br>

@@ -42,15 +42,18 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 09.-12.05.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenfahrt nach Petkus](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#fahrt) |
-| 12.05.2024 | Singen um 10:30 Uhr im [<i class="fa fa-external-link"></i> Gottesdienst in der Kirche Sernow](https://landing.churchdesk.com/e/28575168/gottesdienst-in-sernow-und-das-chorchen-?utm_medium=Widgets&utm_campaign=kalender-kg-petkus&target=_blank) der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) | 
 | 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
+| 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
+| 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
+| Sommerferien | 18.07.-30.08.2024  |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.06.**2025** | Jubiläumskonzert | 
 | 13.07.**2025** | Teilnahme am Open-air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
+<small><i>(1) keine Probe am Freitag vor einem Probentag</i></small></br>
+<small><i>(2) noch nicht ganz sicher</i></small>
 
 ===
 
@@ -58,11 +61,13 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
-| 09.-12.05.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenfahrt nach Petkus](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#fahrt) |
-| <hr> | <hr> |
-| 12.05.2024 | Singen um 10:30 Uhr im [<i class="fa fa-external-link"></i> Gottesdienst in der Kirche Sernow](https://landing.churchdesk.com/e/28575168/gottesdienst-in-sernow-und-das-chorchen-?utm_medium=Widgets&utm_campaign=kalender-kg-petkus&target=_blank) der [<i class="fa fa-external-link"></i> Kirchengemeinde Petkus](https://www.kirchedahmeundregion.de/kirchengemeinden/ev--kirchengemeinde-petkus?target=_blank) | 
-| <hr> | <hr> |
 | 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
+| <hr> | <hr> |
+| 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
+| <hr> | <hr> |
+| 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
+| <hr> | <hr> |
+| Sommerferien | 18.07.-30.08.2024  |
 | <hr> | <hr> |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
 | <hr> | <hr> |
@@ -73,4 +78,5 @@ Infos und Termine
 | 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
-
+<small><i>(1) keine Probe am Freitag vor einem Probentag</i></small></br>
+<small><i>(2) noch nicht ganz sicher</i></small>
