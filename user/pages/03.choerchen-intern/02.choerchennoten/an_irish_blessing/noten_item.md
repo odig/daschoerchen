@@ -1,12 +1,12 @@
 ---
-title: An Irish blessing
+title: 'An Irish blessing'
 permissions:
     inherit: true
 taxonomy:
     category:
         - Noten
-    tag: []
-
+    tag:
+        - 'Pfingsten 2024'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

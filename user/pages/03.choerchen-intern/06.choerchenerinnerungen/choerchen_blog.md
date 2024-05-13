@@ -27,9 +27,9 @@ taxonomy:
         - intern
 ---
 
-<span class="h2">Chörchenerinnerungen</span> <sub>Zeitungsartikel, Flyer, ...</sub>
+<span class="h2">Chörchenerinnerungen</span> <sub>Zeitungsartikel, Flyer, Vergiss-mich-nicht, ...</sub>
 
 
 ===
 
-Zeitungsartikel, Flyer, ...
+Zeitungsartikel, Flyer, Vergiss-mich-nicht, ...

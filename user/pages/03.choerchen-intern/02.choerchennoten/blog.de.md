@@ -38,4 +38,4 @@ addtag_allenoten: true
 
 ===
 
-Das Repertoire
+Das Repertoire / [<i class="fa fa-hand-o-right"></i>Jubiläumsliste](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)

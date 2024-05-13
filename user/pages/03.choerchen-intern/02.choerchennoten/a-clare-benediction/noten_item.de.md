@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+        - 'Sernow 2024'
     dirigat:
         - Birgit
     sprache:
@@ -22,7 +23,6 @@ tablesorter:
     active: true
     themes: green
     table_nums: '1,2,3'
-    
 ---
 
 _Synonyme: Klärchen, Claire - Alternativname: Eclaire ditschen_
