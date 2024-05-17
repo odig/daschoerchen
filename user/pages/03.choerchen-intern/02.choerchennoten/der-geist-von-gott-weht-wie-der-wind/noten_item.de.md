@@ -7,7 +7,6 @@ taxonomy:
     tag:
         - Pfingsten
         - 'Pfingsten 2023'
-        - 'Pfingsten 2024'
 permissions:
     inherit: true
 ---

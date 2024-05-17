@@ -8,6 +8,7 @@ taxonomy:
     tag:
         - 'Jubiläumskonzert 2025'
         - 'Sernow 2024'
+        - 'Pfingsten 2024'
     dirigat:
         - Birgit
     sprache:

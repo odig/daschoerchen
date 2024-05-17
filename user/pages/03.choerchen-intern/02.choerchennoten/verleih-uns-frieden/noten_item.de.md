@@ -3,8 +3,6 @@ title: 'Verleih uns Frieden'
 taxonomy:
     category:
         - Noten
-    tag:
-        - 'Pfingsten 2024'
 media_order: 'Verleih uns Frieden .pdf'
 ---
 
