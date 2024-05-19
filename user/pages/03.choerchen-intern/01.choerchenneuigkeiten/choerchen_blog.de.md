@@ -42,7 +42,6 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
 | 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
 | 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
 | Sommerferien | 18.07.-30.08.2024  |
@@ -61,8 +60,6 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
-| 19.05.2024 | Singen im Pfingstgottesdienst in Diedersdorf um 11 Uhr |
-| <hr> | <hr> |
 | 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
 | <hr> | <hr> |
 | 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |

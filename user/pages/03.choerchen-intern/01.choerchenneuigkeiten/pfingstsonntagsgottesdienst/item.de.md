@@ -52,7 +52,7 @@ Kleidung: bunt festlich</br>
 
 ##### A Eröffnung und Anrufung
 
-_Chörchen_ - [<i class="fa fa-hand-o-right"></i> Exsultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven) 
+<mark>_Chörchen_ - [<i class="fa fa-hand-o-right"></i> Exsultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven) </mark>
 
 Liturgische Eröffnung und Begrüßung	
 	
@@ -86,11 +86,11 @@ Glaubensbekenntnis: [„Ich glaube an den Vater“](/choerchen-intern/gemeindeli
 
 Predigt: Apostelgeschichte 2,1–21 
 
-_Chörchen_ - [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe)
+<mark>_Chörchen_ - [<i class="fa fa-hand-o-right"></i> Alles in Liebe](/choerchen-intern/choerchennoten/alles_in_liebe)</mark>
 	
 Abkündigungen 
 
-Kollektenlied: „Ich lobe meinen Gott von ganzem Herzen“, EG 272,1–3 
+Kollektenlied: [„Ich lobe meinen Gott von ganzem Herzen“](/choerchen-intern/gemeindelieder/eg_272_ich_lobe_meinen_gott), EG 272,1–3 
 		
 Liedtext: 
 1. Ich lobe meinen Gott von ganzem Herzen. / Erzählen will ich von all seinen Wundern und singen seinem Namen. / Ich lobe meinen Gott von ganzem Herzen. / Ich freue mich und bin fröhlich, Herr, in dir. Halleluja! / Ich freue mich und bin fröhlich, Herr, in dir. Halleluja! 
@@ -107,5 +107,5 @@ Ausgangslied: [„Bewahre uns, Gott“](/choerchen-intern/gemeindelieder/hut_220
 
 Segen
 
-_Chörchen_ [<i class="fa fa-hand-o-right"></i> Look at the world](/choerchen-intern/choerchennoten/look-at-the-world) 
+<mark>_Chörchen_ [<i class="fa fa-hand-o-right"></i> Look at the world](/choerchen-intern/choerchennoten/look-at-the-world)</mark>
 
