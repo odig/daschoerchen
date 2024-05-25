@@ -32,11 +32,9 @@ Birgit und Jessica
 | Margitta | Ketzer | Blankenfelde | Alt |
 | Ulla | Küchler | Diedersdorf | Alt |
 | Margret | Felser | Blankenfelde | Alt |
-| Anna |  | Diedersdorf | Alt |
 | Gido | Küchler | Diedersdorf | Bass |
 | Sven | Herrmann | Berlin | Bass |
 | Stefan | Voigt | Dahlewitz | Bass |
-| Michael | Tietz |  | Bass |
 | Ruth | Gdanietz | Diedersdorf | Sopran |
 | Kerstin | Trebus | Groß Kienitz | Sopran |
 | Ines | Stavrinakis | Dahlewitz | Sopran |
