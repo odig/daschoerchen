@@ -4,6 +4,8 @@
 
 {% set newspage = sortedCollection.last %}
 {% set content = newspage.content|slice(newspage.summary|length) %}
+{% set summary = newspage.summary %}
+
 
 <div class="newsinfo">
 	<div class="notices blue">
@@ -19,10 +21,14 @@
 						<i class="fa fa-calendar"></i>
 						{{ newspage.date|date(system.pages.dateformat.short) }}
 					</time>
-					<a href={{ newspage.url }}>
-						<i class="fa fa-hand-o-right"></i>
-						weiterlesen ...
-					</a>
+					{% if newspage.content == newspage.summary %}
+						&nbsp;
+					{% else %}
+						<a href={{ newspage.url }}>
+							<i class="fa fa-hand-o-right"></i>
+							weiterlesen ...
+						</a>
+					{% endif %}
 				</div>
 			</div>
 		</a>

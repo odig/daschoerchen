@@ -19,8 +19,11 @@
 	<div class="e-content">
 		{% set truncate = page.header.summary.enabled|defined(false) %}
 		{% if truncate %}
-			{{ page.content|slice(page.summary|length)|raw }}
-
+			{% if page.content == page.summary %}
+				{{ page.content|raw }}
+			{% else %}
+				{{ page.content|slice(page.summary|length)|raw }}
+			{% endif %}
 		{% else %}
 			{{ page.content|raw }}
 		{% endif %}
