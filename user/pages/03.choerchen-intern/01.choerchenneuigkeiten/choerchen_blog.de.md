@@ -42,11 +42,11 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
 | 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
 | Sommerferien | 18.07.-30.08.2024  |
-| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
+| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
 | 05.01.**2025** | Weihnachtskonzert | 
+| 22.03.**2025** | [<i class="fa fa-hand-o-right"></i> Chormusical Martin Luther King (optional)](/choerchen-intern/sonderseiten/chormusical-martin-luther-king-2025) |
 | 22.06.**2025** | Jubiläumskonzert | 
 | 13.07.**2025** | Teilnahme am Open-air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
@@ -60,15 +60,15 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
-| 01.06.2024 | 10-14 Uhr Probentag in der Kirche Dahlewitz <small>(1)</small>|
-| <hr> | <hr> |
 | 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
 | <hr> | <hr> |
 | Sommerferien | 18.07.-30.08.2024  |
 | <hr> | <hr> |
-| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/choerchenneuigkeiten/probe-am-26-04-2024-choerchenfahrt-choerchenkaffeeklatsch#kaffeeklatsch) |
+| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
 | <hr> | <hr> |
 | 05.01.**2025** | Weihnachtskonzert | 
+| <hr> | <hr> |
+| 22.03.**2025** | [<i class="fa fa-hand-o-right"></i> Chormusical Martin Luther King (optional)](/choerchen-intern/sonderseiten/chormusical-martin-luther-king-2025) |
 | <hr> | <hr> |
 | 22.06.**2025** | Jubiläumskonzert | 
 | <hr> | <hr> |
