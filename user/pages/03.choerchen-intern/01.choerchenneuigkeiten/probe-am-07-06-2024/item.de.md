@@ -24,7 +24,7 @@ Nächste Probe: am <b>Freitag, den 07.06.24, ab 19:30 Uhr </b>(Ort noch nicht be
 </br>
 
 </br>
-Die Trauerfeier für Pfr. Karsten Weyer findet am 10.06.24 um 13 Uhr in der Dorfkirche Diedersdorf statt. Das Chörchen trifft sich um 11 Uhr. (ACHTUNG: der Termin ist noch nicht ganz sicher...)
+Die Trauerfeier für Pfr. Karsten Weyer findet am Freitag, den 14.06.24, um 13 Uhr in der Dorfkirche Diedersdorf statt. Das Chörchen trifft sich um 11 Uhr. 
 
 | Bei der Trauerfeier wird gesungen: |  |
 | :------------ | :------------ | 
