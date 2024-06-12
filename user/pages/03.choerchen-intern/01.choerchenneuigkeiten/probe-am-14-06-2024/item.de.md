@@ -36,6 +36,6 @@ Nächste Probe: am <b>Freitag, den 14.06.24, ab 19:30 Uhr </b>(wo???)
 | [<i class="fa fa-hand-o-right"></i> A Clare Benediction](/choerchen-intern/choerchennoten/a-clare-benediction) | Chörchennoten |
 
 </br>
-Hier findet ihr den Liedblatt-Entwurf (zu falten an der inneren Linie): [Liedblatt_Trauerfeier_KarstenWeyer.pdf](Liedblatt_Trauerfeier_KarstenWeyer.pdf)
+Hier findet ihr den Liedblatt-Entwurf (zu Falten an der inneren Linie): [Liedblatt_Trauerfeier_KarstenWeyer.pdf](Liedblatt_Trauerfeier_KarstenWeyer.pdf)
 
 ===
