@@ -1,9 +1,9 @@
 ---
-title: Notenliste
+title: Gemeindeliederliste
 onpage_menu: true
 content:
     items:
-        - '@self.children'
+        - '@page.children': /choerchen-intern/gemeindelieder
     limit: 5
     order:
         by: date
@@ -16,7 +16,7 @@ directorylisting:
     exclude_modular: false
     links: true
     include_additional:
-        - choerchen-intern/choerchennoten
+        - choerchen-intern/gemeindelieder
     exclude_additional:
         - das-choerchen
 visible: false
@@ -31,3 +31,4 @@ taxonomy:
     category:
         - hidden
 ---
+
