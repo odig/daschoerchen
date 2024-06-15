@@ -3,7 +3,7 @@ title: Notenliste
 onpage_menu: true
 content:
     items:
-        - '@self.children'
+        - '@page.children': /choerchen-intern/choerchennoten
     limit: 5
     order:
         by: date
@@ -19,6 +19,11 @@ directorylisting:
         - choerchen-intern/choerchennoten
     exclude_additional:
         - das-choerchen
+        - Archiv
+        - archiv
+        - Ytlinks
+        - ytlinks
+    thisroute: '/choerchen-intern/choerchennoten'
 visible: false
 login:
     visibility_requires_access: true

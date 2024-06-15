@@ -7,7 +7,7 @@
 {% set show_links = page.header.directorylisting.links|defined(false) %}
 {% set dir_except = page.header.directorylisting.exclude_additional|defined(['ytlinks']) %}
 {% set dir_include = page.header.directorylisting.include_additional|defined(['/choerchen-intern/choerchennoten']) %}
-{% set route = page.header.directorylisting.include_additional|defined(['/choerchen-intern/choerchennoten'])|first %}
+{% set thisroute = page.header.directorylisting.thisroute|defined('/choerchen-intern/choerchennoten') %}
 
 
 {% block body %}
@@ -19,48 +19,28 @@
 			{% endif %}
 			<div class="center">
 
-				{% if page.title == "Gemeindeliederliste" %}
-					<span class="h2">
-						<a href="{{ base_url }}/choerchen-intern/gemeindelieder{{ uri.params() }}">Gemeindelieder</a>
-					</span>
+				<span class="h2">
+					<a href="{{ base_url }}/{{ route }}{{ uri.params() }}">{{ page.title }}</a>
+				</span>
 
-				{% else %}
-					<span class="h2">
-						<a href="{{ base_url }}/choerchen-intern/choerchennoten{{ uri.params() }}">Chörchennoten</a>
-					</span>
-				{% endif %}
 				<sub>MP3, PDF und mehr</sub>
 
 			</div>
 
 			{{ page.summary|raw }}
 
-			{% if page.title == "Gemeindeliederliste" %}
-				{% set settings = {
-					'exclude_main': true,
-					'exclude_modular': true,
-					'links': show_links,
-					'route': '/choerchen-intern/gemeindelieder',
-					'include_additional': dir_include,
-					'exclude_additional': [ 'Archiv', 'archiv', 'Ytlinks', 'ytlinks' ],
-					'order.by':'title',
-					'order.dir':'asc',
-					'level':3
-				} %}
-			{% else %}
-				{% set settings = {
-					'exclude_main': true,
-					'exclude_modular': true,
-					'links': show_links,
-					'route': '/choerchen-intern/choerchennoten',
-					'include_additional': ['/choerchen-intern/choerchennoten'],
-					'exclude_additional': [ 'Archiv', 'archiv', 'Ytlinks', 'ytlinks' ],
-					'order.by':'title',
-					'order.dir':'asc',
-					'level':3
-				} %}
 
-			{% endif %}
+			{% set settings = {
+					'exclude_main': true,
+					'exclude_modular': true,
+					'links': show_links,
+					'route': thisroute,
+					'include_additional': dir_include,
+					'exclude_additional': dir_except,
+					'order.by':'title',
+					'order.dir':'asc',
+					'level':3
+				} %}
 
 			{{ directorylisting(settings)|raw }}
 		</section>
