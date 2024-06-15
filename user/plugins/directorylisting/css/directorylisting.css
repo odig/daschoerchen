@@ -1,45 +1,55 @@
 .directorylist {
-    font-size: 16px;
-    line-height: 1.42857143;
+  font-size: 16px;
+  line-height: 1.42857143;
 }
-.directorylist .file > a:before,
-.directorylist .directory > a:before {
-    content: '';
-    width: 0.9em;
-    height: 0.9em;
-    margin-right: 0.325rem;
-    margin-bottom: 0.25rem;
-    line-height: 0.9;
-    display: inline-block;
-    vertical-align: middle;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left center;
+
+.directorylist .file>a:before,
+.directorylist .directory>a:before {
+  content: '';
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.325rem;
+  margin-bottom: 0.25rem;
+  line-height: 0.9;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
-.directorylist .directory > a:before {
-    background-image: url("folder-o.svg");
+
+.directorylist .directory>a:before {
+  background-image: url("folder-o.svg");
 }
-.directorylist .directory.active > a:before {
-    background-image: url("folder-open-o.svg");
+
+.directorylist .directory.active>a:before {
+  background-image: url("folder-open-o.svg");
 }
-.directorylist .file > a:before {
-    background-image: url("file-text-o.svg");
+
+.directorylist .file>a:before {
+  background-image: url("file-text-o.svg");
 }
-.directorylist .file.page > a:before {
+
+.directorylist .file.page>a:before {
   background-image: url("file-o.svg");
 }
-.directorylist .file.audio > a:before {
+
+.directorylist .file.audio>a:before {
   background-image: url("file-audio-o.svg");
 }
-.directorylist .file.animated > a:before {
+
+.directorylist .file.animated>a:before {
   background-image: url("file-video-o.svg");
 }
-.directorylist .file.image > a:before {
+
+.directorylist .file.image>a:before {
   background-image: url("file-image-o.svg");
 }
-.directorylist .file.video > a:before {
+
+.directorylist .file.video>a:before {
   background-image: url("file-video-o.svg");
 }
-.directorylist .file.vector > a:before {
+
+.directorylist .file.vector>a:before {
   background-image: url("file-code-o.svg");
 }

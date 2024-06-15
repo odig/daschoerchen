@@ -217,7 +217,7 @@ types:
     thumb: media/thumb-json.png
     mime: application/json
   mscz:
-    type: file
+    type: page
     thumb: media/thumb-mscz.png
     mime: application/musescore
 
