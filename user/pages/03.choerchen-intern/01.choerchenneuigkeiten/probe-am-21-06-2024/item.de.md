@@ -1,5 +1,5 @@
 ---
-title: 'Probe am 21.06.2024'
+title: 'Die nächsten Proben ...'
 published: true
 simple-responsive-tables:
     active: true
@@ -17,10 +17,9 @@ summary:
     enabled: '1'
 ---
 
-!! Am 14.06.24 findet keine Probe statt.
-
-
-Nächste Probe: am <b>Freitag, den 21.06.24, ab 19:30 Uhr </b>(wo???)
+!! Keine Probe am 05.07.24</br>
+!! Kein Probentag am 06.07.24</br>
+<b>Freitag, den 12.07.24, ab 19:30 Uhr </b>in der Diedersdorfer Dorfkirche</br>
 <br/>
 
 <i>Bitte bringt IMMER ALLE STÜCKE der [<i class="fa fa-hand-o-right"></i>Jubiläumsliste](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)  mit.</i>

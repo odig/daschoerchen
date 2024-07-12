@@ -42,7 +42,6 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
 | Sommerferien | 18.07.-30.08.2024  |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
 | 05.01.**2025** | Weihnachtskonzert | 
@@ -51,8 +50,7 @@ dateformat: 'd-m-Y H:i'
 | 13.07.**2025** | Teilnahme am Open-air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
-<small><i>(1) keine Probe am Freitag vor einem Probentag</i></small></br>
-<small><i>(2) noch nicht ganz sicher</i></small>
+
 
 ===
 
@@ -60,8 +58,6 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
-| 06.07.2024 | 10-14 Uhr Probentag <small>(1)(2)</small> |
-| <hr> | <hr> |
 | Sommerferien | 18.07.-30.08.2024  |
 | <hr> | <hr> |
 | 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
@@ -75,5 +71,4 @@ Infos und Termine
 | 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
-<small><i>(1) keine Probe am Freitag vor einem Probentag</i></small></br>
-<small><i>(2) noch nicht ganz sicher</i></small>
+
