@@ -43,11 +43,11 @@ dateformat: 'd-m-Y H:i'
 |   |   | 
 | :------------ | :------------ | 
 | Sommerferien | 18.07.-30.08.2024  |
-| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
+| Herbstferien | 21.10.-01.11.2024  |
 | 05.01.**2025** | Weihnachtskonzert | 
 | 22.03.**2025** | [<i class="fa fa-hand-o-right"></i> Chormusical Martin Luther King (optional)](/choerchen-intern/sonderseiten/chormusical-martin-luther-king-2025) |
 | 22.06.**2025** | Jubiläumskonzert | 
-| 13.07.**2025** | Teilnahme am Open-air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
+| 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
 
 &nbsp;</br>
 
@@ -60,7 +60,7 @@ Infos und Termine
 | :------------ | :------------ | 
 | Sommerferien | 18.07.-30.08.2024  |
 | <hr> | <hr> |
-| 21.07.2024 | [<i class="fa fa-hand-o-right"></i> Chörchenkaffeeklatsch ab 15 Uhr in Genshagen](/choerchen-intern/sonderseiten/choerchenkaffeeklatsch-21-07-2024) |
+| Herbstferien | 21.10.-01.11.2024  |
 | <hr> | <hr> |
 | 05.01.**2025** | Weihnachtskonzert | 
 | <hr> | <hr> |

@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 vote_access: site.login
 callback: /star-ratings
 built_in_css: true
