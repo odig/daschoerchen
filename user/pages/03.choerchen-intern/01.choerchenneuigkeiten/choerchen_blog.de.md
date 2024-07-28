@@ -44,7 +44,11 @@ dateformat: 'd-m-Y H:i'
 | :------------ | :------------ | 
 | Sommerferien | 18.07.-30.08.2024  |
 | Herbstferien | 21.10.-01.11.2024  |
+| Weihnachtsferien | 23.12.-31.12.2024 |
 | 05.01.**2025** | Weihnachtskonzert | 
+| Winterferien | 03.02.-07.02.2025 |
+| Osterferien | 14.04.-25.04.2025 |
+| 29.05. - 01.06.**2025** | Chörchenfahrt | 
 | 22.03.**2025** | [<i class="fa fa-hand-o-right"></i> Chormusical Martin Luther King (optional)](/choerchen-intern/sonderseiten/chormusical-martin-luther-king-2025) |
 | 22.06.**2025** | Jubiläumskonzert | 
 | 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
@@ -62,7 +66,15 @@ Infos und Termine
 | <hr> | <hr> |
 | Herbstferien | 21.10.-01.11.2024  |
 | <hr> | <hr> |
+| Weihnachtsferien | 23.12.-31.12.2024 |
+| <hr> | <hr> |
 | 05.01.**2025** | Weihnachtskonzert | 
+| <hr> | <hr> |
+| Winterferien | 03.02.-07.02.2025 |
+| <hr> | <hr> |
+| Osterferien | 14.04.-25.04.2025 |
+| <hr> | <hr> |
+| 29.05. - 01.06.**2025** | Chörchenfahrt | 
 | <hr> | <hr> |
 | 22.03.**2025** | [<i class="fa fa-hand-o-right"></i> Chormusical Martin Luther King (optional)](/choerchen-intern/sonderseiten/chormusical-martin-luther-king-2025) |
 | <hr> | <hr> |
