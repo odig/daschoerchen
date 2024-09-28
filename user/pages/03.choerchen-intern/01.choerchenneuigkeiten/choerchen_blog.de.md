@@ -42,10 +42,10 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14 Uhr |
-| 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14 Uhr |
+| 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
 | Herbstferien | 21.10.-01.11.2024  |
-| 14.12.2024 | Chörchenprobentag (?) |
+| 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
+| 14.12.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr (?) |
 | Weihnachtsferien | 23.12.-31.12.2024 |
 | 04.01.**2025** | Generalprobe ab 10 Uhr | 
 | 05.01.**2025** | Weihnachtskonzert | 
@@ -65,13 +65,13 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
-| 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14 Uhr |
-| <hr> | <hr> |
-| 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14 Uhr |
+| 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
 | <hr> | <hr> |
 | Herbstferien | 21.10.-01.11.2024  |
 | <hr> | <hr> |
-| 14.12.2024 | Chörchenprobentag (?) |
+| 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
+| <hr> | <hr> |
+| 14.12.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr (?) |
 | <hr> | <hr> |
 | Weihnachtsferien | 23.12.-31.12.2024 |
 | <hr> | <hr> |
