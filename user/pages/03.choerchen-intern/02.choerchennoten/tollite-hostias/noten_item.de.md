@@ -4,10 +4,11 @@ taxonomy:
     category:
         - Noten
     tag:
+        - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2019'
-        - 'Weihnachtskonzert 2024'
+        - 'Weihnachtskonzert 2025'
 media_order: 'Tollite hostias.pdf'
 ---
 

@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2025'
 media_order: 'Sussex carol.pdf'
 ---
 

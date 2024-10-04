@@ -5,8 +5,9 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
-        - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2020'
+        - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2025'
 media_order: 'Joy to the world.pdf'
 ---
 

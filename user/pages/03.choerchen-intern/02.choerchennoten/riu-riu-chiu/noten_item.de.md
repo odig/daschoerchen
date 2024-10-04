@@ -8,6 +8,7 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2025'
 permissions:
     inherit: true
 ---

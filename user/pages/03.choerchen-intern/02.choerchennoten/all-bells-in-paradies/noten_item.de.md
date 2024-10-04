@@ -4,9 +4,10 @@ taxonomy:
     category:
         - Noten
     tag:
+        - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2020'
-        - 'Weihnachtskonzert 2024'
+        - 'Weihnachtskonzert 2025'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

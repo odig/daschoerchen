@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2025'
 media_order: 'Drei Koenige wandern aus Morgenland.pdf'
 ---
 

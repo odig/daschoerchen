@@ -42,8 +42,9 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
+| 13.10.2024 | Erntedankgottesdienst in Dahlewitz, Treffen um 08:45 Uhr |
 | 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
-| Herbstferien | 21.10.-01.11.2024  |
+| Herbstferien | 21.10.-01.11.2024, Proben finden Freitags statt |
 | 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
 | 14.12.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr (?) |
 | Weihnachtsferien | 23.12.-31.12.2024 |
@@ -65,9 +66,11 @@ Infos und Termine
 
 |   |   | 
 | :------------ | :------------ | 
+| 13.10.2024 | Erntedankgottesdienst in Dahlewitz, Treffen um 08:45 Uhr |
+| <hr> | <hr> |
 | 19.10.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
 | <hr> | <hr> |
-| Herbstferien | 21.10.-01.11.2024  |
+| Herbstferien | 21.10.-01.11.2024, Proben finden Freitags statt  |
 | <hr> | <hr> |
 | 09.11.2024 | Chörchenprobentag in Groß Kienitz, 10-14:30 Uhr |
 | <hr> | <hr> |

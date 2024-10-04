@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2025'
 media_order: 'Der Morgenstern ist aufdrungen.pdf'
 ---
 

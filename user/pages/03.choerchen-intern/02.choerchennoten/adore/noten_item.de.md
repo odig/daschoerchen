@@ -4,8 +4,9 @@ taxonomy:
     category:
         - Noten
     tag:
-        - Weihnachten
         - 'Weihnachtskonzert 2024'
+        - Weihnachten
+        - 'Weihnachtskonzert 2025'
 permissions:
     inherit: true
 youtube:
