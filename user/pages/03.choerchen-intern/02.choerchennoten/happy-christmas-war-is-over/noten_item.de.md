@@ -1,5 +1,5 @@
 ---
-title: 'Happy Christmas (War is over)'
+title: 'Happy Christmas (War is over) / So it is Xmas'
 taxonomy:
     category:
         - Noten

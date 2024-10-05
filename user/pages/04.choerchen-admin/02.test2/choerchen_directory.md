@@ -33,3 +33,6 @@ taxonomy:
 
 test2
 
+{{ printfriendly(page.route) }}
+
+

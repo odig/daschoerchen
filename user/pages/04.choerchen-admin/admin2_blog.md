@@ -7,7 +7,7 @@ content:
         '@taxonomy':
             category:
                 - admin
-    limit: 6
+    limit: 20
     pagination: true
     sidebar: true
     url_taxonomy_filters: true

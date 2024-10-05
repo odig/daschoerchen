@@ -14,9 +14,8 @@
 		<span class="h2">Chörchennoten</span>
 		<sub>
 			<a href="{{ base_url }}/choerchen-intern/notenliste{{ uri.params() }}">Das Repertoire</a>
-
-
 		</sub>
+
 
 	</div>
 
@@ -35,6 +34,8 @@
 	<!--<h1 class="search-header">{{ "PLUGIN_SIMPLESEARCH.SEARCH_RESULTS"|t }}</h1>-->
 	<div class="center">
 		{% include 'partials/simplesearch_searchbox.html.twig' %}
+
+
 	</div>
 
 
@@ -47,8 +48,19 @@
 			{% else %}
 				{{ "PLUGIN_SIMPLESEARCH.SEARCH_RESULTS_SUMMARY_PLURAL"|t(query|e, count)|raw }}
 			{% endif %}
-		{% endif %}
 
+		{% endif %}
+	</p>
+	<p>
+		{% if query %}
+			<small>
+
+				<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
+					<i class="fa fa-print"></i>
+					Liste zum Drucken</a>
+
+			</small>
+		{% endif %}
 	</p>
 	{% for page in search_results %}
 		{% include 'partials/choerchen_simplesearch_item.html.twig' with {'page': page} %}
