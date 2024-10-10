@@ -1,6 +1,9 @@
 ---
 title: Oktoberproben
 published: true
+date: '05.10.2024'
+summary:
+    enabled: '1'
 ---
 
 **Geplante Proben im Oktober:**
@@ -8,13 +11,13 @@ published: true
 * ~~Freitag, 04.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche~~ (vorbei)
 * Freitag, 11.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche
 * Sonnabend, 19.10.24, von 10:00 bis 14:30 Uhr in Groß Kienitz
-* Freitag, 25.10.24, um 19:30 Uhr im Pfarrhaus Diedersdorf (trotz Herbstferien)
+* Freitag, 25.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche (trotz Herbstferien)
 
 
 
-<i>Bitte bringt IMMER ALLE STÜCKE der [<i class="fa fa-hand-o-right"></i>Jubiläumsliste](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)  mit</i>
+[<i class="fa fa-hand-o-right"></i>Jubiläumsliste](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)
 </br>
-und außerdem alle Stücke für das [<i class="fa fa-hand-o-right"></i>Weihnachtskonzert](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025) .
+[<i class="fa fa-hand-o-right"></i> Weihnachtskonzert](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025)
 <br>
 
 **Singen im Erntedankgottesdienst am 13.10.2024**

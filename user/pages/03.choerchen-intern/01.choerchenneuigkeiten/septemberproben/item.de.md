@@ -1,6 +1,9 @@
 ---
 title: Septemberproben
 published: true
+date: '27.09.2024'
+summary:
+    enabled: '1'
 ---
 
 **Geplante Proben im September:**
