@@ -5,11 +5,12 @@ taxonomy:
         - Noten
     tag:
         - 'Sommerkonzert 2023'
+        - 'Sernow 2024'
         - Erntedank
         - 'Erntedank 2023'
         - 'Pfingsten 2024'
         - 'Pfingsten 2023'
-        - 'Sernow 2024'
+        - 'Erntedank 2024'
 media_order: 'Look at the world.pdf'
 ---
 

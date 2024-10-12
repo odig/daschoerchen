@@ -9,7 +9,7 @@ summary:
 **Geplante Proben im Oktober:**
 
 * ~~Freitag, 04.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche~~ (vorbei)
-* Freitag, 11.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche
+* ~~Freitag, 11.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche~~ (vorbei)
 * Sonnabend, 19.10.24, von 10:00 bis 14:30 Uhr in Groß Kienitz
 * Freitag, 25.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche (trotz Herbstferien)
 
@@ -55,3 +55,11 @@ Treffen um 08:45 Uhr.
 *  [<i class="fa fa-hand-o-right"></i> Drei Kön'ge wandern aus Morgenland / Wie schön leuchtet der Morgenstern](/choerchen-intern/choerchennoten/drei-koenige-wandern)
 
 
+11.10.2024
+
+*  [<i class="fa fa-hand-o-right"></i> Look at the world](/choerchen-intern/choerchennoten/look-at-the-world) 
+*  [<i class="fa fa-hand-o-right"></i> Come all who thirst](/choerchen-intern/choerchennoten/come_all_who_thirst) 
+an_irish_blessing) 
+*  [<i class="fa fa-hand-o-right"></i> Aller Augen](/choerchen-intern/choerchennoten/aller-augen-warten-auf-dich-herre) 
+*  [<i class="fa fa-hand-o-right"></i> Walk to Bethlehem](/choerchen-intern/choerchennoten/walk-to-bethlehem) 
+*  [<i class="fa fa-hand-o-right"></i> Donkey Carol](/choerchen-intern/choerchennoten/donkey-carol) 

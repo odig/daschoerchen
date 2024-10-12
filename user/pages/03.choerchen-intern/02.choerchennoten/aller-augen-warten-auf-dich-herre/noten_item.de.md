@@ -1,10 +1,11 @@
 ---
-title: 'Aller Augen warten auf dich Herre'
+title: 'Aller Augen warten auf dich, Herre'
 taxonomy:
     category:
         - Noten
     tag:
         - 'Sommerkonzert 2023'
+        - 'Erntedank 2024'
 permissions:
     inherit: true
 media_order: 'Aller Augen warten auf dich Herre.pdf'
