@@ -1,7 +1,6 @@
 ---
 title: Oktoberproben
 published: true
-date: '05.10.2024'
 summary:
     enabled: '1'
 ---
@@ -10,8 +9,8 @@ summary:
 
 * ~~Freitag, 04.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche~~ (vorbei)
 * ~~Freitag, 11.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche~~ (vorbei)
-* Sonnabend, 19.10.24, von 10:00 bis 14:30 Uhr in Groß Kienitz
-* Freitag, 25.10.24, um 19:30 Uhr in der Dahlewitzer Dorfkirche (trotz Herbstferien)
+* ~~Sonnabend, 19.10.24, von 10:00 bis 14:30 Uhr in Groß Kienitz~~ (vorbei)
+* ~~Freitag, 25.10.24, um 19:30 Uhr in Groß Kienitz (trotz Herbstferien)~~ (vorbei)
 
 
 
@@ -20,9 +19,9 @@ summary:
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzert](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025)
 <br>
 
-**Singen im Erntedankgottesdienst am 13.10.2024**
-in Dahlewitz um 09:30 Uhr. 
-Treffen um 08:45 Uhr.
+Neue Noten:</br>
+[<i class="fa fa-hand-o-right"></i> Walk to Bethlehem](/choerchen-intern/choerchennoten/walk-to-bethlehem)
+
 
 
 ===
