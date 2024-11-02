@@ -9,38 +9,54 @@
 {% set dir_include = page.header.directorylisting.include_additional|defined(['/choerchen-intern/choerchennoten']) %}
 {% set thisroute = page.header.directorylisting.thisroute|defined('/choerchen-intern/choerchennoten') %}
 {% set thistag = uri.query('query') | replace({'+': " "}) %}
+{% set collection = page.collection %}
+{% if thistag %}
+	{% set noten_collection = page.collection({'items':{'@taxonomy':{'category': 'Noten', 'tag': thistag}},'order': {'by': 'default', 'dir': 'asc'}}) %}
+{% else %}
+	{% set noten_collection = page.collection({'items':{'@taxonomy':{'category': 'Noten'}},'order': {'by': 'default', 'dir': 'asc'}}) %}
+{% endif %}
 
 
 {% block body %}
-	<section id="body-wrapper" class="section blog-listing">
-		<section class="container {{ grid_size }}">
+<section id="body-wrapper" class="section blog-listing">
+	<section class="container {{ grid_size }}">
 
-			{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
-				{% include 'partials/breadcrumbs.html.twig' %}
+		{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+			{% include 'partials/breadcrumbs.html.twig' %}
+		{% endif %}
+		<div class="center">
+
+			<span
+				class="h2">
+				<!--<a href="{{ base_url }}/{{ route }}{{ uri.params() }}">-->
+				{{ page.title }}
+				<!--</a>-->
+			</span>
+
+
+			{% if thistag %}
+				<sub>{{ thistag }}</sub>
+			{% else %}
+				<sub>MP3, PDF und mehr</sub>
+
 			{% endif %}
-			<div class="center">
 
-				<span
-					class="h2"><!--<a href="{{ base_url }}/{{ route }}{{ uri.params() }}">-->
-					{{ page.title }}
-					<!--</a>-->
-				</span>
-
-
-				{% if thistag %}
-					<sub>{{ thistag }}</sub>
-				{% else %}
-					<sub>MP3, PDF und mehr</sub>
-
-				{% endif %}
-
-			</div>
+		</div>
+		<div>
+			<small>Stand:
+				{{ now|date("d.m.Y", "Europe/Berlin") }}
+				-
+				{{ noten_collection.count }}
+				Stücke</small>
 
 
-			{{ page.summary|raw }}
+		</div>
 
 
-			{% set settings = {
+		{{ page.summary|raw }}
+
+
+		{% set settings = {
 					'exclude_main': true,
 					'exclude_modular': true,
 					'links': show_links,
@@ -53,9 +69,8 @@
 					'level':3
 				} %}
 
-			{{ directorylisting(settings)|raw }}
-		</section>
+		{{ directorylisting(settings)|raw }}
 	</section>
-	<script>// Bricklayer
-// var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
-</script>{% endblock %}
+</section>
+<script>// Bricklayer
+		// var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))</script>{% endblock %}
