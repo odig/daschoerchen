@@ -24,6 +24,7 @@ directorylisting:
         - Ytlinks
         - ytlinks
     thisroute: '/choerchen-intern/gemeindelieder'
+
 visible: false
 login:
     visibility_requires_access: true

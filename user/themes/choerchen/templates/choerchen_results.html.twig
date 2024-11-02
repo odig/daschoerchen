@@ -53,13 +53,27 @@
 	</p>
 	<p>
 		{% if query %}
-			<small>
+			{% if query != 'Noten' %}
+				<small>
+					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
+						<i class="fa fa-print"></i>
+						Liste zum Drucken</a>&nbsp;&nbsp;
+					<a target="_blank" href="{{ base_url }}/choerchen-intern/notenliste?query={{ query }}">
+						<i class="fa fa-download"></i>
+						Download-Liste</a>
+				</small>
+			{% else %}
+				<small>
+					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste">
+						<i class="fa fa-print"></i>
+						Liste zum Drucken</a>&nbsp;&nbsp;
+					<a target="_blank" href="{{ base_url }}/choerchen-intern/notenliste">
+						<i class="fa fa-download"></i>
+						Download-Liste</a>
+				</small>
 
-				<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
-					<i class="fa fa-print"></i>
-					Liste zum Drucken</a>
 
-			</small>
+			{% endif %}
 		{% endif %}
 	</p>
 	{% for page in search_results %}

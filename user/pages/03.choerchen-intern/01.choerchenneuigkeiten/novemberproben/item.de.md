@@ -7,7 +7,7 @@ summary:
 
 **Geplante Proben im November:**
 
-* Freitag, 01.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
+* ~~Freitag, 01.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * Sonnabend, 09.11.24, von 10:00 bis 14:30 Uhr in Groß Kienitz
 * Freitag, 15.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
 * Freitag, 22.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
@@ -28,4 +28,12 @@ Neue Noten:</br>
 ===
 
 &nbsp;
+
+**Vergangene Proben:**
+
+01.11.2024
+
+*  [<i class="fa fa-hand-o-right"></i> Donkey Carol](/choerchen-intern/choerchennoten/donkey-carol)
+*  [<i class="fa fa-hand-o-right"></i> Walk to Bethlehem](/choerchen-intern/choerchennoten/walk-to-bethlehem)
+*  [<i class="fa fa-hand-o-right"></i> Adore](/choerchen-intern/choerchennoten/adore)
 

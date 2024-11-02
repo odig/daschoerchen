@@ -74,16 +74,26 @@ class Utilities
         $config = $this->config;
         $page = Grav::instance()['page'];
         $depth++;
-        $mode = '@page.self';
-        if ($depth > 1) {
-            $mode = '@page.children';
+        if ($depth == 2 ) {
+            $mode = '@page.children' ;
+            if ($config['tag'] != '' ) {
+                $pages = $page->evaluate(['@page.children' => '','@taxonomy.tag' => $config['tag']]);
+            } else {
+                $pages = $page->evaluate([$mode => $route]);
+            }
+        } elseif ($depth > 2) {
+            $mode = '@page.children' ;
+            $pages = $page->evaluate([$mode => $route]);
+        } else {
+            $mode = '@page.self';
+            $pages = $page->evaluate([$mode => $route]);
         }
         if ($config['max_depth'] == 0) {
             $max_depth = 100;
         } else {
             $max_depth = (int) $config['max_depth'];
         }
-        $pages = $page->evaluate([$mode => $route]);
+        
         $pages = $pages->published()->order($config['order']['by'], $config['order']['dir']);
         $paths = array();
         if ($depth <= $max_depth) {
@@ -108,7 +118,8 @@ class Utilities
                 }
                 $media = new Media($page->path());
                 foreach ($media->all() as $filename => $file) {
-                    $paths[$route]['media'][$filename] = $file;
+                        $paths[$route]['media'][$filename] = $file;
+
                 }
             }
         }
@@ -169,7 +180,7 @@ class Utilities
                     foreach ($page['media'] as $filename => $file) {
                         if ($config['links']) {
                             $list .= '<li class="file ' . $file->items()['type'] . '">';
-                            $list .= '<a href="' . $file->url() . '">' . $filename . '</a>';
+                            $list .= '<a href="' . $file->url() . '">' . $filename . '</a><a href="' . $file->url() . '" download><i class="fa fa-download fa-lg" aria-hidden="true"></i></a>';
                             $moddate = $file->items()['modified'] ;
                             $dt = new DateTime("@$moddate");
                             $list .= '<small> &nbsp;&nbsp;&nbsp;(';
