@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2025'
+        - 'Weihnachtskonzert 2015'
 media_order: 'Der Morgenstern ist aufdrungen.pdf'
 ---
 

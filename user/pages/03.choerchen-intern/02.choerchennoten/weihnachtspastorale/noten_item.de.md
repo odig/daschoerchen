@@ -8,6 +8,7 @@ taxonomy:
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2024'
+        - 'Weihnachtskonzert 2015'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

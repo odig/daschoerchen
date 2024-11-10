@@ -5,7 +5,9 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: [Pfingsten]
+    tag: 
+        - Pfingsten
+        - 'Sommerkonzert 2012'
 
 ---
 

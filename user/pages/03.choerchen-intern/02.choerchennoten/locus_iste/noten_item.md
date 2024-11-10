@@ -7,6 +7,8 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+        - 'Sommerkonzert 2015'
+        - 'Sommerkonzert 2012'
     sprache:
         - Latein
 ---

@@ -11,6 +11,8 @@ taxonomy:
         - 'Pfingsten 2024'
         - 'Pfingsten 2023'
         - 'Erntedank 2024'
+        - 'Sommerkonzert 2015'
+        - 'Sommerkonzert 2012'
 media_order: 'Look at the world.pdf'
 ---
 

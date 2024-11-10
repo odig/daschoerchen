@@ -1,18 +1,21 @@
 ---
-title: 'O Herr mein Gott nun vor der Nacht'
+title: Scarborough Fair
+permissions:
+    inherit: true
 taxonomy:
     category:
         - Noten
-    tag:
-        - 'Weihnachtskonzert 2018'
-        - 'Weihnachtskonzert 2015'
+    tag: 
         - 'Sommerkonzert 2012'
-media_order: 'O Herr mein Gott.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
-
-Text: Bischof T. Ken (1637-1711), Dt. Übers. : Christina und Hermman Falkenroth
-
-Musik: Thomas Tallis (c.1505-1585), Arr: Kenneth Brown
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 

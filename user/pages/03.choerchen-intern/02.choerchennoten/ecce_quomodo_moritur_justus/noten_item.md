@@ -5,7 +5,10 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: [Ostern]
+    tag: 
+        - Ostern
+        - 'Sommerkonzert 2015'
+        - 'Sommerkonzert 2012'
 
 ---
 

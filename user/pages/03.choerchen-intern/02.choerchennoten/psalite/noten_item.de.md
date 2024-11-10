@@ -7,6 +7,7 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2024'
+        - 'Weihnachtskonzert 2015'
 ---
 
 „Psallite“ stammt von Michael Praetorius aus dem Jahr 1609. Der lateinische Text bedeutet sinngemäß: „singt euere Psalmen für Christus, den Sohn Gottes; singt eure Psalmen für den Erlöser.“

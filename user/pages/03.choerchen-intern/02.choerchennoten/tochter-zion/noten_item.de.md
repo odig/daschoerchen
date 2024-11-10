@@ -7,6 +7,7 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2015'
 media_order: 'Tochter Zion.pdf'
 ---
 

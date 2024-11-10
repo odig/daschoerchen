@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - 'Sommerkonzert 2023'
+        - 'Sommerkonzert 2015'
 permissions:
     inherit: true
 media_order: 'Alta trinita beata.pdf'

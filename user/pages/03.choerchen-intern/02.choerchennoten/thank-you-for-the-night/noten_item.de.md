@@ -3,6 +3,8 @@ title: 'Thank you for the night'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Sommerkonzert 2012'
 media_order: 'Thank you for the night.pdf'
 ---
 

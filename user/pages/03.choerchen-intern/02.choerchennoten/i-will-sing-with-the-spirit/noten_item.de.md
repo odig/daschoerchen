@@ -3,7 +3,9 @@ title: 'I will sing with the spirit'
 taxonomy:
     category:
         - Noten
-    tag: [Pfingsten]
+    tag: 
+        - Pfingsten
+        - 'Sommerkonzert 2015'
 media_order: 'I will sing with the spirit.pdf'
 ---
 

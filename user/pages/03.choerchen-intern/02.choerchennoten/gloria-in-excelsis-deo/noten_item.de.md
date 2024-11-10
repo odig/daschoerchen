@@ -5,6 +5,8 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Sommerkonzert 2015'
+        - 'Sommerkonzert 2012'
 media_order: 'Gloria in excelsis Deo.pdf'
 ---
 

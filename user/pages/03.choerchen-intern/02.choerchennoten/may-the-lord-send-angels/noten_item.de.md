@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Sommerkonzert 2012'
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]

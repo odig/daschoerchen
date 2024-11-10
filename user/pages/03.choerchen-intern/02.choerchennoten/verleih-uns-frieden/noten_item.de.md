@@ -3,6 +3,8 @@ title: 'Verleih uns Frieden'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Sommerkonzert 2015'
 media_order: 'Verleih uns Frieden .pdf'
 ---
 

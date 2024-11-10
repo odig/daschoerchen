@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - 'Jubiläumskonzert 2025'
+        - 'Sommerkonzert 2015'
     dirigat:
         - Birgit
     sprache:

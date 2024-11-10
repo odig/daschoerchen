@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2015'
 media_order: 'O little town of Bethlehem.pdf'
 ---
 

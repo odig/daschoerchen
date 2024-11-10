@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2018'
+        - 'Weihnachtskonzert 2015'
 media_order: 'Away in a Manger.pdf'
 ---
 

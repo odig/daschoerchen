@@ -5,7 +5,9 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: []
+    tag: 
+        - 'Sommerkonzert 2015'
+        - 'Sommerkonzert 2012'
 
 ---
 

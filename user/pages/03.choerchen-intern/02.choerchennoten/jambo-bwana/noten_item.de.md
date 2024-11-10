@@ -3,6 +3,8 @@ title: 'Jambo Bwana'
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Sommerkonzert 2012'
 media_order: Jambo-Bwana.pdf
 ---
 

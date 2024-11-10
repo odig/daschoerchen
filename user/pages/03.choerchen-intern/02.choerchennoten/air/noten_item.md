@@ -5,7 +5,8 @@ permissions:
 taxonomy:
     category:
         - Noten
-    tag: []
+    tag: 
+        - 'Sommerkonzert 2012'
 
 ---
 

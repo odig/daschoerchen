@@ -1,17 +1,21 @@
 ---
-title: 'The very best time of year'
+title: Jesus bleibet meine Freude
+permissions:
+    inherit: true
 taxonomy:
     category:
         - Noten
-    tag:
-        - Weihnachten
-        - 'Weihnachtskonzert 2017'
-        - 'Weihnachtskonzert 2020'
-        - 'Weihnachtskonzert 2015'
-media_order: 'The very best time of year.pdf'
+    tag: 
+        - 'Sommerkonzert 2015'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
+    
 ---
-
-John Rutter
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 

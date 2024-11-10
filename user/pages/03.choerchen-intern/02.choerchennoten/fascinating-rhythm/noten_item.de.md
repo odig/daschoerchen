@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - 'Sommerkonzert 2023'
         - 'Jubiläumskonzert 2025'
+        - 'Sommerkonzert 2015'
     dirigat:
         - Jessica
     sprache:
