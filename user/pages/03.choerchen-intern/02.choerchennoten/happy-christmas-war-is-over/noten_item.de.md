@@ -7,6 +7,8 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2025'
+        - 'Weihnachtskonzert 2016'
+        - "Adventskonzert 2016"
 media_order: 'happy christmas - war is over.pdf'
 ---
 

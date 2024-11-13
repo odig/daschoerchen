@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2015'
+        - 'Adventskonzert 2011'
 media_order: 'Adeste fideles.pdf'
 ---
 

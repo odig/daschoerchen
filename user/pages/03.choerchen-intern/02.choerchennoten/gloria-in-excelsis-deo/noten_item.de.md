@@ -7,6 +7,7 @@ taxonomy:
         - Weihnachten
         - 'Sommerkonzert 2015'
         - 'Sommerkonzert 2012'
+        - 'Weihnachtskonzert 2013'
 media_order: 'Gloria in excelsis Deo.pdf'
 ---
 

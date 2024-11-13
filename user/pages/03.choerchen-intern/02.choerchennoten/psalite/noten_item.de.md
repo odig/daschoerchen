@@ -4,10 +4,13 @@ taxonomy:
     category:
         - Noten
     tag:
-        - Weihnachten
-        - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2024'
+        - Weihnachten
         - 'Weihnachtskonzert 2015'
+        - 'Adventskonzert 2011'
+        - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2014'
+        - 'Adventsmarkt 2017'
 ---
 
 „Psallite“ stammt von Michael Praetorius aus dem Jahr 1609. Der lateinische Text bedeutet sinngemäß: „singt euere Psalmen für Christus, den Sohn Gottes; singt eure Psalmen für den Erlöser.“

@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2015'
+        - "Adventskonzert 2016"
 media_order: 'O little town of Bethlehem.pdf'
 ---
 

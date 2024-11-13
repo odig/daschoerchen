@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2013'
 media_order: 'O du froehliche.pdf'
 ---
 

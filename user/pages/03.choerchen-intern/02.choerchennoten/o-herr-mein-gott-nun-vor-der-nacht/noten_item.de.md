@@ -4,9 +4,10 @@ taxonomy:
     category:
         - Noten
     tag:
-        - 'Weihnachtskonzert 2018'
         - 'Weihnachtskonzert 2015'
         - 'Sommerkonzert 2012'
+        - 'Weihnachtskonzert 2018'
+        - 'Adventsmarkt 2017'
 media_order: 'O Herr mein Gott.pdf'
 ---
 

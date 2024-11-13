@@ -7,6 +7,8 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
         - 'Weihnachtskonzert 2018'
+        - 'Weihnachtskonzert 2016'
+        - "Adventskonzert 2016"
 ---
 
 The Shepherds sing - Die Hirten singen

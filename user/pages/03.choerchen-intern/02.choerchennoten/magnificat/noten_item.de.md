@@ -3,6 +3,8 @@ title: Magnificat
 taxonomy:
     category:
         - Noten
+    tag:
+        - 'Weihnachtskonzert 2013'
 media_order: Magnificat_mehrstimmig.pdf
 ---
 

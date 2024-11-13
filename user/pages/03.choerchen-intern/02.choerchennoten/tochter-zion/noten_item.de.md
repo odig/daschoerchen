@@ -6,8 +6,11 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
-        - 'Weihnachtskonzert 2019'
+        - 'Adventsmarkt 2017'
         - 'Weihnachtskonzert 2015'
+        - 'Weihnachtskonzert 2019'
+        - 'Weihnachtskonzert 2013'
+        - 'Weihnachtskonzert 2016'
 media_order: 'Tochter Zion.pdf'
 ---
 

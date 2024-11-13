@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Weihnachtskonzert 2013'
 media_order: 'Freu dich Erd und Sternenzelt.pdf'
 ---
 

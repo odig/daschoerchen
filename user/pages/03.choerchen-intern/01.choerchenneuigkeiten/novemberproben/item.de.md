@@ -20,10 +20,12 @@ summary:
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzert](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025)
 <br>
 
-Neue Noten:</br>
+Neue Noten und MP3:</br>
 * [<i class="fa fa-hand-o-right"></i> 3 Kön'ge (reduziert) ](/choerchen-intern/choerchennoten/drei-koenige-wandern#pdf)
 * [<i class="fa fa-hand-o-right"></i> Walk to Bethlehem (Chor Tablet Endlosversion) (08.11.24) ](/choerchen-intern/choerchennoten/walk-to-bethlehem#pdf)
 * [<i class="fa fa-hand-o-right"></i> Sussex Carol (Version fürs Tablet zum Durchblättern) (09.11.24) ](/choerchen-intern/choerchennoten/sussex-carol#pdf)
+* [<i class="fa fa-hand-o-right"></i> Der Morgenstern ist aufgedrungen (Partitur und MP3) (11.11.24) ](/choerchen-intern/choerchennoten/der-morgenstern-ist-aufgedrungen)
+* [<i class="fa fa-hand-o-right"></i> Mary, did you know (MP3) (11.11.24) ](/choerchen-intern/choerchennoten/mary_did_you_know)
 
 
 

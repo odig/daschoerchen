@@ -5,8 +5,11 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
-        - 'Weihnachtskonzert 2018'
         - 'Weihnachtskonzert 2015'
+        - 'Adventskonzert 2011'
+        - 'Weihnachtskonzert 2013'
+        - 'Weihnachtskonzert 2018'
+        - 'Adventsmarkt 2017'
 media_order: 'Away in a Manger.pdf'
 ---
 

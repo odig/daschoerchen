@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Erntedank
+        - "Adventskonzert 2016"
 media_order: 'The Lord bless you and keep you.pdf'
 ---
 

@@ -6,8 +6,9 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2017'
-        - 'Weihnachtskonzert 2025'
         - 'Weihnachtskonzert 2015'
+        - 'Weihnachtskonzert 2025'
+        - 'Weihnachtskonzert 2014'
 media_order: 'Shepherds run.pdf'
 ---
 

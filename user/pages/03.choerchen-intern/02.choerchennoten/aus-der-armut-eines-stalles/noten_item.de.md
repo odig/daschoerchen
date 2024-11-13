@@ -8,6 +8,7 @@ taxonomy:
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2024'
         - 'Weihnachtskonzert 2015'
+        - 'Weihnachtskonzert 2013'
 media_order: 'Aus der Armut eines Stalles.pdf'
 ---
 

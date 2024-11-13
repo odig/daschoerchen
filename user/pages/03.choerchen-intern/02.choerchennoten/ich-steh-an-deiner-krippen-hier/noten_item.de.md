@@ -7,8 +7,10 @@ taxonomy:
         - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2017'
-        - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2025'
+        - 'Weihnachtskonzert 2020'
+        - 'Weihnachtskonzert 2016'
+        - "Adventskonzert 2016"
 media_order: 'Ich steh an deiner Krippen hier.pdf'
 ---
 

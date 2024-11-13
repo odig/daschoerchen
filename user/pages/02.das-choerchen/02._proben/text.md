@@ -6,7 +6,8 @@ image_align: left
 
 ### Proben
 
-Geprobt wird jeden Freitag ab **19:30 Uhr**.
+Geprobt wird jeden Freitag ab **19:30 Uhr**. Nach Absprache werden gelegentlich die Freitagsproben durch etwas längere Proben am Sonnabend ersetzt.
+<br>Ab Februar 2025 werden die Proben zweimal pro Monat an Sonnabenden stattfinden.
 
 
 Probenort nach Absprache:

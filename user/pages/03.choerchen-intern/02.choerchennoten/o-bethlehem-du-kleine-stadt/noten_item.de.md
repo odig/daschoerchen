@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2015'
+        - 'Weihnachtskonzert 2013'
+        - 'Adventskonzert 2011'
 media_order: 'O Bethlehem du kleine Stadt.pdf'
 ---
 

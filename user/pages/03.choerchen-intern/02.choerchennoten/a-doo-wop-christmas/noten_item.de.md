@@ -4,9 +4,11 @@ taxonomy:
     category:
         - Noten
     tag:
+        - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2017'
-        - 'Weihnachtskonzert 2024'
+        - 'Adventsmarkt 2017'
+        - "Adventskonzert 2016"
 youtube:
     player_parameters:
         autoplay: 0

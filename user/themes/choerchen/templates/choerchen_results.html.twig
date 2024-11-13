@@ -54,6 +54,7 @@
 	<p>
 		{% if query %}
 			{% if query != 'Noten' %}
+
 				<small>
 					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
 						<i class="fa fa-print"></i>
@@ -62,6 +63,7 @@
 						<i class="fa fa-download"></i>
 						Download-Liste</a>
 				</small>
+
 			{% else %}
 				<small>
 					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste">

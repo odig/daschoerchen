@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2015'
+        - 'Adventskonzert 2011'
+        - 'Weihnachtskonzert 2014'
 media_order: 'In dulci jubilo.pdf'
 ---
 

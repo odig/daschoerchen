@@ -5,6 +5,7 @@ taxonomy:
         - Noten
     tag:
         - Weihnachten
+        - 'Adventskonzert 2011'
 media_order: 'Leuchte hell Weihnachtsstern.pdf'
 ---
 

@@ -4,12 +4,16 @@ taxonomy:
     category:
         - Noten
     tag:
+        - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2017'
+        - 'Adventsmarkt 2017'
+        - 'Weihnachtskonzert 2015'
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2018'
-        - 'Weihnachtskonzert 2024'
-        - 'Weihnachtskonzert 2015'
+        - 'Weihnachtskonzert 2014'
+        - 'Weihnachtskonzert 2016'
+        - "Adventskonzert 2016"
 media_order: 'Candellight carol.pdf'
 ---
 

@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - 'Weihnachtskonzert 2019'
         - Kanon
+        - Weihnachten
 ---
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
