@@ -9,7 +9,7 @@ summary:
 
 * ~~Freitag, 01.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * ~~Sonnabend, 09.11.24, von 10:00 bis 14:30 Uhr in Groß Kienitz~~ (vorbei)
-* Freitag, 15.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
+* ~~Freitag, 15.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * Freitag, 22.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
 * Freitag, 29.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
 
