@@ -1,6 +1,8 @@
 {% extends 'partials/simplesearch_base.html.twig' %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 {% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+{% set pagetags = page.taxonomy.tag %}
+{% set taxlist = children_only is defined ? taxonomylist.getChildPagesTags() : taxonomylist.get() %}
 
 
 {% block content %}
@@ -52,18 +54,35 @@
 		{% endif %}
 	</p>
 	<p>
+		{% set querytag = uri.extractParams(uri, ':')[1]['tag'] %}
+
 		{% if query %}
 			{% if query != 'Noten' %}
+				{% set queryistag = false %}
 
-				<small>
-					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
-						<i class="fa fa-print"></i>
-						Liste zum Drucken</a>&nbsp;&nbsp;
-					<a target="_blank" href="{{ base_url }}/choerchen-intern/notenliste?query={{ query }}">
-						<i class="fa fa-download"></i>
-						Download-Liste</a>
-				</small>
+				{% if taxlist %}
+					{% for tax,value in taxlist['tag'] %}
+						{% if querytag == tax %}
 
+							{% set queryistag = true %}
+						{% endif %}
+					{% endfor %}
+					{% else %}
+					<!-- no taglist -->
+				{% endif %}
+
+				{% if queryistag %}
+					<small>
+						<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste?query={{ query }}">
+							<i class="fa fa-print"></i>
+							Liste zum Drucken</a>&nbsp;&nbsp;
+						<a target="_blank" href="{{ base_url }}/choerchen-intern/notenliste?query={{ query }}">
+							<i class="fa fa-download"></i>
+							Download-Liste</a>
+
+
+					</small>
+				{% endif %}
 			{% else %}
 				<small>
 					<a target="_blank" href="{{ base_url }}/choerchen-intern/druckliste">
