@@ -12,6 +12,4 @@ published: true
 | :------------ | :------------ | 
 | 05.01.**2025** | Weihnachtskonzert - traditionell zum Ende der Weihnachtszeit | 
 | 22.06.**2025** | Jubiläumskonzert - 20 Jahre "Das Chörchen" | 
-| 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen |
-
 

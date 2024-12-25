@@ -10,8 +10,8 @@ summary:
 * ~~Freitag, 01.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * ~~Sonnabend, 09.11.24, von 10:00 bis 14:30 Uhr in Groß Kienitz~~ (vorbei)
 * ~~Freitag, 15.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
-* Freitag, 22.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
-* Freitag, 29.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf
+* ~~Freitag, 22.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
+* ~~Freitag, 29.11.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (fällt leider aus)
 
 
 
@@ -27,6 +27,7 @@ Neue Noten und MP3:</br>
 * [<i class="fa fa-hand-o-right"></i> Der Morgenstern ist aufgedrungen (Partitur und MP3) (11.11.24) ](/choerchen-intern/choerchennoten/der-morgenstern-ist-aufgedrungen)
 * [<i class="fa fa-hand-o-right"></i> Mary, did you know (MP3) (11.11.24) ](/choerchen-intern/choerchennoten/mary_did_you_know)
 * [<i class="fa fa-hand-o-right"></i> Ich steh an deiner Krippen hier (neues PDF) (14.11.24) ](/choerchen-intern/choerchennoten/ich-steh-an-deiner-krippen-hier#pdf)
+* [<i class="fa fa-hand-o-right"></i> Happy Christmas / So this is christmas (neues PDF) (21.11.24) ](/choerchen-intern/choerchennoten/happy-christmas-war-is-over#pdf)
 
 
 
@@ -54,8 +55,18 @@ Neue Noten und MP3:</br>
 *  [<i class="fa fa-hand-o-right"></i> Ich steh an deiner Krippen hier](/choerchen-intern/choerchennoten/ich-steh-an-deiner-krippen-hier)
 
 
+&nbsp;
 
 15.11.2024
 
 *  [<i class="fa fa-hand-o-right"></i> Who comes this night](/choerchen-intern/choerchennoten/who-comes-this-night)
 *  [<i class="fa fa-hand-o-right"></i> Shepherds run](/choerchen-intern/choerchennoten/shepherds-run)
+
+
+&nbsp;
+
+22.11.2024
+
+*  [<i class="fa fa-hand-o-right"></i> Shepherds run](/choerchen-intern/choerchennoten/shepherds-run)
+*  [<i class="fa fa-hand-o-right"></i> Mary did you know](/choerchen-intern/choerchennoten/mary_did_you_know)
+*  [<i class="fa fa-hand-o-right"></i> Walk to Bethlehem](/choerchen-intern/choerchennoten/walk-to-bethlehem)

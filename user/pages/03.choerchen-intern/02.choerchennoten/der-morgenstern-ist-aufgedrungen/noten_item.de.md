@@ -5,7 +5,6 @@ taxonomy:
         - Noten
     tag:
         - 'Weihnachtskonzert 2015'
-        - 'Weihnachtskonzert 2025'
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2013'
         - 'Weihnachtskonzert 2014'
