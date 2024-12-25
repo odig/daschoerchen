@@ -1,5 +1,5 @@
 ---
-title: Notenliste
+title: Notenliste mit Archiv
 onpage_menu: true
 content:
     items:
@@ -19,8 +19,6 @@ directorylisting:
     include_additional:
         - choerchen-intern/choerchen-noten
     exclude_additional:
-        - Archiv
-        - archiv
         - Ytlinks
         - ytlinks
 visible: true
