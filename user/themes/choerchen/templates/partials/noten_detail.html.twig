@@ -24,6 +24,38 @@
 		{% set taginstr=taginstr~', '~tag %}
 	{% endif %}
 {% endfor %}
+{% set tagjahr='' %}
+{% for tag in page.taxonomy.erstjahr %}
+	{% if tagjahr|trim is empty %}
+		{% set tagjahr=tag %}
+	{% else %}
+		{% set tagjahr=tagjahr~', '~tag %}
+	{% endif %}
+{% endfor %}
+{% set tagwordmusic='' %}
+{% for tag in page.taxonomy.wordmusic %}
+	{% if tagwordmusic|trim is empty %}
+
+		{% set tagwordmusic=tag %}
+
+	{% else %}
+		{% set tagwordmusic=tagwordmusic~', '~tag %}
+
+
+	{% endif %}
+{% endfor %}
+{% set tagarranged='' %}
+{% for tag in page.taxonomy.arranged %}
+	{% if tagarranged|trim is empty %}
+
+		{% set tagarranged=tag %}
+
+	{% else %}
+		{% set tagarranged=tagarranged~', '~tag %}
+
+
+	{% endif %}
+{% endfor %}
 
 
 <section class="container grid-lg">
@@ -32,32 +64,49 @@
 			<table id="tstableid{{ tabnr }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
 
 				<tbody aria-live="polite" aria-relevant="all">
+
 					{% if tagdir|trim is not empty %}
 
-						<tr role="row" class="tablesorter-headerRow" style="text-align:left"></tr>
-						<td style="text-align:left">Dirigat:&nbsp;&nbsp;</td>
+						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+							<td style="text-align:left">Dirigat:&nbsp;&nbsp;</td>
 
-						<td style="text-align:left">{{ tagdir }}</td>
-					</tbody>
+							<td style="text-align:left">{{ tagdir }}</td>
+						</tr>
+					{% endif %}
+					{% if taglang|trim is not empty %}
+
+						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+
+							<td style="text-align:left">Sprache&nbsp;&nbsp;</td>
+
+
+							<td style="text-align:left">{{ taglang }}</td>
+
+						</tr>
+					{% endif %}
+					{% if taginstr|trim is not empty %}
+
+						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+
+							<td style="text-align:left">Instrumente&nbsp;&nbsp;</td>
+
+							<td style="text-align:left">{{ taginstr }}</td>
+
+						</tr>
+					{% endif %}
+
+
 				</tbody>
-			</tr>
-		{% endif %}
-		{% if taglang|trim is not empty %}
-
-			<tr role="row" class="tablesorter-headerRow"></tr>
-			<td style="text-align:left">Sprache:&nbsp;&nbsp;</td>
-
-
-			<td style="text-align:left">{{ taglang }}</td>
-
-		</tbody>
-	</tr>
+			</table>
+		</br>&nbsp;</br>
+	{% if tagjahr|trim is not empty %}
+		Erscheinungsjahr:&nbsp;&nbsp;&nbsp;
+		{{ tagjahr }}
+	</br>
 {% endif %}
-{% if taginstr|trim is not empty %}
-
-	<tr role="row" class="tablesorter-headerRow"></tr>
-	<td style="text-align:left">Instrumente:&nbsp;&nbsp;</td>
-
-	<td style="text-align:left">{{ taginstr }}</td>
-
-</tbody></tr>{% endif %}</tbody></table></div></div></section>
+{% if tagwordmusic|trim is not empty %}
+	Worte & Musik:&nbsp;&nbsp;&nbsp;
+	{{ tagwordmusic }}
+</br>{% endif %}{% if tagarranged|trim is not empty %}
+Arrangement:&nbsp;&nbsp;&nbsp;
+{{ tagarranged }}</br>{% endif %}</div></div></section>

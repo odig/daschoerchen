@@ -14,3 +14,6 @@ media_order: Weihnachtskonzert2025_Flyer.pdf
 **Generalprobe**: 04.01.2025 ab 10 Uhr in der Dahlewitzer Kirche
 
 **Konzert**: 05.01.2025 ab 17 Uhr
+
+&nbsp;
+[<i class="fa fa-hand-o-right"></i><i class="fa fa-hand-o-right"></i><i class="fa fa-hand-o-right"></i> Siegmars Playlist (WhatsApp vom 24.12.2024)](https://m.youtube.com/playlist?list=PL8vb-u5JnozLejC1NS5HPzKsAquJgyRfM&si=6skGWyLUxNu6LL5E&target=_blank)

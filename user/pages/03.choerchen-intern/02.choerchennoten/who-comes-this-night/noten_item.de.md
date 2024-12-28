@@ -7,14 +7,26 @@ taxonomy:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2025'
+    dirigat:
+    sprache: Englisch
+    instrumente:
+    erstjahr: 1997
+    wordmusic: Sally Stevens / Dave Grusin
+    arranged: Sheldon Curry
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 media_order: 'Who comes this night.pdf'
 ---
 
-t: Sally Stevens
+Der Liedtext beschreibt die magische Atmosphäre um die Geburt Jesu.
+Wer kommt in dieser winterlichen Nacht zu der bescheidenen Krippe im Stall? Sowohl Hirten als auch Könige sind es. Wer dem Wunder dieser Nacht begegnen möchte, muss demütig wie ein Kind sein Herz öffnen und Liebe schenken.
+Im Gegensatz zu den meisten anderen Weihnachtsliedern tritt hier nicht Maria sondern Joseph in Erscheinung, der das Licht bzw. das Lamm Gottes bringt.
 
-m: Dave Grusin
-
-arr: Sheldon Curry
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 

@@ -9,10 +9,26 @@ taxonomy:
         - 'Weihnachtskonzert 2015'
         - 'Weihnachtskonzert 2025'
         - 'Weihnachtskonzert 2014'
+    dirigat:
+    sprache: Englisch
+    instrumente:
+    erstjahr: 2012
+    wordmusic: Markus Detterbeck
+    arranged:
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 media_order: 'Shepherds run.pdf'
 ---
 
-T. und M.: Markus Detterbeck
+Diesem schwungvollen Gospelsong hört man die Eile und die Freude der Hirten an, die zur Krippe in Bethlehem laufen. Der Wechselgesang zwischen dem Vorsänger und dem Chor und die eingestreuten "Gloria"-Rufe bringen nicht nur die Hirten in Bewegung.
+
+
+
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 

@@ -6,6 +6,12 @@ taxonomy:
     category:
         - DUMMY-CAT
     tag: [DUMMY-TAG]
+    dirigat:
+    sprache:
+    instrumente:
+    erstjahr:
+    wordmusic:
+    arranged:
 simple-responsive-tables:
     active: true
     themes: green

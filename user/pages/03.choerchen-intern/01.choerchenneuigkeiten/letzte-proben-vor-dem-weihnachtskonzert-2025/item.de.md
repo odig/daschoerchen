@@ -10,7 +10,7 @@ summary:
 * ~~Freitag, 06.12.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * ~~Sonnabend, 14.12.24, von 10:00 bis 14:30 Uhr in Groß Kienitz~~ (vorbei) 
 * ~~Freitag, 20.12.24, um 19:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
-* Freitag, 27.12.24, von 10:00 bis 13:00 Uhr im Pfarrhaus Diedersdorf
+* ~~Freitag, 27.12.24, von 10:00 bis 13:00 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 
 **Generalprobe**
 
@@ -19,7 +19,7 @@ summary:
 
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzertliederliste](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025) &nbsp;
 <small>(Gestrichen wurden am 14.12.24: Donkey Carol, Der Morgenstern, Sussex Carol)</small>&nbsp;</br>
-[<i class="fa fa-hand-o-right"></i> Weihnachtskonzertinformationen <small>(Flyer und mehr)</small>](/choerchen-intern/sonderseiten/weihnachtskonzert-2025)
+[<i class="fa fa-hand-o-right"></i> Weihnachtskonzertinformationen <small>(Flyer, Siegmars Playlist und mehr)</small>](/choerchen-intern/sonderseiten/weihnachtskonzert-2025)
 
 
 | Neu: |  
@@ -27,7 +27,7 @@ summary:
 | 12.12.2024 | [<i class="fa fa-hand-o-right"></i> SHEPHERDS RUN Tabletversion](/choerchen-intern/choerchennoten/shepherds-run/pdf/Shepherds-Run_Tabletversion-Partitur.pdf) | 
 | 12.12.2024 | [<i class="fa fa-hand-o-right"></i> SHEPHERDS RUN Tabletversion Stimmgruppen zusammengefasst](/choerchen-intern/choerchennoten/shepherds-run/pdf/SHEPHERDS-RUN_Tabletversion-Stimmgruppen-zusammengefasst-Partitur.pdf) | 
 | 17.12.2024 | [<i class="fa fa-hand-o-right"></i> SHEPHERDS RUN BASS Tabletversion](/choerchen-intern/choerchennoten/shepherds-run/pdf/Shepherds-Run_BASS_Tabletversion-Partitur.pdf) | 
-| 25.12.2024 | [<i class="fa fa-hand-o-right"></i> So this is Christmas Stimmverteilung](/choerchen-intern/choerchennoten/happy-christmas-war-is-over/pdf/So_this_is_Christmas.pdf) | 
+| 25.12.2024 | [<i class="fa fa-hand-o-right"></i> So this is Christmas - Stimmverteilung](/choerchen-intern/choerchennoten/happy-christmas-war-is-over/pdf/So_this_is_Christmas.pdf) | 
 <br/>
 &nbsp;
 

@@ -13,7 +13,7 @@ permissions:
     inherit: true
 ---
 
-Spanscher Villancico aus Cancionero de Upsala, Venedig 1556
+Spanischer Villancico aus Cancionero de Upsala, Venedig 1556
 
 Anonymus 16. Jhd, Mateo Flecha El Viejo (1481-1553), Arr: Paco Marmol & Manolo Casaus
 

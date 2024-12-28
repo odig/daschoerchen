@@ -7,13 +7,44 @@ taxonomy:
         - 'Weihnachtskonzert 2024'
         - Weihnachten
         - 'Weihnachtskonzert 2025'
+    sprache:
+        - Englisch
+    instrumente:
+        - Piano
+        - Flöte
+    erstjahr:
+        - 2009
+    dirigat:
+    wordmusic: 
+        - Graham Kendrick and Martin Chalk
+    arranged:
+        - Lloyd Larson
+
 permissions:
     inherit: true
 youtube:
     player_parameters:
         autoplay: 0
 countyoutube: 1
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 ---
+
+
+</br>
+„O come let us adore him“ - „Kommt und lasst uns ihn anbeten“: Ein Lobpreislied, das das Christkind willkommen heißt.
+</br>&nbsp;</br>
+Bibelstelle: 
+Psalm 95:6</br>
+Kommt, lasst uns anbeten und knien und niederfallen vor dem HERRN, der uns gemacht hat.
+
+
+
 
 [dir-gallery directory="mp3" image-size="35" style="mp3"]
 
