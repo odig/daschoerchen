@@ -62,8 +62,9 @@ dateformat: 'd-m-Y H:i'
 
 &nbsp;</br>
 
-Bis Ende Januar 2025 finden Freitags Proben statt, außer wenn am Sonnabend ein Probentag ist.
-</br>Ab Februar 2025 trifft sich das Chörchen nur noch an Probentagen.
+Im Januar 2025 gibt es keine Proben.
+</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
+
 
 
 ===
@@ -106,7 +107,7 @@ Infos und Termine
 
 &nbsp;</br>
 
-Bis Ende Januar 2025 finden Freitags Proben statt, außer wenn am Sonnabend ein Probentag ist.
-</br>Ab Februar 2025 trifft sich das Chörchen nur noch an Probentagen.
+Im Januar 2025 gibt es keine Proben.
+</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
 
 

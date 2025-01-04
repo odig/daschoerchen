@@ -11,7 +11,7 @@ taxonomy:
         - Englisch
     instrumente:
         - Piano
-        - Flöte
+        - Querflöte
     erstjahr:
         - 2009
     dirigat:

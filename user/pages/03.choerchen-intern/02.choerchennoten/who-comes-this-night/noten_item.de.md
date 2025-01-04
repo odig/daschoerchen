@@ -9,7 +9,7 @@ taxonomy:
         - 'Weihnachtskonzert 2025'
     dirigat:
     sprache: Englisch
-    instrumente:
+    instrumente: Piano
     erstjahr: 1997
     wordmusic: Sally Stevens / Dave Grusin
     arranged: Sheldon Curry

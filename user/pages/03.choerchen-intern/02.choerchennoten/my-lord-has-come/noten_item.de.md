@@ -6,7 +6,6 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2020'
-        - 'Weihnachtskonzert 2025'
     dirigat:
     sprache: Englisch
     instrumente:

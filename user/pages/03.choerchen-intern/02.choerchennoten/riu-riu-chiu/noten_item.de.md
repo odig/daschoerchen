@@ -9,8 +9,17 @@ taxonomy:
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2025'
+    sprache: Spanisch
+    intrumente: Piano
 permissions:
     inherit: true
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 ---
 
 Spanischer Villancico aus Cancionero de Upsala, Venedig 1556

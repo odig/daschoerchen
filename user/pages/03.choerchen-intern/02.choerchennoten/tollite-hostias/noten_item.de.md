@@ -11,7 +11,20 @@ taxonomy:
         - 'Weihnachtskonzert 2019'
         - 'Weihnachtskonzert 2016'
         - "Adventskonzert 2016"
+    dirigat: Jessi
+    sprache: Latein
+    instrumente: 'a capella'
+    erstjahr: 
+    wordmusic: 
+    arranged: 
 media_order: 'Tollite hostias.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 ---
 
 Tollite Hostias ist ein Satz aus dem 1858 entstandenen „Oratorio de Noël“, zu deutsch „Weihnachtsoratorium“ des damals 23-jährigen französischen Komponisten Camille Saint-Saëns.

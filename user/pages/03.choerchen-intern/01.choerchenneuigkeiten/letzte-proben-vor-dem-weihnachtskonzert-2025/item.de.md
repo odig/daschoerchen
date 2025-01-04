@@ -14,13 +14,26 @@ summary:
 
 **Generalprobe**
 
-* Sonnabend, 04.01.2025, ab 10 Uhr in der Dahlewitzer Dorfkirche
+* ~~Sonnabend, 04.01.2025, ab 10 Uhr in der Dahlewitzer Dorfkirche~~
+
+**Konzert am 05.01.2025 um 17 Uhr**
+!! Treffen um 15 Uhr!
+Kleidung: warm!!! und dunkel
+
 
 
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzertliederliste](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025) &nbsp;
-<small>(Gestrichen wurden am 14.12.24: Donkey Carol, Der Morgenstern, Sussex Carol)</small>&nbsp;</br>
+<small>(Gestrichen wurden am 14.12.24: Donkey Carol, Der Morgenstern, Sussex Carol); am 04.01.25: My Lord has come</small>&nbsp;</br>
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzertinformationen <small>(Flyer, Siegmars Playlist und mehr)</small>](/choerchen-intern/sonderseiten/weihnachtskonzert-2025)
+&nbsp;</br>
 
+[<i class="fa fa-hand-o-right"></i> Reihenfolge der Lieder im Konzert](/choerchen-intern/sonderseiten/weihnachtskonzert-2025#order)
+&nbsp;</br>
+[<i class="fa fa-hand-o-right"></i> Programmzettel](/choerchen-intern/sonderseiten/weihnachtskonzert-2025#program)
+&nbsp;</br>
+[<i class="fa fa-hand-o-right"></i> Ablauf](/choerchen-intern/sonderseiten/weihnachtskonzert-2025#ablauf)
+
+&nbsp;</br>&nbsp;</br>
 
 | Neu: |  
 | :------------ | :----------- | 

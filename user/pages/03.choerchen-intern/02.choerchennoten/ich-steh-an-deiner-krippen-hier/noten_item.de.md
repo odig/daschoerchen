@@ -11,7 +11,20 @@ taxonomy:
         - 'Weihnachtskonzert 2020'
         - 'Weihnachtskonzert 2016'
         - "Adventskonzert 2016"
+    dirigat:
+    sprache: Deutsch
+    instrumente: 'a capella'
+    erstjahr: 
+    wordmusic: 
+    arranged: 
 media_order: 'Ich steh an deiner Krippen hier.pdf'
+simple-responsive-tables:
+    active: true
+    themes: green
+tablesorter:
+    active: true
+    themes: green
+    table_nums: '1,2,3'
 ---
 
 _Alternativ: Ich stöhn und habe Grippe hier_

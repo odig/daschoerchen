@@ -10,7 +10,9 @@ taxonomy:
         - 'Weihnachtskonzert 2025'
     dirigat:
     sprache: Englisch
-    instrumente: Piano
+    instrumente: 
+        - Piano
+        - Sopransaxophon
     erstjahr:
     wordmusic: Isaac Watts / Lowell Mason
     arranged:

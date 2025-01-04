@@ -11,7 +11,7 @@ taxonomy:
         - 'Weihnachtskonzert 2014'
     dirigat:
     sprache: Englisch
-    instrumente:
+    instrumente: 'a capella'
     erstjahr: 2012
     wordmusic: Markus Detterbeck
     arranged:

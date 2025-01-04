@@ -8,7 +8,7 @@ taxonomy:
     tag:
         - Weihnachten
         - 'Weihnachtskonzert 2025'
-    dirigat:
+    dirigat: Jessi
     sprache: Englisch
     instrumente: Piano
     erstjahr: 1984
@@ -24,7 +24,7 @@ tablesorter:
 
 ---
 
-"Mary Did You Know" wurde 1984 von Mark Lowry geschrieben und komponiert. Der Liedtext stellt Maria, der Mutter Jesu, eine Reihe rhetorischer Fragen über die tiefgreifenden Auswirkungen, die ihr kleiner Junge auf die Welt haben würde. Hinterfragt wird Marias Bewusstsein und Verständnis für Jesu göttliche Mission.
+"Mary Did You Know" wurde 1984 von Mark Lowry geschrieben und komponiert. Maria wusste, dass sie ein besonderes Kind zur Welt bringen würde. Ahnte sie, dass ihr Sohn gekommen war, um die Menschheit zu retten, auch sie? Ahnte sie, dass ihr Kind in der Lage sein würde, zu heilen, Stürme zu beruhigen und auf dem Wasser zu gehen? War sich Maria bewusst, dass sie das Antlitz Gottes küsste, wenn sie ihr Kind im Arm hielt?
 
 
 

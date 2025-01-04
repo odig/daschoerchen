@@ -73,6 +73,9 @@
 			<h4 id='mp3' class="dir-gallery-mp3-title">
 				<i class="fa fa-file-audio-o"></i>MP3-Dateien
 			</h4>
+			&nbsp;<small>In einigen Browsern funktioniert das Abspielen der MP3 nicht richtig. In dem Fall bitte die Datei herunterladen (<i class="fa fa-download fa-lg" aria-hidden="true"></i>) und direkt öffnen.</small>
+
+
 			<div class="dir-gallery-tmp3-item {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
 				{%~ for image in gallery_images|sort %}
 
@@ -110,34 +113,29 @@
 				{% set ytlinkpath = 'ytlinks/' ~ image.filename %}
 
 				YouTube-Link: "https://www.youtube.com/embed/{{ ytlink }}"
-				</br>
-				{{ filecontent( ytlinkpath ) }}
+			</br>
+			{{ filecontent( ytlinkpath ) }}
 
-				<div class="grav-youtube">
-					<iframe src="https://www.youtube.com/embed/{{ ytlink }}" frameborder="0" allowfullscreen=""></iframe>
-				</div>
-
-				{%~ endfor %}
+			<div class="grav-youtube">
+				<iframe src="https://www.youtube.com/embed/{{ ytlink }}" frameborder="0" allowfullscreen=""></iframe>
 			</div>
+
+			{%~ endfor %}
 		</div>
-	{% endif %}
-
-{% elseif style == 'masonry' %}
-
-
-	<div class="dir-gallery-thumbnails-masonry {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
-		{%~ for image in gallery_images %}
-		{% set use_ahref = true %}
-		{% include 'partials/gallery-imagename.twig' %}
-		{%~ endfor %}
 	</div>
-{% else %}
+{% endif %}{% elseif style == 'masonry' %}
 
-	<div class="dir-gallery-thumbnails-grid {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
-		{%~ for image in gallery_images %}
-		{% set use_ahref = true %}
-		{% include 'partials/gallery-imagename.twig' %}
-		{%~ endfor %}
-	</div>
 
-{% endif %}
+<div class="dir-gallery-thumbnails-masonry {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
+	{%~ for image in gallery_images %}
+	{% set use_ahref = true %}
+	{% include 'partials/gallery-imagename.twig' %}
+	{%~ endfor %}
+</div>{% else %}
+
+<div class="dir-gallery-thumbnails-grid {% if align == 'right' %}dir-gallery-right{% endif %} {% if align == 'left' %}dir-gallery-left{% endif %}" style="width:{{ width }}%">
+	{%~ for image in gallery_images %}
+	{% set use_ahref = true %}
+	{% include 'partials/gallery-imagename.twig' %}
+	{%~ endfor %}
+</div>{% endif %}
