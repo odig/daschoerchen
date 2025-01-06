@@ -1,7 +1,7 @@
 ---
 title: 'Weihnachtskonzert 2025'
 published: true
-media_order: 'Weihnachtskonzert2025_Flyer.pdf,Weihnachtskonzert_20250105_Programmzettel.pdf,Weihnachtskonzert_20250105_Ablauf.pdf,Weihnachtskonzert_20250105_Ablauf.pdf'
+media_order: 'Weihnachtskonzert2025_Flyer.pdf,Weihnachtskonzert_20250105_Programmzettel.pdf,Weihnachtskonzert_20250105_Ablauf.pdf,Weihnachtskonzert_20250105_Programmzettel.pdf'
 ---
 
 [<i class="fa fa-hand-o-right"></i> Weihnachtskonzertliederliste](/choerchen-intern/choerchennoten/tag:Weihnachtskonzert%202025/query:Weihnachtskonzert%202025) 

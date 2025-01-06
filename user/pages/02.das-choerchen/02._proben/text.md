@@ -6,7 +6,7 @@ image_align: left
 
 ### Proben
 
-<br>Ab Februar 2025 werden die Proben Mittwochs sowie zweimal pro Monat an Sonnabenden stattfinden.
+<br>Ab Februar 2025 werden die Proben Mittwochs (nach Absprache) sowie zweimal pro Monat an Sonnabenden stattfinden.
 
 
 Probenort nach Absprache:

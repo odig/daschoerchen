@@ -1,4 +1,6 @@
-{% set tabnr=9 %}
+{% set tabnr1=9 %}
+{% set tabnr2=10 %}
+
 {% set tabcolor='green' %}
 {% set tagdir='' %}
 {% for tag in page.taxonomy.dirigat %}
@@ -61,14 +63,14 @@
 <section class="container grid-lg">
 	<div class='simple-responsive-table'>
 		<div>
-			<table id="tstableid{{ tabnr }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
+			<table id="tstableid{{ tabnr1 }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
 
 				<tbody aria-live="polite" aria-relevant="all">
 
 					{% if tagdir|trim is not empty %}
 
 						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
-							<td style="text-align:left">Dirigat:&nbsp;&nbsp;</td>
+							<td style="text-align:left" width='30%'>Dirigat:&nbsp;&nbsp;</td>
 
 							<td style="text-align:left">{{ tagdir }}</td>
 						</tr>
@@ -77,7 +79,7 @@
 
 						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
 
-							<td style="text-align:left">Sprache&nbsp;&nbsp;</td>
+							<td style="text-align:left" width='30%'>Sprache&nbsp;&nbsp;</td>
 
 
 							<td style="text-align:left">{{ taglang }}</td>
@@ -88,9 +90,11 @@
 
 						<tr role="row" class="tablesorter-headerRow" style="text-align:left">
 
-							<td style="text-align:left">Instrumente&nbsp;&nbsp;</td>
+							<td style="text-align:left" width='30%'>Instrumente&nbsp;&nbsp;</td>
+
 
 							<td style="text-align:left">{{ taginstr }}</td>
+
 
 						</tr>
 					{% endif %}
@@ -98,15 +102,54 @@
 
 				</tbody>
 			</table>
-		</br>&nbsp;</br>
-	{% if tagjahr|trim is not empty %}
-		Erscheinungsjahr:&nbsp;&nbsp;&nbsp;
-		{{ tagjahr }}
-	</br>
-{% endif %}
-{% if tagwordmusic|trim is not empty %}
-	Worte & Musik:&nbsp;&nbsp;&nbsp;
-	{{ tagwordmusic }}
-</br>{% endif %}{% if tagarranged|trim is not empty %}
-Arrangement:&nbsp;&nbsp;&nbsp;
-{{ tagarranged }}</br>{% endif %}</div></div></section>
+		</div>
+	</div>
+</br>&nbsp;</br><div class='simple-responsive-table'>
+<div>
+	<table id="tstableid{{ tabnr2 }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
+
+		<tbody aria-live="polite" aria-relevant="all">
+
+			{% if tagjahr|trim is not empty %}
+
+
+				<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+					<td style="text-align:left" width='30%'>Erscheinungsjahr:&nbsp;&nbsp;</td>
+
+
+					<td style="text-align:left">{{ tagjahr }}</td>
+
+
+				</tr>
+			{% endif %}
+			{% if tagwordmusic|trim is not empty %}
+
+
+				<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+
+					<td style="text-align:left" width='30%'>Worte & Musik&nbsp;&nbsp;</td>
+
+
+					<td style="text-align:left">{{ tagwordmusic }}</td>
+
+
+				</tr>
+			{% endif %}
+			{% if tagarranged|trim is not empty %}
+
+
+				<tr role="row" class="tablesorter-headerRow" style="text-align:left">
+
+					<td style="text-align:left" width='30%'>Arrangement&nbsp;&nbsp;</td>
+
+
+					<td style="text-align:left">{{ tagarranged }}</td>
+
+
+				</tr>
+			{% endif %}
+
+
+		</tbody>
+	</table>
+</div></div></section>

@@ -26,7 +26,7 @@ Birgit und Jessica
 
 | Vorname  | Nachname | Wohnort | Stimme |
 |---------|----------|
-| Anke | Voigt | Dahlewitz | Alt |
+| Anke | Voigt | Dahlewitz | Sopran |
 | Sabine | Simunovic | Diedersdorf | Alt |
 | Sabine | Kaiser-Schöck | Blankenfelde | Alt |
 | Margitta | Ketzer | Blankenfelde | Alt |

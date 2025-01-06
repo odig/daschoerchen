@@ -5,7 +5,7 @@
 {% set archivetype = page.header.archivetype %}
 {% if archivetype == 'news' %}
 	{% set datefield = page.header.archivedate|defined('date') %}
-	{% set diff = page.header.archivesched|defined('-30days') %}
+	{% set diff = page.header.archivesched|defined('-7days') %}
 	{% set activecoll = collection|filter(child => date(attribute(child.header, datefield)) >= date(diff)) %}
 	{% set archivecoll = collection|filter(child => date(attribute(child.header, datefield)) < date(diff)) %}
 	{% set archivecount = archivecoll|length -1 %}
@@ -15,7 +15,7 @@
 	{% endif %}
 {% elseif archivetype == 'archive' %}
 	{% set datefield = page.parent.header.archivedate|defined('date') %}
-	{% set diff = page.parent.header.archivesched|defined('-90days') %}
+	{% set diff = page.parent.header.archivesched|defined('-7days') %}
 	{% set archivecoll = collection|filter(child => date(attribute(child.header, datefield)) < date(diff)) %}
 	{% set archivecount = archivecoll|length -1 %}
 {% else %}

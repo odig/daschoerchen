@@ -71,12 +71,12 @@ Im Januar 2025 gibt es keine Proben.
 
 Infos und Termine
 
+Im Januar 2025 gibt es keine Proben.
+</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
+
+
 |   |   | 
 | :------------ | :------------ | 
-| 04.01.**2025** | Generalprobe ab 10 Uhr |
-| <hr> | <hr> |
-| 05.01.**2025** | Weihnachtskonzert | 
-| <hr> | <hr> |
 | 15.02.**2025** | Chörchenprobentag 10-14:30 |
 | <hr> | <hr> |
 | 22.02.**2025** | Chörchenprobentag 10-14:30 |
