@@ -24,7 +24,7 @@ permissions:
             update: false
             delete: false
 archivetype: news
-archivesched: '-30days'
+archivesched: '-7days'
 archivedate: eventdate
 dateformat: 'd-m-Y H:i'
 ---
