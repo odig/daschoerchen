@@ -13,6 +13,7 @@ taxonomy:
         - 'Erntedank 2024'
         - 'Sommerkonzert 2015'
         - 'Sommerkonzert 2012'
+        - 'Jubiläumskonzert 2025'
 media_order: 'Look at the world.pdf'
 ---
 
