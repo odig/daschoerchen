@@ -93,6 +93,11 @@ class iCalendarProcessor
             $this->config['icalendars'] = "";
         }
 
+        // if icalendar_recurrence isn't set, set it to a default
+        if ( ! key_exists('icalendar_recurrence', $this->config) ) {
+            $this->config['icalendar_recurrence'] = 0;
+        }
+
         // get the single iCalendar file(s) as array
         $ical_files = explode("\n", $this->config['icalendars']);
 
@@ -101,12 +106,12 @@ class iCalendarProcessor
             $ical_files,
             array(
                 'defaultSpan'                 => 2,     // Default value
-                'defaultTimeZone'             => 'UTC',
+//                'defaultTimeZone'             => 'Europe/Berlin',
                 'defaultWeekStart'            => 'MO',  // Default value
                 'disableCharacterReplacement' => false, // Default value
                 'filterDaysAfter'             => null,  // Default value
                 'filterDaysBefore'            => null,  // Default value
-                'skipRecurrence'              => false, // Default value
+                'skipRecurrence'              => $this->config['icalendar_recurrence'],
             )
         );
 
@@ -162,19 +167,107 @@ class iCalendarProcessor
      */
     private function create_page( $ical_path, $event, &$files )
     {
-        $file_name = '/event.md';
+        // we expect that summary is never empty
+        $slug = strtolower($event->summary_array[1]);
+
+        $description = array();
+        $file_names = array();
+        $location = array();
+        $summary = array();
+
+        // handle (multi-language) summary
+        if ( isset($event->summary_array) ) {
+            for ( $i = 0; $i < count($event->summary_array); $i += 2 ) {
+                $info = $event->summary_array[$i];
+
+                if ( $info != null && array_key_exists("LANGUAGE", $info)) {
+                    $lang = $info["LANGUAGE"];
+                    $file_names[$lang] = '/event.' . $lang . '.md';
+                    $summary[$lang] = $event->summary_array[$i+1];
+                }
+                else {
+                    $summary[""] = $event->summary;
+                }
+            }
+        }
+
+        // handle (multi-language) description
+        if ( isset($event->description_array) ) {
+            for ( $i = 0; $i < count($event->description_array); $i += 2 ) {
+                $info = $event->description_array[$i];
+
+                if ( $info != null && array_key_exists("LANGUAGE", $info)) {
+                    $lang = $info["LANGUAGE"];
+                    $file_names[$lang] = '/event.' . $lang . '.md';
+                    $description[$lang] = $event->description_array[$i+1];
+                }
+                else {
+                    $description[""] = $event->description;
+                }
+            }
+        }
+
+        // handle (multi-language) location
+        if ( isset($event->location_array) ) {
+            for ( $i = 0; $i < count($event->location_array); $i += 2 ) {
+                $info = $event->location_array[$i];
+
+                if ( $info != null && array_key_exists("LANGUAGE", $info)) {
+                    $lang = $info["LANGUAGE"];
+                    $file_names[$lang] = '/event.' . $lang . '.md';
+                    $location[$lang] = $event->location_array[$i+1];
+                }
+                else {
+                    $location[""] = $event->location;
+                }
+            }
+        }
+
+        // eventually set default file_name
+        if ( count($file_names) == 0 ) {
+            $file_names[""] = '/event.md';
+        }
 
         // get the event information
         $uid = $event->uid;
-        $summary = $event->summary;
-        $location = $event->location;
-        $description = $event->description;
-        $last_modified = strtotime($event->last_modified);
-        if ( isset($event->recurrence_id) ) {
-            $recurrence_id = strtotime($event->recurrence_id);
+
+        // get timezone of start date/time
+        $tz = null; // add failure tolerance
+        if ( isset($event->dtstart_array[0]["TZID"]) ) {
+            $tz = $event->dtstart_array[0]["TZID"];
         }
-        $start = strtotime($event->dtstart);
-        $end = strtotime($event->dtend);
+/*        // more sophisticated than simple $tz = null;
+        elseif ( isset($event->dtstart_array[0]["VALUE"]) ) {
+            if ( $event->dtstart_array[0]["VALUE"] == "DATE" ) {
+                $tz = null;
+            }
+        }*/
+
+        // get dates/times and eventually correct the timezone
+        if ( substr($event->last_modified, -1) == "Z" ) {
+            $last_modified = Carbon::parse($event->last_modified, "UTC");
+        }
+        else {
+            $last_modified = Carbon::parse($event->last_modified, $tz);
+        }
+
+        if ( substr($event->dtstart, -1) == "Z" ) {
+            $start = Carbon::parse($event->dtstart, "UTC");
+        }
+        else {
+            $start = Carbon::parse($event->dtstart, $tz);
+        }
+
+        if ( substr($event->dtend, -1) == "Z" ) {
+            $end = Carbon::parse($event->dtend, "UTC");
+        }
+        else {
+            $end = Carbon::parse($event->dtend, $tz);
+        }
+
+        if ( isset($event->recurrence_id) ) {
+            $recurrence_id = Carbon::parse($event->recurrence_id);
+        }
 
         // split if element exists
         $categories = array();
@@ -189,9 +282,8 @@ class iCalendarProcessor
         }
 
         // create path to destination folder
-        $year = date('Y', $start);
-        $moda = date('md', $start); // recurrences don't work atm, prefix the path with month & day
-        $slug = strtolower($summary);
+        $year = $start->format('Y');
+        $moda = $start->format('md'); // recurrences don't work atm, prefix the path with month & day
 
         // remove special characters from slug
         $search = array(" ", "&amp;", "ä", "ö", "ü", "ß");
@@ -210,148 +302,182 @@ class iCalendarProcessor
             mkdir($path, 0755, true);
         }
 
-        // append file name to path
-        $file = $path . $file_name;
+        foreach ($file_names as $lang => $file_name) {
+            // append file name to path
+            $file = $path . $file_name;
 
-        // if a file with this name already exists
-        if ( is_file($file) ) {
-            $file_time = filemtime($file);
+            // if a file with this name already exists
+            if ( is_file($file) ) {
+                $file_time = filemtime($file);
 
-            // get uid of existing file
-            $lines = file($file);
-            $file_uid = $lines[1];
-            $file_uid = str_replace("uid: '", "", $file_uid);
-            $file_uid = rtrim($file_uid, "'".PHP_EOL);
+                // get uid of existing file
+                $lines = file($file);
+                $file_uid = $lines[1];
+                $file_uid = str_replace("uid: '", "", $file_uid);
+                $file_uid = rtrim($file_uid, "'".PHP_EOL);
 
-            if ( $file_time === $last_modified
-              && $file_uid === $uid ) {
-                // leave if file exists and hasn't changed
-                return;
-            }
-
-            // handle events with the same slug => two events have the same title
-//             if ( $file_uid !== $uid ) {
-                // create token and append it to the slug
-                $token = substr(md5($uid . date('d-m-Y H:i', $start)), 0, 6);
-                $path = str_replace($slug, $slug . '-' . $token, $path);
-
-                // create folder and new filename
-                if ( ! is_dir($path) ) {
-                    mkdir($path, 0755, true);
+                if ( $file_time === $last_modified && $file_uid === $uid ) {
+                    // leave if file exists and hasn't changed
+                    return;
                 }
 
-                $file = $path . $file_name;
-//             }
-        }
+                // handle events with the same slug => two events have the same title
+//                if ( $file_uid !== $uid ) {
+                    // create token and append it to the slug
+                    $token = substr(md5($uid . $start->format('d-m-Y H:i')), 0, 6);
+                    $path = str_replace($slug, $slug . '-' . $token, $path);
 
-        // append file to the list of files
-        $files[$start . '__' . $uid] = $file;
+                    // create folder and new filename
+                    if ( ! is_dir($path) ) {
+                        mkdir($path, 0755, true);
+                    }
 
-        // handle recurrences
-//        if ( isset($recurrence_id) ) {
-//        }
-
-        // write new page:
-        // https://discourse.getgrav.org/t/creating-pages-dynamically-from-plugin/20223/3
-
-        // double ' to make it work as title
-        $title = str_replace("'", "''", $summary);
-
-        // prepare file content
-        $content  = "---".PHP_EOL;
-        $content .= "uid: '{$uid}'".PHP_EOL;
-        $content .= "title: '{$title}'".PHP_EOL;
-//        $content .= "subtitle: '" . date('d-m-Y H:i', $start) . "'".PHP_EOL;
-
-        if ( is_array($categories) ) {
-            $content .= "taxonomy:".PHP_EOL;
-            $content .= "    category:".PHP_EOL;
-            foreach ( $categories as $category ) {
-                $content .= "        - {$category}".PHP_EOL;
+                    $file = $path . $file_name;
+//                }
             }
-        }
 
-        $content .= "event:".PHP_EOL;
-        $content .= "    start: '" . date('d-m-Y H:i', $start) . "'".PHP_EOL;
-        $content .= "    end: '" . date('d-m-Y H:i', $end) . "'".PHP_EOL;
+            // append file to the list of files
+            $files[$start . '__' . $uid] = $file;
 
-/*        if ( is_array($rrule) ) {
-            foreach ( $rrule as $rule ) {
-                $rule = explode('=', $rule);
+            // handle recurrences
+//            if ( isset($recurrence_id) ) {
+//            }
 
-                switch ( $rule[0] ) {
-                    case "FREQ":
-                        $freq = "    freq: " . strtolower($rule[1]) .PHP_EOL;
-                        break;
+            // write new page:
+            // https://discourse.getgrav.org/t/creating-pages-dynamically-from-plugin/20223/3
 
-                    case "BYDAY":
-                        // replace iCal days with plugin days
-                        $search = array("MO", "TU", "WE", "TH", "FR", "SA", "SU");
-                        $replace = array("M", "T", "W", "R", "F", "S", "U");
-                        $days = str_replace($search, $replace, $rule[1]);
+            // prepare summary
+            if ( array_key_exists($lang, $summary) ) {
+                $summ = $summary[$lang];
+            }
+            elseif ( array_key_exists("", $summary) ) {
+                $summ = $summary[""];
+            }
 
-                        // remove commas
-                        $days = str_replace(',', '', $days);
-                        $repeat = "    repeat: {$days}".PHP_EOL;
+            // double ' to make it work as title
+            $title = str_replace("'", "''", $summ);
 
-                        // daily does not work with repeat so delete it
-                        if ( strpos($freq, "daily") !== false ) {
-                            $freq = "";
-                        }
-                        break;
+            // prepare file content
+            $content  = "---".PHP_EOL;
+            $content .= "uid: '{$uid}'".PHP_EOL;
+            $content .= "title: '{$title}'".PHP_EOL;
+//            $content .= "subtitle: '" . $start->format('d-m-Y H:i') . "'".PHP_EOL;
+
+            if ( is_array($categories) && count($categories) > 0 ) {
+                $content .= "taxonomy:".PHP_EOL;
+                $content .= "    category:".PHP_EOL;
+                foreach ( $categories as $category ) {
+                    $content .= "        - {$category}".PHP_EOL;
+                }
+            }
+
+            $content .= "event:".PHP_EOL;
+            $content .= "    start: '" . $start->format('d-m-Y H:i') . "'".PHP_EOL;
+            $content .= "    end: '" . $end->format('d-m-Y H:i') . "'".PHP_EOL;
+
+            if ( $this->config['icalendar_recurrence'] && is_array($rrule) ) {
+                $freq = "";
+                $repeat = "";
+                $until = "";
+
+                foreach ( $rrule as $rule ) {
+                    $rule = explode('=', $rule);
+
+                    switch ( $rule[0] ) {
+                        case "FREQ":
+                            $freq = "    freq: " . strtolower($rule[1]) .PHP_EOL;
+                            break;
+
+                        case "BYDAY":
+                            // replace iCal days with plugin days
+                            $search = array("MO", "TU", "WE", "TH", "FR", "SA", "SU");
+                            $replace = array("M", "T", "W", "R", "F", "S", "U");
+                            $days = str_replace($search, $replace, $rule[1]);
+
+                            // remove commas
+                            $days = str_replace(',', '', $days);
+                            $repeat = "    repeat: {$days}".PHP_EOL;
+                            break;
 /*
-                    // currently unsupported iCal rrules
-                    case "BYWEEKNO":
-                        break;
+                        // currently unsupported iCal rrules
+                        case "BYWEEKNO":
+                            break;
 
-                    case "BYMONTH":
-                        break;
+                        case "BYMONTH":
+                            break;
 
-                    case "BYMONTHDAY":
-                        break;
+                        case "BYMONTHDAY":
+                            break;
 
-                    case "BYYEARDAY":
-                        break;
+                        case "BYYEARDAY":
+                            break;
 
-                    case "BYSETPOS":
-                        break;
+                        case "BYSETPOS":
+                            break;
 
-                    case "COUNT":
-                        break;
+                        case "COUNT":
+                            break;
 
-                    case "INTERVAL":
-                        break;
+                        case "INTERVAL":
+                            break;
 
-                    case "WKST":
-                        break;
-* /
-                    case "UNTIL":
-                        $time = strtotime($rule[1]);
-                        $until = "    until: '" . date('d-m-Y', $time) . "'".PHP_EOL;
-                        break;
+                        case "WKST":
+                            break;
+*/
+                        case "UNTIL":
+                            $time = Carbon::parse($rule[1]);
+                            $time->setTimezone($tz);
+                            $until = "    until: '" . $time->format('d-m-Y H:i') . "'".PHP_EOL;
+                            break;
+                    }
                 }
+
+                $content .= $freq;
+                $content .= $repeat;
+                $content .= $until;
             }
 
-            $content .= $repeat;
-            $content .= $freq;
-            $content .= $until;
-        }*/
+            // prepare location
+            if ( array_key_exists($lang, $location) ) {
+                $loca = $location[$lang];
+            }
+            elseif ( array_key_exists("", $location) ) {
+                $loca = $location[""];
+            }
+            else {
+                $loca = null;
+            }
 
-        if ( isset($location) && $location !== "" ) {
-            $content .= "    location: '{$location}'".PHP_EOL;
+            if ( isset($loca) ) {
+                $content .= "    location: '{$loca}'".PHP_EOL;
+            }
+
+            $content .= "---".PHP_EOL;
+            $content .= "".PHP_EOL;
+
+            // prepare description
+            if ( array_key_exists($lang, $description) ) {
+                $desc = $description[$lang];
+            }
+            elseif ( array_key_exists("", $description) ) {
+                $desc = $description[""];
+            }
+            else {
+                $desc = null;
+            }
+
+            if ( isset($desc) ) {
+                $content .= "{$desc}".PHP_EOL;
+            }
+
+            // write content to file
+            $fp = fopen($file, 'w');
+            fwrite($fp, $content);
+            fclose($fp);
+
+            // set modification time
+            touch($file, $last_modified->unix());
+            touch($path, $last_modified->unix());
         }
-
-        $content .= "---".PHP_EOL;
-        $content .= "".PHP_EOL;
-        $content .= "{$description}".PHP_EOL;
-
-        // write content to file
-        $fp = fopen($file, 'w');
-        fwrite($fp, $content);
-        fclose($fp);
-
-        // set modification time
-        touch($file, $last_modified);
-        touch($path, $last_modified);
     }
 }

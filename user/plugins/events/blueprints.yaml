@@ -1,5 +1,5 @@
 name: Events
-version: 1.1.8
+version: 1.1.9
 description: "The **Events** plugin provides events for a Grav site using event frontmatter."
 icon: calendar
 author:
@@ -14,6 +14,7 @@ license: MIT
 
 dependencies:
   - datetools
+  - translate-date
 
 form:
   validation: loose
@@ -88,7 +89,7 @@ form:
               default: "/ical"
             icalendar_update:
               type: toggle
-              label: "Update virtual folder. Will be automatically reset after saving."
+              label: Update virtual folder. Will be automatically reset after saving.
               help: "'All' updates all events. 'New' creates events that don't exist, yet. 'None' saves the admin settings only."
               highlight: 1
               default: 0
@@ -108,6 +109,17 @@ form:
                 lineNumbers: true
                 styleActiveLine: true
               default: ""
+            icalendar_recurrence:
+              type: toggle
+              label: Recurrence handling
+              help: "'file' creates a dedicated event folder/file for each repeating/recurring event instance (on disk). 'virtual' creates one event folder/file and repeating/recurring events virtually (in RAM)."
+              highlight: 0
+              default: 0
+              options:
+                0: file
+                1: virtual
+              validate:
+                type: bool
 
             misc_section:
               type: section
@@ -127,7 +139,7 @@ form:
               type: text
               label: Google Maps API key
               help: API key for address translation. Google for 'maps api key' to learn how to get one.
-              default: "none"
+              default: none
 
         formatting:
           type: tab
