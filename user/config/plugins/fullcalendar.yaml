@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 showlegend: false
 weekNumbers: false
 cors_api_url: null

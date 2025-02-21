@@ -161,7 +161,7 @@ log:
     facility: local6
     tag: grav
 debugger:
-  enabled: true
+  enabled: false
   provider: clockwork
   censored: false
   shutdown:
@@ -191,7 +191,7 @@ media:
   unsupported_inline_types: null
   allowed_fallback_types: null
   auto_metadata_exif: false
-  upload_limit: 2097152
+  upload_limit: 4194304
 session:
   enabled: true
   initialize: true

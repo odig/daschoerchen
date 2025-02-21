@@ -1,52 +1,12 @@
 ---
-title: Admin
-metadata:
-    meta1: xcv
-content:
-    items:
-        '@taxonomy':
-            category:
-                - admin
-    limit: 20
-    pagination: true
-    sidebar: true
-    url_taxonomy_filters: true
-login:
-    visibility_requires_access: true
-access:
-    admin.super: true
+title: test2c
 permissions:
     inherit: true
-    authors:
-        - admin
-    groups:
-        Administratoren:
-            create: true
-            read: true
-            update: true
-            delete: true
-        Choerchenadmin:
-            delete: false
-            create: false
-            update: false
-            read: false
-admin: {  }
-cache_enable: false
-visible: true
-star-ratings:
-    star_size: 20
-    total_stars: 5
-dateformat: 'd-m-Y H:i'
+
 form:
     name: contact
 
     fields:
-        agree_to_terms:
-            type: checkbox
-            label: "Agree to the terms and conditions"
-            validate:
-            required: true
-            
         name:
           label: Name
           placeholder: Enter your name
@@ -96,8 +56,10 @@ form:
 
 ---
 
-Admin page
+
+!! agfdjaslbfdnsbfdsahfbdklasbfdafbdfn,basnfmdank klahds jknjkkljds jksdkljsakj kdkjsajkh skasad
+vsdfdsf
 
 ===
 
-ADMIN
+test2c

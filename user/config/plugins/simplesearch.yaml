@@ -10,7 +10,7 @@ search_content: rendered
 #  category:
 #    - Noten
 filters:
-    - @taxonomy: [tag]
+    - '@taxonomy': [tag]
 filter_combinator: and
 order:
   by: folder

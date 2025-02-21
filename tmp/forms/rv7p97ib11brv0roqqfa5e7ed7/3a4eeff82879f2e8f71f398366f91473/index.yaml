@@ -1,0 +1,31 @@
+form: flex-pages
+id: 'tmp://forms/session/3a4eeff82879f2e8f71f398366f91473'
+unique_id: 3a4eeff82879f2e8f71f398366f91473
+url: '/pages/test/:add'
+user:
+  username: admin
+  email: gido@ukuechler.de
+timestamps:
+  created: 1740154482
+  updated: 1740154482
+data: null
+files: {  }
+object:
+  type: pages
+  key: test
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META: {  }
+    storage_key: ''
+    parent_key: ''
+    order: '06.'
+    folder: test
+    template: default
+    lang: ''
+    root: false
+    route: /
+    name: default
+    header:
+      title: test
+    frontmatter: "title: test\n"
