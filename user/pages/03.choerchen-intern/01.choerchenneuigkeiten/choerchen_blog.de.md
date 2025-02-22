@@ -42,10 +42,6 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 04.01.**2025** | Generalprobe ab 10 Uhr | 
-| 05.01.**2025** | Weihnachtskonzert | 
-| Winterferien | 03.02.-07.02.2025 |
-| 15.02.**2025** | Chörchenprobentag 10-14:30 |
 | 22.02.**2025** | Chörchenprobentag 10-14:30 |
 | 08.03.**2025** | Chörchenprobentag 10-14:30 |
 | 22.03.2025 | Chörchenprobentag 10-14:30 |
@@ -77,8 +73,6 @@ Im Januar 2025 gibt es keine Proben.
 
 |   |   | 
 | :------------ | :------------ | 
-| 15.02.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
 | 22.02.**2025** | Chörchenprobentag 10-14:30 |
 | <hr> | <hr> |
 | 08.03.**2025** | Chörchenprobentag 10-14:30 |

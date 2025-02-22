@@ -8,7 +8,7 @@ content:
     limit: 6
     order:
         by: date
-        dir: desc
+        dir: asc
     pagination: true
     url_taxonomy_filters: false
 permissions:

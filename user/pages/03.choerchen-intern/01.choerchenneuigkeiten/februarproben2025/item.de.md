@@ -11,7 +11,7 @@ Es geht wieder los - volle Fahrt in Richtung Jubiläumskonzert :)
 
 * ~~Mittwoch, 12.02.25, von 19:00 bis 21:00 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
 * ~~Sonnabend, 15.02.25, von 10:00 bis 14:30 Uhr im Pfarrhaus Diedersdorf~~ (vorbei)
-* Sonnabend, 22.02.25, von 10:00 bis 14:30 Uhr in der Dahlewitzer Kirche
+* !!!! Sonnabend, 22.02.25, von 10:00 bis 14:30 Uhr <b>im Pfarrhaus Diedersdorf</b>
 * ~~Mittwoch, 26.02.25, von 19:00 bis 21:00 Uhr im Pfarrhaus Diedersdorf~~ (findet nicht statt)
 
 
