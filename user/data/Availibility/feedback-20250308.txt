@@ -1,0 +1,4 @@
+Gido: 3
+Margitta: 2
+Ulla: 3
+

@@ -1,4 +1,5 @@
-{{ 'feedback-' ~ form.page.header.checklabel ~ '.yaml' }}
+{% set thisname = ['feedback-', form.page.header.checklabel, '.txt']|join %}
+{{ thisname }}
 
 
 

@@ -1,0 +1,107 @@
+<article class="event-article">
+	<header class="event-header">
+		{% set image = page.media.images|first %}
+		{% if image != null %}
+			{{ image.cropZoom(960,280).html }}
+		{% endif %}
+	</header>
+
+	<section class="event">
+		<div
+			{% set end = "" %} {% if page.header.event.end %} {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %} {% endif %} {% set eventtime = page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end %} class="event-left-column">
+			{# date and time #}
+			<time class="event-datetime" datetime="{{ page.date|date("c") }}">
+
+				{% if single == true %}
+					{# individual content page #}
+					<h3><span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }},</span>
+					<span class="event-time">
+						{% set end = "" %}
+						{% if page.header.event.end %}
+							{% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %}
+						{% endif %}
+						{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
+					</span></h3>
+
+				{% else %}
+					{# main listing page #}
+					
+					<span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }}</span>
+					<span class="event-time">
+						{% set end = "" %}
+						{% if page.header.event.end %}
+							{% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %}
+						{% endif %}
+						{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
+					</span>
+				{% endif %}
+			</time>
+		</div>
+
+		<div
+			class="event-right-column">
+			{# date and time #}
+			{% if single == true %}
+				{# individual content page #}
+				<!--<h2 class="event-title">{{ page.title }}</h2>-->
+					<h3 class="event-title"> {{ page.header.event.topic[0] }}</h3>
+</br>
+				{% if (config.plugins.events.event_meta.display_location) and (page.header.event.location is not empty) %}
+					<h4 class="event-location">
+						<span class="location-pin"></span>
+						{{ page.header.event.location }}</h4>
+				{% endif %}
+				<div class="event-content">
+					<div>
+						{% if single == true %}
+							{{ page.content|raw }}
+							</br>
+							{# availibilty #}
+							{% include 'partials/choerchen_availibility_form.html.twig' %}
+						{% endif %}
+					</div>
+				</div>
+			{% else %}
+				{# main listing page #}
+				<h4 class="event-title">
+					<a href="{{ page.url }}">{{ page.header.event.topic[0] }}</a>
+				</h4>
+				{% if (config.plugins.events.event_meta.display_location) and (page.header.event.location is not empty) %}
+					<h5 class="event-location">
+						<span class="location-pin"></span>
+						{{ page.header.event.location }}</h5>
+				{% endif %}
+				<div class="event-summary">{{ page.summary(300)|raw }}
+					<span class="read-more">
+						<a href="{{ page.url }}">{{ "PLUGIN_EVENTS.EVENTS.MORE_INFORMATION"|t }}</a>
+					</span>
+				</div>
+			{% endif %}
+
+			{#{% if page.taxonomy.category and config.plugins.events.event_sidebar.enable_categories %}
+				<div class="event-categories">
+					<span class="event-tags">
+						{% for category in page.taxonomy.category %}
+							<a href="{{ event.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ category }}">{{ category }}</a>
+						{% endfor %}
+					</span>
+				</div>
+			{% endif %}#}
+		</div>
+
+	</section>
+	{% if single == true %}
+	<p class="prev-next text-center">
+		{% if not page.isLast %}
+			<a class="btn" href="{{ page.prevSibling.url }}">
+				<i class="fa fa-angle-left"></i>
+				{{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
+		{% endif %}
+		{% if not page.isFirst %}
+			<a class="btn" href="{{ page.nextSibling.url }}">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }}<i class="fa fa-angle-right"></i>
+			</a>
+		{% endif %}
+	</p>
+	{% endif %}
+</article>
+<article class="event-separator"></article>

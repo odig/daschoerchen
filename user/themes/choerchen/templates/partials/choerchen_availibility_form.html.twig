@@ -2,27 +2,28 @@
 	{# if not checklable: set from eventdate #}
 	{# loop choerlis #}
 	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
-{% set options = { 
-    items: {'@page.children': page.header.checklist}, 
-    order: {
-        custom: [
-            'page.header.people.voice'
-            ]
-        }
-    } 
-%}
 
-
-
+	{% set checkFileName = 'user-data://Availibility/feedback-' ~ form.page.header.checklabel ~ '.txt'|join %}
+	{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
 
 	{% set my_collection = page.collection(options) %}
 	{% set fieldset_array = [] %}
-		{% for p in my_collection %}
-		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, options:{2:'bin da',0:'bin nicht da',1:'weiß nicht'} }} %}
-	</br>
+		
+	{# loop collection #}
+	{% for p in my_collection %}
+		{# get last submitted value #}
+		{% set lastval = 0 %}
+		{% for key, value in submitted_data %}
+			{% if key == p.header.title %}
+				{% set lastval = value %}
+			{% endif %}
+		{% endfor %}
+
+		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, default:(lastval), options:{3:'Ich bin da.',1:'Ich bin nicht da.',2:'Ich weiß nicht...'} }} %}
 		{% set fieldset_array = fieldset_array|merge(newform) %}
 
 	{% endfor %}
+
 	{% set fieldset_merge = {fields:fieldset_array} %}
 	{{ dump(fieldset_merge) }}
 	{% set thisform = forms('Availibility') %}
@@ -30,4 +31,8 @@
 	{{ dump(form) }}
 	{#{{ nonce_field('form', 'form-nonce')|raw }}#}
 {% endif %}
+
+
 {% include 'forms/form.html.twig' with { form: thisform } %}
+
+

@@ -22,7 +22,7 @@ form:
         dynamic_fieldset:
             type: fieldset
             id: options
-            legend: 'Options'
+            legend: 'Wer ist da?'
             fields:
 
     buttons:
@@ -34,16 +34,10 @@ form:
         type: toggle
         label: PLUGIN_ADMIN.PROCESS
         help: PLUGIN_ADMIN.PROCESS_HELP
-        default:
-            markdown: true
-            twig: true
-        options:
-            markdown: Markdown
-            twig: Twig
         use: keys
         save:
-          filename: "{% include 'partials/forms/choerchen_filename.txt.twig' %}"
-          operation: add
+          filename: "feedback-{{ form.page.header.checklabel|e }}.txt"
+          operation: create
           body: "{% include 'partials/forms/choerchen_data.txt.twig' %}"
         message: Gespeichert!
 

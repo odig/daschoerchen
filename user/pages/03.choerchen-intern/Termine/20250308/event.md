@@ -1,5 +1,5 @@
 ---
-title: Sonnabend, 08.03.2025
+title: 'Sonnabend, 08.03.2025'
 cache_enable: false
 event:
     status: scheduled
@@ -10,48 +10,33 @@ event:
     topic:
         - Probentag
     location: 'Pfarrhaus Diedersdorf'
+    coordinates: '52.33936, 13.35644'
 permissions:
     inherit: true
-
 checkavailibility: true
 checklabel: '20250308'
-checklist: '/choerchen-intern/choerchenmitglieder'
-
-
+checklist: /choerchen-intern/choerchenmitglieder
 form:
     name: Availibility
     fields:
         dynamic_fieldset:
             type: fieldset
             id: options
-            legend: 'Options'
-            fields:
-
+            legend: 'Wer ist da?'
+            fields: null
     buttons:
         submit:
-          type: submit
-          value: Speichern
-
+            type: submit
+            value: Speichern
     process:
         type: toggle
         label: PLUGIN_ADMIN.PROCESS
         help: PLUGIN_ADMIN.PROCESS_HELP
-        default:
-            markdown: true
-            twig: true
-        options:
-            markdown: Markdown
-            twig: Twig
         use: keys
         save:
-          filename: "{% include 'partials/forms/choerchen_filename.txt.twig' %}"
-          operation: add
-          body: "{% include 'partials/forms/choerchen_data.txt.twig' %}"
+            filename: 'feedback-{{ form.page.header.checklabel|e }}.txt'
+            operation: create
+            body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!
-
-
-
 ---
-
-Probentag am 08.03.2025
 
