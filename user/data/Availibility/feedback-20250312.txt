@@ -1,4 +1,4 @@
 Gido: 2
 Margitta: 2
-Ulla: 1
+Ulla: 3
 

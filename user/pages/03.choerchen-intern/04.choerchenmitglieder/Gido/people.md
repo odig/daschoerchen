@@ -5,6 +5,7 @@ people:
     firstname: 'Gido'
     surname: 'Küchler'
     location: 'Diedersdorf'
+    active: true
 
 permissions:
     inherit: true

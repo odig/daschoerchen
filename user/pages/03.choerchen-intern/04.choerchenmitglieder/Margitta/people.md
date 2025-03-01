@@ -1,7 +1,7 @@
 ---
 title: Margitta
 people:
-    voice: ALT
+    voice: ALT2
     firstname: 'Margitta'
     surname: 'Ketzer'
     location: 'Blankenfelde'

@@ -1,7 +1,7 @@
 ---
 title: Ulla
 people:
-    voice: ALT
+    voice: ALT2
     firstname: 'Ulla'
     surname: 'Küchler'
     location: 'Diedersdorf'
