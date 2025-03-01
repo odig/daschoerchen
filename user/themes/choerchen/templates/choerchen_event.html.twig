@@ -1,0 +1,22 @@
+{% extends 'partials/base.html.twig' %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+{% set show_sidebar = header_var('show_sidebar', [page, blog])|defined(false)  %}
+
+
+{% block content %}
+
+{{ page.content|raw }}
+
+{#{% include 'forms/form.html.twig' %}#}</br>TEST</br>{% if page.header.checkavailibility == true %}{# if not checklable: set from eventdate #}{# loop choerlis #}{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'people.header.voice', 'dir': 'asc'}, 'pagination': false } %}{% set my_collection = page.collection(options) %}{% set fieldset_array = [] %}
+{% for p in my_collection %}
+
+
+{#{% set newform = { (p.header.title) : {type :'text', label:p.header.title }} %}#}{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, options:{1:'bin da',0:'bin nicht da',2:'weiß nicht'} }} %}</br>Name={{p.header.title}}{% set fieldset_array = fieldset_array|merge(newform) %}{% endfor %}{% set fieldset_merge = {fields:fieldset_array} %}{{ dump(fieldset_merge) }}{#
+								{% set form = form|merge({
+										fields : form.fields|merge({
+											dynamic_fieldset : form.fields.dynamic_fieldset|merge(fieldset_merge)
+										})
+									})%}
+								#}{% set foo = form.setFields(form.fields|merge({
+	dynamic_fieldset : form.fields.dynamic_fieldset|merge(fieldset_merge)
+}))%}{{ dump(form) }}{% endif %}{{ page.content }}{% include 'forms/form.html.twig' %}{% endblock %}

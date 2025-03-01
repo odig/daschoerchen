@@ -5,28 +5,19 @@ cache_enable: false
 content:
     items:
         - '@self.children'
-    limit: 6
+    limit: 100
     order:
         by: date
         dir: asc
     pagination: true
     url_taxonomy_filters: false
 permissions:
-    groups:
-        Administratoren:
-            create: true
-            read: true
-            update: true
-            delete: true
-        Choerchenadmin:
-            create: false
-            read: true
-            update: false
-            delete: false
+    inherit: true
+
 archivetype: news
 archivesched: '-7days'
 archivedate: eventdate
-dateformat: 'd-m-Y H:i'
+
 ---
 
 <span class="h1">Das Chörchen</span> <sub>Diedersdorf / Dahlewitz</sub>

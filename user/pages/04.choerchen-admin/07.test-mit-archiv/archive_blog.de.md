@@ -1,8 +1,10 @@
 ---
 title: 'Test mit Archiv'
+body_classes: 'title-center title-h1h2'
+cache_enable: false
 content:
     items:
-        - '@self.children'
+        - '@page.children': /home
     limit: 5
     order:
         by: date
@@ -14,7 +16,7 @@ login:
 permissions:
     inherit: true
 archivetype: 'news'
-archivesched: '-1days'
+archivesched: '-7days'
 archivedate: 'eventdate'
 ---
 

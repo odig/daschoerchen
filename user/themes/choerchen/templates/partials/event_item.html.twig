@@ -11,6 +11,7 @@
 			{% set end = "" %} {% if page.header.event.end %} {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %} {% endif %} {% set eventtime = page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end %} class="event-left-column">
 			{# date and time #}
 			<time class="event-datetime" datetime="{{ page.date|date("c") }}">
+
 				{% if single == true %}
 					{# individual content page #}
 					<span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }},</span>
@@ -20,7 +21,6 @@
 							{% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %}
 						{% endif %}
 						{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
-
 
 					</span>
 
@@ -35,14 +35,14 @@
 						{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
 					</span>
 					<!--
-																																																		<span class="event-day">{{ page.header.event.start|td(null, config.plugins.events.event_item.day) }}</span>
-																																													
-																																																		<span class="event-month">{{ page.header.event.start|td(null, config.plugins.events.event_item.month) }}</span>
-																																													
-																																																		<span class="event-time">
-																																																			{{ page.header.event.start|td(null, config.plugins.events.event_item.time) }}{{ " - " }}{{ page.header.event.end|td(null, config.plugins.events.event_item.time) }}
-																																																		</span>
-																																													-->
+																																																																																																																																																																																																																																																																																																																																																																													<span class="event-day">{{ page.header.event.start|td(null, config.plugins.events.event_item.day) }}</span>
+																																																																																																																																																																																																																																																																																																																																																																								
+																																																																																																																																																																																																																																																																																																																																																																													<span class="event-month">{{ page.header.event.start|td(null, config.plugins.events.event_item.month) }}</span>
+																																																																																																																																																																																																																																																																																																																																																																								
+																																																																																																																																																																																																																																																																																																																																																																													<span class="event-time">
+																																																																																																																																																																																																																																																																																																																																																																														{{ page.header.event.start|td(null, config.plugins.events.event_item.time) }}{{ " - " }}{{ page.header.event.end|td(null, config.plugins.events.event_item.time) }}
+																																																																																																																																																																																																																																																																																																																																																																													</span>
+																																																																																																																																																																																																																																																																																																																																																																								-->
 				{% endif %}
 			</time>
 		</div>
@@ -60,10 +60,24 @@
 						<span class="location-pin"></span>
 						{{ page.header.event.location }}</h3>
 				{% endif %}
-				<div class="event-content">{{ page.content|raw }}</div>
-				{% include 'partials/event_meta.html.twig' with { 'page': page } %}
+				<div class="event-content">
+					<div>
+						{% if single == true %}
+							{{ page.content|raw }}
+
+							{# availibilty #}
+							{% include 'partials/choerchen_availibility_form.html.twig' %}
+
+						{% endif %}
+					</div>
+
+
+				</div>
+
+				{#{% include 'partials/event_meta.html.twig' with { 'page': page } %}#}
 				<p>
-					{% include "forms/form.html.twig" %}
+					{#{% include "forms/form.html.twig" %}#}
+
 
 				</p>
 
@@ -95,6 +109,18 @@
 				</div>
 			{% endif %}
 		</div>
+
 	</section>
+	<p class="prev-next text-center">
+		{% if not page.isLast %}
+			<a class="btn" href="{{ page.prevSibling.url }}">
+				<i class="fa fa-angle-left"></i>
+				{{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
+		{% endif %}
+		{% if not page.isFirst %}
+			<a class="btn" href="{{ page.nextSibling.url }}">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }}<i class="fa fa-angle-right"></i>
+			</a>
+		{% endif %}
+	</p>
 </article>
 <article class="event-separator"></article>

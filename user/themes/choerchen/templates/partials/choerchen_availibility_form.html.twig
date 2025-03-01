@@ -1,0 +1,33 @@
+{% if page.header.checkavailibility == true %}
+	{# if not checklable: set from eventdate #}
+	{# loop choerlis #}
+	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
+{% set options = { 
+    items: {'@page.children': page.header.checklist}, 
+    order: {
+        custom: [
+            'page.header.people.voice'
+            ]
+        }
+    } 
+%}
+
+
+
+
+	{% set my_collection = page.collection(options) %}
+	{% set fieldset_array = [] %}
+		{% for p in my_collection %}
+		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, options:{2:'bin da',0:'bin nicht da',1:'weiß nicht'} }} %}
+	</br>
+		{% set fieldset_array = fieldset_array|merge(newform) %}
+
+	{% endfor %}
+	{% set fieldset_merge = {fields:fieldset_array} %}
+	{{ dump(fieldset_merge) }}
+	{% set thisform = forms('Availibility') %}
+	{% set foo = thisform.setFields(form.fields|merge({dynamic_fieldset : form.fields.dynamic_fieldset|merge(fieldset_merge)}))%}
+	{{ dump(form) }}
+	{#{{ nonce_field('form', 'form-nonce')|raw }}#}
+{% endif %}
+{% include 'forms/form.html.twig' with { form: thisform } %}

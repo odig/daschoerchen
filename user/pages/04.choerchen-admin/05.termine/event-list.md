@@ -1,10 +1,14 @@
 ---
 title: 'Termine'
 content:
-    items: '@self.children'
+    items:
+        - '@page.children': /choerchen-intern/termine
+    dateRange:
+        start: today
+        end: 4/20/2025
     order:
         by: date
-        dir: desc
+        dir: asc
 permissions:
     inherit: true
 taxonomy:

@@ -40,7 +40,7 @@ Choerchenadmin:
       cache: false
       configuration: false
       pages:
-        create: false
+        create: true
         read: true
         update: true
         delete: false

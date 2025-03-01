@@ -10,7 +10,13 @@ avatar: {  }
 hashed_password: $2y$10$DgUgIEAzVCbfcPqD./Pw0.bOv3QN631yeyGg0yYjM4XphhxfDEBHC
 groups:
   - Choerchenadmin
-  - Administratoren
 access:
   site:
     login: true
+  admin:
+    pages:
+      create: true
+      read: true
+      update: true
+      delete: false
+      list: true

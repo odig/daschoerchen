@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+	<ul>
+		<li>Stimme:
+			{{ page.header.people.voice }}</li>
+		<li>Vorname:
+			{{ page.header.people.firstname }}</li>
+
+		<li>Nachname:
+			{{ page.header.people.surname }}</li>
+
+		<li>Ort:{{ page.header.people.location }}</li>
+
+	</li>
+</ul>
+
+{{ page.content|raw }}{% endblock %}

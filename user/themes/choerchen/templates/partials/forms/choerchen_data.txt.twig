@@ -1,0 +1,34 @@
+{%- macro render_field(form, fields, scope, context) %}
+{%- import _self as self %}
+{%- for index, field in fields %}
+	{%- set show_field = attribute(field, "input@") ?? field.store ?? true %}
+	{%- if field.fields %}
+		{%- set new_scope = field.nest_id ? scope ~ field.name ~ '.' : scope -%}
+		{{- self.render_field(form, field.fields, new_scope) }}
+	{%- else %}
+		{%- if show_field %}
+			{%- set value = form.value(scope ~ (field.name ?? index)) -%}
+			{%- if value -%}
+				{{- field.label|t|e }}: {{ string(value is iterable ? value|json_encode : value) ~ "\n" }}
+			{%- endif -%}
+		{%- endif %}
+	{%- endif %}
+{%- endfor %}
+
+{%- set options = { items: {'@page.children': form.page.header.checklist}, 'order': {'by': 'people.header.voice', 'dir': 'asc'}, 'pagination': false } -%}
+{%- set my_collection = form.page.collection(options) -%}
+
+{%- for p in my_collection -%}
+	{%- set value = form.value(scope ~ (p.header.title ?? index)) -%}
+	{%- if value -%}
+		{{- p.header.title|t|e }}: {{ string(value is iterable ? value|json_encode : value) ~ "\n" -}}
+	{%- endif -%}
+{%- endfor %}
+
+
+{%- endmacro %}
+{%- import _self as macro %}
+{%- autoescape false %}
+{{- macro.render_field(form, form.fields, '', _context) ~ "\n" }}
+
+{%- endautoescape %}

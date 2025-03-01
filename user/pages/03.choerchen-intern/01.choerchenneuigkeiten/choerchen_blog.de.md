@@ -42,7 +42,6 @@ dateformat: 'd-m-Y H:i'
 
 |   |   | 
 | :------------ | :------------ | 
-| 22.02.**2025** | Chörchenprobentag 10-14:30 |
 | 08.03.**2025** | Chörchenprobentag 10-14:30 |
 | 22.03.2025 | Chörchenprobentag 10-14:30 |
 | 05.04.**2025** | Chörchenprobentag 10-14:30 |
@@ -58,7 +57,6 @@ dateformat: 'd-m-Y H:i'
 
 &nbsp;</br>
 
-Im Januar 2025 gibt es keine Proben.
 </br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
 
 
@@ -67,14 +65,11 @@ Im Januar 2025 gibt es keine Proben.
 
 Infos und Termine
 
-Im Januar 2025 gibt es keine Proben.
 </br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
 
 
 |   |   | 
 | :------------ | :------------ | 
-| 22.02.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
 | 08.03.**2025** | Chörchenprobentag 10-14:30 |
 | <hr> | <hr> |
 | 22.03.2025 | Chörchenprobentag 10-14:30 |
@@ -101,7 +96,6 @@ Im Januar 2025 gibt es keine Proben.
 
 &nbsp;</br>
 
-Im Januar 2025 gibt es keine Proben.
 </br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
 
 
