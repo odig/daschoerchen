@@ -4,7 +4,9 @@
 	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
 
 	{% set checkFileName = 'user-data://Availibility/feedback-' ~ form.page.header.checklabel ~ '.txt'|join %}
-	{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
+	{% if file_exists(checkFileName) %}
+		{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
+	{% endif %}
 
 	{% set my_collection = page.collection(options) %}
 	{% set fieldset_array = [] %}
