@@ -4,7 +4,13 @@ onpage_menu: true
 content:
     items:
         - '@self.children'
-    limit: 30
+    dateRange:
+        start: today
+        end: 4/20/2026
+    order:
+        by: date
+        dir: asc
+    limit: 90
     order:
         by: event.start
         dir: asc
