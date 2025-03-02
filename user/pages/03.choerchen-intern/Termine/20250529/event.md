@@ -1,20 +1,19 @@
 ---
-title: 'Probentag am 08.03.2025'
-cache_enable: false
+title: 'Chorfahrt vom 29.05. bis 01.06.2025'
 event:
     status: scheduled
-    start: '08-03-2025 10:00'
-    end: '08-03-2025 14:30'
-    ticket_show: hidden
+    start: '29-05-2025 15:00'
+    end: '01-06-2025 12:00'
+    ticket_show: price
     freq: none
     topic:
-        - Probentag
-    location: 'Pfarrhaus Diedersdorf'
-    coordinates: '52.33936, 13.35644'
+        - Chorfahrt
+    location: 'Skaterhotel Petkus'
+    ticket_price: '150 pro Person'
 permissions:
     inherit: true
 checkavailibility: true
-checklabel: '20250308'
+checklabel: '20250529'
 checklist: /choerchen-intern/choerchenmitglieder
 form:
     name: Availibility

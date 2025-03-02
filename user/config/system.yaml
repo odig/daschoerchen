@@ -1,5 +1,6 @@
 absolute_urls: false
 timezone: Europe/Berlin
+default_locale: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
@@ -26,6 +27,7 @@ languages:
   session_store_active: false
   http_accept_language: false
   override_locale: false
+  content_fallback: {  }
   pages_fallback_only: false
   debug: false
 home:
@@ -191,7 +193,7 @@ media:
   unsupported_inline_types: null
   allowed_fallback_types: null
   auto_metadata_exif: false
-  upload_limit: 4194304
+  upload_limit: 2097152
 session:
   enabled: true
   initialize: true
@@ -206,7 +208,7 @@ session:
   domain: null
   path: null
 gpm:
-  releases: stable
+  releases: testing
   official_gpm_only: true
   verify_peer: true
 http:

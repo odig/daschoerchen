@@ -1,5 +1,5 @@
 ---
-title: Mittwoch, 05.03.2025
+title: Probe am 05.03.2025
 event:
     status: scheduled
     start: '05-03-2025 19:00'

@@ -15,7 +15,7 @@ login:
     visibility_requires_access: true
 permissions:
     inherit: true
-cache_enable: true
+cache_enable: false
 published: false
 routable: true
 taxonomy:

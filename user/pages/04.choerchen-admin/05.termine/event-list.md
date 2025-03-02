@@ -5,7 +5,7 @@ content:
         - '@page.children': /choerchen-intern/termine
     dateRange:
         start: today
-        end: 4/20/2025
+        end: 4/20/2026
     order:
         by: date
         dir: asc

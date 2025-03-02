@@ -19,6 +19,7 @@
                 {% endif %}
                 {{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
             </span>-->
+            <h4><span class="event-title">{{ page.header.title }}</span></h4>
 
         {% else %} {# main listing page #}
             <span class="event-day">{{ page.header.event.start|td(null, config.plugins.events.event_item.day) }}.</span>
@@ -37,11 +38,12 @@
             <span class="event-time">
                 {% set end = "" %}
                 {% if page.header.event.end %}
-                    {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) %}
+                {# TODO: check if day of start and end are the same #}
+                    {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) ~ 'Uhr' %}
                 {% endif %}
-                </br>{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end ~ 'Uhr'}}
+                </br>{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
             </span></h4>
-            <h4 class="event-title">{{ page.header.event.topic[0] }}</h4>
+            </br>
             {% if (config.plugins.events.event_meta.display_location) and (page.header.event.location is not empty) %}
             <h7 class="event-location"><span class="location-pin"></span>{{ page.header.event.location }}</h7>
             {% endif %}
@@ -52,7 +54,7 @@
             {#% include 'partials/event_meta.html.twig' with { 'page': page } %#}
 
         {% else %} {# main listing page #}
-            <h3 class="event-title"><a href="{{ page.url }}">{{ page.header.event.topic[0] }}</a></h3></br>
+            <h3 class="event-title"><a href="{{ page.url }}">{{ page.header.title }}</a></h3></br>
             {% if (config.plugins.events.event_meta.display_location) and (page.header.event.location is not empty) %}
             <h5 class="event-location"><span class="location-pin"></span>{{ page.header.event.location }}</h5>
             {% endif %}

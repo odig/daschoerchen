@@ -1,5 +1,5 @@
 ---
-title: Sonnabend, 22.03.2025
+title: Probentag am 22.03.2025
 event:
     status: scheduled
     start: '22-03-2025 10:00'

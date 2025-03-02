@@ -1,4 +1,5 @@
-Gido: 2
+Gido: 1
 Margitta: 2
-Ulla: 3
+Sabine-S: 1
+Ulla: 1
 
