@@ -16,7 +16,7 @@ login:
 permissions:
     inherit: true
 cache_enable: false
-published: false
+published: true
 routable: true
 taxonomy:
     category:

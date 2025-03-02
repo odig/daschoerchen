@@ -34,15 +34,26 @@
 
         <div class="event-right-column"> {# date and time #}
         {% if single == true %} {# individual content page #}
-            <h4><span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }}</span>
-            <span class="event-time">
+            {% if page.header.event.start|td(null, config.plugins.events.event_item.day) == page.header.event.end|td(null, config.plugins.events.event_item.day) %}
+
+                <h5><span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }}</span>
+                <span class="event-time">
                 {% set end = "" %}
                 {% if page.header.event.end %}
-                {# TODO: check if day of start and end are the same #}
-                    {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) ~ 'Uhr' %}
+                         {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) ~ ' Uhr' %}
                 {% endif %}
                 </br>{{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
-            </span></h4>
+            </span></h5>
+            {% else %}
+                {% if page.header.event.start %}
+                    {% set start = page.header.event.start|td(null, config.plugins.events.event_item.date) ~ ' ' ~  page.header.event.start|td(null, config.plugins.events.event_item.time) ~ ' Uhr' %}
+                {% endif %}
+                {% if page.header.event.end %}
+                    {% set end = ' - ' ~ page.header.event.end|td(null, config.plugins.events.event_item.date) ~ ' ' ~  page.header.event.end|td(null, config.plugins.events.event_item.time) ~ ' Uhr' %}
+                {% endif %}
+                <h5><span class="event-time">{{ start }}</span><br>
+                <span class="event-time">{{ end }}</span></h5>
+            {% endif %}
             </br>
             {% if (config.plugins.events.event_meta.display_location) and (page.header.event.location is not empty) %}
             <h7 class="event-location"><span class="location-pin"></span>{{ page.header.event.location }}</h7>
@@ -76,14 +87,14 @@
     </section>
     {% if single == true %}
 	<p class="prev-next text-center">
+		{% if not page.isFirst %}
+			<a class="btn" href="{{ page.nextSibling.url }}">{{ 'THEME_QUARK.BLOG.EVENT.PREV_POST'|t }}<i class="fa fa-angle-left"></i>
+			</a>
+		{% endif %}
 		{% if not page.isLast %}
 			<a class="btn" href="{{ page.prevSibling.url }}">
-				<i class="fa fa-angle-left"></i>
-				{{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
-		{% endif %}
-		{% if not page.isFirst %}
-			<a class="btn" href="{{ page.nextSibling.url }}">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }}<i class="fa fa-angle-right"></i>
-			</a>
+				<i class="fa fa-angle-right"></i>
+				{{ 'THEME_QUARK.BLOG.EVENT.NEXT_POST'|t }}</a>
 		{% endif %}
 	</p>
 	{% endif %}
