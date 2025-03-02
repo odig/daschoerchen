@@ -13,9 +13,12 @@ event:
     coordinates: '52.33936, 13.35644'
 permissions:
     inherit: true
+cache_enable: false
+
 checkavailibility: true
 checklabel: '20250308'
 checklist: /choerchen-intern/choerchenmitglieder
+
 form:
     name: Availibility
     fields:

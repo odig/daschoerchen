@@ -14,6 +14,7 @@ permissions:
 checkavailibility: true
 checklabel: '20250524'
 checklist: /choerchen-intern/choerchenmitglieder
+cache_enable: false
 form:
     name: Test
     fields:
@@ -25,7 +26,7 @@ form:
     buttons:
         submit:
             type: submit
-            value: Speichern
+            value: 'Änderungen speichern'
     process:
         type: toggle
         label: PLUGIN_ADMIN.PROCESS
@@ -39,3 +40,4 @@ form:
 published: true
 ---
 
+Das ist ein TEst

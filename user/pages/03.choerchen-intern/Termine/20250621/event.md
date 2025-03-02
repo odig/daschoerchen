@@ -11,6 +11,8 @@ event:
     location: 'Pfarrhaus Diedersdorf'
 permissions:
     inherit: true
+cache_enable: false
+
 checkavailibility: true
 checklabel: '20250621'
 checklist: /choerchen-intern/choerchenmitglieder

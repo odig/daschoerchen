@@ -12,6 +12,8 @@ event:
     ticket_price: '150 pro Person'
 permissions:
     inherit: true
+cache_enable: false
+
 checkavailibility: true
 checklabel: '20250529'
 checklist: /choerchen-intern/choerchenmitglieder
