@@ -2,7 +2,8 @@
 title: 'Termine'
 content:
     items:
-        - '@page.children': /choerchen-intern/termine
+        #- '@page.children': /choerchen-intern/termine
+        - '@self.children'
     dateRange:
         start: today
         end: 4/20/2026
