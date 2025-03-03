@@ -1,2 +1,4 @@
+Ines: 3
+Ruth: 3
 Ulla: 3
 

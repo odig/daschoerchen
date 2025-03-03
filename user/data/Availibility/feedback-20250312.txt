@@ -1,5 +1,7 @@
 Gido: 1
+Ines: 3
 Margitta: 2
+Ruth: 3
 Sabine-S: 1
 Ulla: 1
 

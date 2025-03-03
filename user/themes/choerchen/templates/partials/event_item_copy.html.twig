@@ -19,7 +19,7 @@
                 {% endif %}
                 {{ page.header.event.start|td(null, config.plugins.events.event_item.time) ~ end }}
             </span>-->
-            <h4><span class="event-title">{{ page.header.title }}</span></h4>
+            <h4><span class="event-title">XX{{ page.header.title }}</span></h4>
 
         {% else %} {# main listing page #}
             <span class="event-day">{{ page.header.event.start|td(null, config.plugins.events.event_item.day) }}.</span>
@@ -70,7 +70,8 @@
             <div class="event-content">{{ page.content|raw }}</div>
             </br>
             {# availibilty #}
-            {% include 'partials/choerchen_availibility_form.html.twig' %}
+            TODO
+            {% include 'partials/choerchen_availibility_form_copy.html.twig' %}
             {#% include 'partials/event_meta.html.twig' with { 'page': page } %#}
 
         {% else %} {# main listing page #}

@@ -1,3 +1,5 @@
+Ines: 1
 Margitta: 1
-Ulla: 3
+Ruth: 3
+Ulla: 1
 

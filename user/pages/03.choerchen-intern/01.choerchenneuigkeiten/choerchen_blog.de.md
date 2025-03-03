@@ -40,24 +40,10 @@ dateformat: 'd-m-Y H:i'
 
 <span class="h2">Chörchenneuigkeiten</span> <sub>Infos und Termine</sub>
 
-|   |   | 
-| :------------ | :------------ | 
-| 08.03.**2025** | Chörchenprobentag 10-14:30 |
-| 22.03.2025 | Chörchenprobentag 10-14:30 |
-| 05.04.**2025** | Chörchenprobentag 10-14:30 |
-| 12.04.**2025** | Chörchenprobentag 10-14:30 |
-| 26.04.**2025** | Chörchenprobentag 10-14:30 |
-| 10.05.**2025** | Chörchenprobentag 10-14:30 |
-| 24.05.**2025** | Chörchenprobentag 10-14:30 |
-| 29.05. - 01.06.**2025** | Chörchenfahrt (?) | 
-| 14.06.**2025** | Chörchenprobentag 10-14:30 |
-| 21.06.**2025** | Generalprobe |
-| 22.06.**2025** | Jubiläumskonzert | 
-| 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen (?) |
+[<i class="fa fa-hand-o-right"></i> <b>Alle Termine</b>](/choerchen-intern/termine)
 
-&nbsp;</br>
 
-</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
+</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs (nach Absprache).
 
 
 
@@ -65,37 +51,9 @@ dateformat: 'd-m-Y H:i'
 
 Infos und Termine
 
-</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
+[<i class="fa fa-hand-o-right"></i> Alle Termine](/choerchen-intern/termine)
 
 
-|   |   | 
-| :------------ | :------------ | 
-| 08.03.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 22.03.2025 | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 05.04.**2025** | Chörchenprobentag 10-14:30  (?) |
-| <hr> | <hr> |
-| 12.04.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 26.04.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 10.05.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 24.05.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 29.05. - 01.06.**2025** | Chörchenfahrt | 
-| <hr> | <hr> |
-| 14.06.**2025** | Chörchenprobentag 10-14:30 |
-| <hr> | <hr> |
-| 21.06.**2025** | Generalprobe |
-| <hr> | <hr> |
-| 22.06.**2025** | Jubiläumskonzert | 
-| <hr> | <hr> |
-| 13.07.**2025** | Teilnahme am Open-Air-Gottesdienst im Pfarrgarten, anschl. Offenes Singen  (?) |
-
-&nbsp;</br>
-
-</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs.
+</br>Ab Februar 2025 trifft sich das Chörchen an Probentagen und Mittwochs (nach Absprache).
 
 

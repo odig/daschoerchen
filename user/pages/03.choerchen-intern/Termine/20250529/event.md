@@ -8,7 +8,7 @@ event:
     freq: none
     topic:
         - Chorfahrt
-    location: 'Skaterhotel Petkus'
+    location: 'Skatehotel Petkus'
     ticket_price: '150 pro Person'
 permissions:
     inherit: true
@@ -41,3 +41,14 @@ form:
         message: Gespeichert!
 ---
 
+===
+
+Skatehotel Petkus</br>
+Gutshaus Petkus GmbH</br>
+Merzdorfer Str. 36</br>
+15837 Baruth/Mark – OT Petkus</br>
+ </br>
+Tel.: 033745 70870</br>
+Fax: 033745 70871</br>
+E-Mail: mail@skatehotel.de</br>
+[https://www.skatehotel.de](https://www.skatehotel.de?target=_blank)</br>

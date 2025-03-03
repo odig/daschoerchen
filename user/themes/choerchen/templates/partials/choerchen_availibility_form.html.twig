@@ -21,6 +21,8 @@
 			{% endif %}
 		{% endfor %}
 
+	
+
 		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, default:(lastval), options:{3:'Ich bin da.',1:'Ich bin nicht da.',2:'Ich weiß nicht...'} }} %}
 		{% set fieldset_array = fieldset_array|merge(newform) %}
 

@@ -1,0 +1,102 @@
+{% if page.header.checkavailibility == true %}
+	{# if not checklable: set from eventdate #}
+	{# loop choerlis #}
+	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
+
+	{% set checkFileName = 'user-data://Availibility/feedback-' ~ form.page.folder ~ '.txt'|join %}
+	{% if file_exists(checkFileName) %}
+		{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
+	{% endif %}
+
+	{% set ALT1_1 = 0 %}
+	{% set ALT1_2 = 0 %}
+	{% set ALT1_3 = 0 %}
+	{% set ALT2_1 = 0 %}
+	{% set ALT2_2 = 0 %}
+	{% set ALT2_3 = 0 %}
+	{% set SOPR_1 = 0 %}
+	{% set SOPR_2 = 0 %}
+	{% set SOPR_3 = 0 %}
+	{% set TENO_1 = 0 %}
+	{% set TENO_2 = 0 %}
+	{% set TENO_3 = 0 %}
+	{% set BASS_1 = 0 %}
+	{% set BASS_2 = 0 %}
+	{% set BASS_3 = 0 %}
+
+
+	{% set my_collection = page.collection(options) %}
+		
+	{# loop collection #}
+	{% for p in my_collection %}
+		{# get last submitted value #}
+		{% set lastval = 0 %}
+		{% for key, value in submitted_data %}
+			{% if key == p.header.title %}
+				{% set lastval = value %}
+				<!-- value = {{ value }} -->
+				<!-- voice = {{ p.header.people.voice }} -->
+				{% if p.header.people.voice == "ALT1" %}
+					{% if value == 1 %}
+						{% set ALT1_1 = ALT1_1 + 1 %}
+					{% elseif value == 2 %}
+						{% set ALT1_2 = ALT1_2 + 1 %}
+					{% else %}
+						{% set ALT1_3 = ALT1_3 + 1 %}
+					{% endif %}
+				{% elseif p.header.people.voice == "ALT2" %}
+					{% if value == 1 %}
+						{% set ALT2_1 = ALT2_1 + 1 %}
+					{% elseif value == 2 %}
+						{% set ALT2_2 = ALT2_2 + 1 %}
+					{% elseif value == 3 %}
+						{% set ALT2_3 = ALT2_3 + 1 %}
+					{% endif %}
+				{% elseif p.header.people.voice == "SOPRAN" %}
+					{% if value == 1 %}
+						{% set SOPR_1 = SOPR_1 + 1 %}
+					{% elseif value == 2 %}
+						{% set SOPR_2 = SOPR_2 + 1 %}
+					{% elseif value == 3 %}
+						{% set SOPR_3 = SOPR_3 + 1 %}
+					{% endif %}
+				{% elseif p.header.people.voice == "TENOR" %}
+					{% if value == 1 %}
+						{% set TENO_1 = TENO_1 + 1 %}
+					{% elseif value == 2 %}
+						{% set TENO_2 = TENO_2 + 1 %}
+					{% elseif value == 3 %}
+						{% set TENO_3 = TENO_3 + 1 %}
+					{% endif %}
+				{% elseif p.header.people.voice == "BASS" %}
+					{% if value == 1 %}
+						{% set BASS_1 = BASS_1 + 1 %}
+					{% elseif value == 2 %}
+						{% set BASS_2 = BASS_2 + 1 %}
+					{% elseif value == 3 %}
+						{% set BASS_3 = BASS_3 + 1 %}
+					{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+
+	{% endfor %}
+
+<!-- ALT2_1 = {{ ALT2_1 }} -->
+<!-- ALT2_2 = {{ ALT2_2 }} -->
+<!-- ALT2_3 = {{ ALT2_3 }} -->
+
+</br>
+	{% markdown %}
+		|  | Sopran | Alt-1 | Alt-2 | Tenor | Bass |
+		|:----|:--:|:--:|:--:|:--:|:--:|
+		| da | {{ SOPR_3 }} | {{ ALT1_3 }} | {{ ALT2_3 }} | {{ TENO_3 }} | {{ BASS_3 }} |
+		| weiß nicht | {{ SOPR_2 }} | {{ ALT1_2 }} | {{ ALT2_2 }} | {{ TENO_2 }} | {{ BASS_2 }} |
+		| nicht da | {{ SOPR_1 }} | {{ ALT1_1 }} | {{ ALT2_1 }} | {{ TENO_1 }} | {{ BASS_1 }} |
+		{% endmarkdown %}
+
+
+{% endif %}
+
+
+

@@ -13,6 +13,13 @@ permissions:
     inherit: true
 cache_enable: false
 
+simple-responsive-tables:
+    active: true
+tablesorter:
+    table_nums: '1'
+    active: true
+    themes: green
+
 checkavailibility: true
 checklabel: '20250622'
 checklist: /choerchen-intern/choerchenmitglieder
@@ -34,7 +41,7 @@ form:
         help: PLUGIN_ADMIN.PROCESS_HELP
         use: keys
         save:
-            filename: 'feedback-{{ form.page.header.checklabel|e }}.txt'
+            filename: 'feedback-{{ form.page.folder|e }}.txt'
             operation: create
             body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!
