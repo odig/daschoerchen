@@ -13,11 +13,18 @@ permissions:
     inherit: true
 
 form:
-    dynamic_fieldset:
+    A1:
         type: fieldset
         id: options
         legend: 'Options'
         fields:
+            name:
+            label: Name
+            placeholder: Enter your name
+            autocomplete: on
+            type: text
+            validate:
+                required: true
 
 
     process:

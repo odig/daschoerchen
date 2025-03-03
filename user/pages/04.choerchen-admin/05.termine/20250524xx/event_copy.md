@@ -1,5 +1,5 @@
 ---
-title: 'Probentag am 24.05.2025'
+title: 'Probentag xxx 24.05.2025'
 event:
     status: scheduled
     start: '24-05-2025 10:00'
@@ -12,7 +12,7 @@ event:
 permissions:
     inherit: true
 checkavailibility: true
-checklabel: '20250524'
+checklabel: '20250524xx'
 checklist: /choerchen-intern/choerchenmitglieder
 cache_enable: false
 form:
@@ -33,7 +33,7 @@ form:
         help: PLUGIN_ADMIN.PROCESS_HELP
         use: keys
         save:
-            filename: 'feedback-{{ form.page.header.checklabel|e }}.txt'
+            filename: 'feedback-{{ form.page.folder|e }}.txt'
             operation: create
             body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!

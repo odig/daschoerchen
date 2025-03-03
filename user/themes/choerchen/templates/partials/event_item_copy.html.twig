@@ -44,6 +44,7 @@
 
                     <h5><span class="event-date">{{ page.header.event.start|td(null, config.plugins.events.event_item.date) }}</span>
                     <span class="event-time">
+                  
                     {% set end = "" %}
                     {% if page.header.event.end %}
                             {% set end = " - " ~ page.header.event.end|td(null, config.plugins.events.event_item.time) ~ ' Uhr' %}

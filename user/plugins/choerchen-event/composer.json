@@ -1,0 +1,24 @@
+{
+  "name": "ulla-kuechler/choerchen-event",
+  "type": "grav-plugin",
+  "description": "Extension of Events for Choerchen",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/ulla-kuechler/grav-plugin-choerchen-event",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ulla Kuechler",
+      "email": "info@daschoerchen.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\ChoerchenEvent\\": "classes/"
+    },
+    "classmap":  ["choerchen-event.php"]
+  }
+}

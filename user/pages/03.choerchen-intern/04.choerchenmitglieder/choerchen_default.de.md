@@ -33,6 +33,7 @@ Birgit und Jessica
 | Ulla | Küchler | Diedersdorf | Alt |
 | Margret | Felser | Blankenfelde | Alt |
 | Gido | Küchler | Diedersdorf | Bass |
+| Gudrun | | Großbeeren | Sopran |
 | Sven | Herrmann | Berlin | Bass |
 | Stefan | Voigt | Dahlewitz | Bass |
 | Ruth | Gdanietz | Diedersdorf | Sopran |

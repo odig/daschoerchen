@@ -8,7 +8,7 @@ event:
     freq: none
     topic:
         - Probentag
-    location: 'Pfarrhaus Diedersdorf'
+    location: ''
 permissions:
     inherit: true
 cache_enable: false
