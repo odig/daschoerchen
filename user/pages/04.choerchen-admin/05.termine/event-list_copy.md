@@ -6,7 +6,8 @@ content:
         #- '@self.children'
     dateRange:
         start: today
-        end: 4/20/2026
+        #end: 'next week'
+        end: 'next month'
     order:
         by: date
         dir: asc
@@ -23,3 +24,7 @@ tablesorter:
 ---
 
 Termine
+
+| t1 | t2 |
+|---|----|
+| a | b |

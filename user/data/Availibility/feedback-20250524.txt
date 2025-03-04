@@ -1,2 +1,4 @@
+Margret: 1
+Sabine-K: 3
 Ulla: 3
 

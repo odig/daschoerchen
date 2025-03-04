@@ -1,5 +1,7 @@
 Ines: 1
 Margitta: 1
+Margret: 1
 Ruth: 3
-Ulla: 1
+Sabine-K: 3
+Ulla: 3
 

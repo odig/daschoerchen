@@ -1,6 +1,9 @@
 Gido: 1
 Ines: 3
+Kerstin: 3
 Margitta: 3
+Margret: 3
 Ruth: 3
+Sabine-K: 3
 Ulla: 1
 

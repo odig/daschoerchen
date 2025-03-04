@@ -1,5 +1,5 @@
 {% if page.header.checkavailibility == true %}
-	{# if not checklable: set from eventdate #}
+	
 	{# loop choerlis #}
 	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
 
@@ -90,9 +90,9 @@
 	{% markdown %}
 		|  | Sopran | Alt-1 | Alt-2 | Tenor | Bass |
 		|:----|:--:|:--:|:--:|:--:|:--:|
-		| da | {{ SOPR_3 }} | {{ ALT1_3 }} | {{ ALT2_3 }} | {{ TENO_3 }} | {{ BASS_3 }} |
+		| **da** | {{ SOPR_3 }} | {{ ALT1_3 }} | {{ ALT2_3 }} | {{ TENO_3 }} | {{ BASS_3 }} |
+		| **nicht da** | {{ SOPR_1 }} | {{ ALT1_1 }} | {{ ALT2_1 }} | {{ TENO_1 }} | {{ BASS_1 }} |
 		| weiß nicht | {{ SOPR_2 }} | {{ ALT1_2 }} | {{ ALT2_2 }} | {{ TENO_2 }} | {{ BASS_2 }} |
-		| nicht da | {{ SOPR_1 }} | {{ ALT1_1 }} | {{ ALT2_1 }} | {{ TENO_1 }} | {{ BASS_1 }} |
 		{% endmarkdown %}
 
 
