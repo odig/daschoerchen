@@ -4,86 +4,20 @@
 {% set show_pagination = header_var('show_pagination', [page, events])|defined(false) %}
 {% set show_sidebar = header_var('show_sidebar', [page, events])|defined(false)  %}
 
-{% macro availlist(collection) %}
-		{% markdown %}
-		| BEGINN |  | Ende |  | Titel | Location |
-		|---------|----------|---------|----------|---------|----------|
-		{% for p in collection %}
-			{% set title = p.title|split(' ')[0] %}
-			{% set start = p.header.event.start|td(null, config.plugins.events.event_item.date) ~ ' | ' ~ p.header.event.start|td(null, config.plugins.events.event_item.time) %}
-			{% set end = p.header.event.end|td(null, config.plugins.events.event_item.date) ~ ' | ' ~ p.header.event.end|td(null, config.plugins.events.event_item.time) %}
-			{% set txt = '| ' ~ start ~ '| ' ~ end  ~ '| **' ~ title ~ '** | ' ~ p.header.event.location ~ ' |' %}
-			{{ txt }}
-		{% endfor %}
-		
-		{% endmarkdown %}
-
-{% endmacro %}
 
 {% block content  %}
 	{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
 		{% include 'partials/breadcrumbs.html.twig' %}
 	{% endif %}
 
-	{% include 'partials/choerchen_available.txt.twig' %}
+	{#% include 'partials/choerchen_events.txt.twig' %#}
 
 	{{ page.content|raw }}
 
-
-	<div>
-		{% markdown %}
-		| Beginn |  | Ende |  | Titel | Location |
-		|---------|----------|---------|----------|---------|----------|
-		{% for p in collection %}
-			{% set title = p.title|split(' ')[0] %}
-			{% set start = p.header.event.start|td(null, config.plugins.events.event_item.date) ~ ' | ' ~ p.header.event.start|td(null, config.plugins.events.event_item.time) %}
-			{% set end = p.header.event.end|td(null, config.plugins.events.event_item.date) ~ ' | ' ~ p.header.event.end|td(null, config.plugins.events.event_item.time) %}
-			{% set txt = '| ' ~ start ~ '| ' ~ end  ~ '| **' ~ title ~ '** | ' ~ p.header.event.location ~ ' |' %}
-			{{ txt }}
-		{% endfor %}
-		{% endmarkdown %}
-
-	<div class='simple-responsive-table'>
-		<div>
-			<table id="tstableid{{ tabnr }}" class="tablesorter tablesorter-{{ tabcolor }}" role="grid">
-
-				<thead>
-					<tr role="row" class="tablesorter-headerRow">
-						<th data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="Titel: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
-							<div class="tablesorter-header-inner">Titel</div>
-						</th>
-						<th data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="b: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
-							<div class="tablesorter-header-inner">Bewertung</div>
-						</th>
-						<th data-column="2" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tstableid1" unselectable="on" aria-sort="none" aria-label="c: No sort applied, activate to apply an ascending sort" style="-webkit-user-select: none;">
-							<div class="tablesorter-header-inner">Anzahl</div>
-						</th>
-					</tr>
-				</thead>
-		<tbody aria-live="polite" aria-relevant="all">
-
-
-		{% for p in collection %}
-			<tr role="row" class="tablesorter-headerRow">
-			{% set title = p.title|split(' ')[0] %}
-			{% set start = p.header.event.start|td(null, config.plugins.events.event_item.date)|split(' ')[1]  %}
-			{% set start = '[' ~ start ~ '](' ~ p.slug ~ ')' %}
-			{% set startDay = p.header.event.start|td(null, config.plugins.events.event_item.date)|split(' ')[0]  %}
-			{% set end = p.header.event.end|td(null, config.plugins.events.event_item.date) ~ ' | ' ~ p.header.event.end|td(null, config.plugins.events.event_item.time) %}
-			{% set txt = '| ' ~ start|string ~ '| ' ~ startDay  ~ '| **' ~ title ~ '** |'  %}
-			<!--{{ txt }}-->
-			<td>{{ start|string }}</td>
-			<td>{{ startDay }}</td>
-			<td>{{ title }}</td>
-			</tr>
-		{% endfor %}
-
-	</tbody>
-</table></div></div>
 		<br><!-- das ist ein Test -->
 		<br>
 			<br><!-- das ist ein Test -->
-	</div>
+	
 	<div class="events-container">
 		<section class="events-listing">
 			{% if collection|length != 0 %}

@@ -1,3 +1,4 @@
+Gudrun: 3
 Margret: 1
 Sabine-K: 3
 Ulla: 3

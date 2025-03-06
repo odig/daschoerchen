@@ -79,7 +79,8 @@
             {# availibilty #}
             {% include 'partials/choerchen_availibility_form.html.twig' %}
             {#% include 'partials/event_meta.html.twig' with { 'page': page } %#}
-            {% include 'partials/choerchen_availibility.html.twig' %}
+        {% include 'partials/choerchen_availibility.html.twig' %}
+            
 
         {% else %} {# main listing page #}
             <h3 class="event-title"><a href="{{ page.url }}">{{ page.header.title }}</a></h3></br>
@@ -97,6 +98,7 @@
             </div>
         {% endif %}
 
+        
         {% if page.taxonomy.category and config.plugins.events.event_sidebar.enable_categories %}
             <div class="event-categories">
                 <span class="event-tags">

@@ -23,12 +23,27 @@ class ChoerchenEventPlugin extends Plugin
     public static function getSubscribedEvents(): array
     {
         return [
+            'onShortcodeHandlers' => ['onShortcodeHandlers', 0],
+            'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
             'onPluginsInitialized' => [
                 // Uncomment following line when plugin requires Grav < 1.7
                 // ['autoload', 100000],
                 ['onPluginsInitialized', 0]
             ]
         ];
+    }
+
+    /**
+     * Add current directory to twig lookup paths.
+     */
+    public function onTwigTemplatePaths()
+    {
+        $this->grav['twig']->twig_paths[] = __DIR__ . '/templates';
+    }
+
+    public function onShortcodeHandlers()
+    {
+        $this->grav['shortcode']->registerAllShortcodes(__DIR__.'/shortcodes');
     }
 
     /**

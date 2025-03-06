@@ -1,13 +1,15 @@
 ---
 title: 'Termine'
+cache_enable: false
 content:
     items:
-        - '@page.children': /choerchen-intern/termine
-        #- '@self.children'
+        #- '@page.children': /choerchen-intern/termine
+        - '@self.children'
     dateRange:
         start: today
         #end: 'next week'
-        end: 'next month'
+        #end: 'next month'
+        end: '2026-12-12'
     order:
         by: date
         dir: asc
@@ -21,10 +23,13 @@ simple-responsive-tables:
 tablesorter:
     active: true
     themes: green
+
+
 ---
 
-Termine
+<span class="h2">Termine</span>
 
-| t1 | t2 |
-|---|----|
-| a | b |
+[ choerchen-events ]
+
+
+[ choerchen-events-table ]

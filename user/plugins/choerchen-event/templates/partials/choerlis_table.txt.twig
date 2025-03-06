@@ -1,0 +1,15 @@
+{% set collection = page.collection() %}
+<div>
+{% markdown %}
+| Vorname | Nachname | Wohnort | Stimme |
+|:---------|:----------|:---------|:----------|
+{% for p in collection %}
+	{% set firstname = p.header.people.firstname %}
+	{% set lastname = p.header.people.surname %}
+	{% set location = p.header.people.location %}
+	{% set voice = p.header.people.voice %}
+	{% set txt = '| ' ~ firstname ~ '| ' ~ lastname ~ '| ' ~ location  ~ ' | ' ~ voice ~ ' | '  %}
+	{{ txt }}
+{% endfor %}
+{% endmarkdown %}
+</div>

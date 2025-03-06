@@ -1,0 +1,43 @@
+{% if page.header.checkavailibility == true %}
+	{% set formname = page.form.name %}
+
+	{# loop choerlis #}
+	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
+
+	{% set checkFileName = 'user-data://' ~ formname ~ '/feedback-' ~ page.folder ~ '.txt'|join %}
+	{% if file_exists(checkFileName) %}
+		{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
+	{% endif %}
+
+	{% set my_collection = page.collection(options) %}
+	{% set fieldset_array = [] %}
+		
+	{# loop collection #}
+	{% for p in my_collection %}
+		{# get last submitted value #}
+		{% set lastval = 0 %}
+		{% for key, value in submitted_data %}
+			{% if key == p.header.title %}
+				{% set lastval = value %}
+			{% endif %}
+		{% endfor %}
+
+	
+
+		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, default:(lastval), options:{3:'Ich bin da.',1:'Ich bin nicht da.',2:'Ich weiß nicht...'} }} %}
+		{% set fieldset_array = fieldset_array|merge(newform) %}
+
+	{% endfor %}
+
+	{% set fieldset_merge = {fields:fieldset_array} %}
+	{{ dump(fieldset_merge) }}
+	{% set thisform = forms(formname) %}
+	{% set foo = thisform.setFields(form.fields|merge({dynamic_fieldset : form.fields.dynamic_fieldset|merge(fieldset_merge)}))%}
+	{{ dump(form) }}
+	{#{{ nonce_field('form', 'form-nonce')|raw }}#}
+{% endif %}
+
+
+{% include 'forms/form.html.twig' with { form: thisform } %}
+
+

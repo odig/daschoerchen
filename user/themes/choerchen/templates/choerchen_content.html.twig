@@ -1,0 +1,15 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+
+
+{% block content %}
+	{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+		{% include 'partials/breadcrumbs.html.twig' %}
+	{% endif %}
+
+	{% set content = page.content|slice(page.summary|length) %}
+	{#{ content|raw }#}
+	{#{ page.content|raw }#}
+	{{ page.summary|raw }}
+{% endblock %}

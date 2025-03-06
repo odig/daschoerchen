@@ -12,7 +12,7 @@ display_months_out: 6
 show_past_events: false
 enable_single_event_filter: true
 default_events_page: events
-events_subpage: /events
+events_subpage: /choerchen-intern/termine
 icalendar_folder: /ical
 icalendar_update: 0
 icalendars: null

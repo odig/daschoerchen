@@ -2,7 +2,7 @@
 title: 'Probentag am 08.03.2025'
 cache_enable: false
 event:
-    status: scheduled
+    status: cancelled
     start: '08-03-2025 10:00'
     end: '08-03-2025 14:30'
     ticket_show: hidden
@@ -13,12 +13,9 @@ event:
     coordinates: '52.33936, 13.35644'
 permissions:
     inherit: true
-cache_enable: false
-
 checkavailibility: true
 checklabel: '20250308'
 checklist: /choerchen-intern/choerchenmitglieder
-
 form:
     name: Availibility
     fields:

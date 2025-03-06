@@ -1,5 +1,7 @@
 Gido: 1
+Gudrun: 3
 Ines: 3
+Kerstin: 3
 Margitta: 2
 Margret: 3
 Ruth: 3

@@ -1,6 +1,15 @@
 ---
-title: test2a
-published: true
+title: Test am 01.01.2026
+event:
+    start: '01-01-2026'
+    end: '01-01-2026'
+    status: scheduled
+    freq: none
+    topic:
+        - Probentag
+    ticket_show: hidden
+    location: unknown
+
 checkavailibility: true
 checklist: /choerchen-intern/choerchenmitglieder
 cache_enable: false
@@ -9,20 +18,9 @@ simple-responsive-tables:
 tablesorter:
     active: true
     themes: green
-content:
-    items:
-        - '@page.children': /choerchen-intern/termine
-        #- '@self.children'
-    dateRange:
-        start: today
-        #end: 'next week'
-        end: 'next month'
-    order:
-        by: date
-        dir: asc
 
 form:
-    name: Test
+    name: Testform
     fields:
         dynamic_fieldset:
             type: fieldset
@@ -39,20 +37,14 @@ form:
         help: PLUGIN_ADMIN.PROCESS_HELP
         use: keys
         save:
-            filename: 'feedback-test.txt'
+            filename: 'feedback-{{ form.page.folder|e }}.txt'
             operation: create
             body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!
 
 ---
 
-test 2a
-
-===
-
-test2a
-
-[ choerchen-events ]
+Ort und Uhrzeit werden noch festgelegt.
 
 [ choerchen-availibility-form ]
 

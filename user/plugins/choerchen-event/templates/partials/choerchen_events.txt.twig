@@ -1,0 +1,42 @@
+{% set collection = page.collection() %}
+<ul>
+{% for p in collection %}
+
+	{% set title = p.title|split(' ')[0] %}
+
+	{% if p.header.event.end|td(null, config.plugins.events.event_item.time) == '00:00 ' %}
+		{% set endtime = '' %}
+	{% else %}
+		{% set endtime = ' - ' ~ p.header.event.end|td(null, config.plugins.events.event_item.time) ~ ' Uhr'  %}
+	{% endif %}
+	{% if p.header.event.start|td(null, config.plugins.events.event_item.time) == '00:00 ' %}
+		{% set starttime = '' %}
+	{% else %}
+		{% set starttime = ', ' ~ p.header.event.start|td(null, config.plugins.events.event_item.time) ~ ' Uhr'  %}
+	{% endif %}
+
+	{% set end = p.header.event.end|td(null, config.plugins.events.event_item.date) %}
+	{% set start = p.header.event.start|td(null, config.plugins.events.event_item.date) %}
+
+	{% if p.header.event.start|td(null, config.plugins.events.event_item.date) != p.header.event.end|td(null, config.plugins.events.event_item.date) %}
+		{% set end = ' - ' ~ end ~ endtime %}
+	{% else %}
+		{% set end = endtime %}
+	{% endif %}
+
+	{% if p.header.event.location != '' %}
+		{% set loc = ', '~ p.header.event.location %}
+	{% else %}
+		{% set loc = '' %}
+	{% endif %}
+
+	{% set txt = start ~ starttime ~ end  ~ ', ' ~ title ~ loc ~ '' %}
+
+	{% if p.header.event.status != 'scheduled' %}
+	<li><strike>{{ txt }}</strike></li>
+	{% else %}
+	<li><a href={{p.url}}>{{ txt }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+
