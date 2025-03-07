@@ -1,0 +1,13 @@
+enabled: true
+content: 'Achtung: Wartungsarbeiten. Falls diese Seite nicht vollständig erscheint, bitte später wiederkommen. Danke.'
+position: bottom
+button-text: 'Click me...'
+button: '0'
+button-url: 'https://example.com/'
+dismiss-text: X
+dismiss-button: '1'
+cdn-fix: '0'
+bg-colour: '#A1C3B2'
+fg-colour: 'rgba(0, 20, 10, 0.90)'
+box-shadow: '1'
+show-on-pages: /choerchen-admin

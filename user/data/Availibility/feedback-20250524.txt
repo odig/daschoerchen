@@ -1,5 +1,6 @@
 Gudrun: 3
 Margret: 1
+Ruth: 3
 Sabine-K: 3
 Ulla: 3
 

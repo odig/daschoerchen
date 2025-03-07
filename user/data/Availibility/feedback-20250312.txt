@@ -4,6 +4,7 @@ Ines: 3
 Kerstin: 3
 Margitta: 2
 Margret: 3
+Peter: 1
 Ruth: 3
 Sabine-K: 3
 Sabine-S: 1

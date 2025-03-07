@@ -2,7 +2,7 @@ Gudrun: 3
 Ines: 1
 Margitta: 1
 Margret: 1
-Ruth: 3
+Ruth: 2
 Sabine-K: 3
 Ulla: 3
 

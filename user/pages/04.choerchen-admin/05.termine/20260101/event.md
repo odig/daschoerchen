@@ -1,15 +1,14 @@
 ---
-title: Test am 01.01.2026
+title: 'Test am 01.01.2026'
 event:
-    start: '01-01-2026'
-    end: '01-01-2026'
+    start: 01-01-2026
+    end: 01-01-2026
     status: scheduled
     freq: none
     topic:
         - Probentag
     ticket_show: hidden
     location: unknown
-
 checkavailibility: true
 checklist: /choerchen-intern/choerchenmitglieder
 cache_enable: false
@@ -18,7 +17,15 @@ simple-responsive-tables:
 tablesorter:
     active: true
     themes: green
-
+    args:
+        headers: {
+            0: { sorter: false },
+            1: { sorter: false },
+            2: { sorter: false },
+            3: { sorter: false }
+            4: { sorter: false }
+            5: { sorter: false }
+            }
 form:
     name: Testform
     fields:
@@ -41,7 +48,6 @@ form:
             operation: create
             body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!
-
 ---
 
 Ort und Uhrzeit werden noch festgelegt.

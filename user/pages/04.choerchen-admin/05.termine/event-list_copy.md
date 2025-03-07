@@ -3,10 +3,10 @@ title: 'Termine'
 cache_enable: false
 content:
     items:
-        #- '@page.children': /choerchen-intern/termine
-        - '@self.children'
+        - '@page.children': /choerchen-intern/termine
+        #- '@self.children'
     dateRange:
-        start: today
+        start: '2024-01-01'
         #end: 'next week'
         #end: 'next month'
         end: '2026-12-12'

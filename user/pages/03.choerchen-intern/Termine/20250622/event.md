@@ -13,16 +13,25 @@ permissions:
     inherit: true
 cache_enable: false
 
-simple-responsive-tables:
-    active: true
-tablesorter:
-    table_nums: '1'
-    active: true
-    themes: green
-
 checkavailibility: true
 checklabel: '20250622'
 checklist: /choerchen-intern/choerchenmitglieder
+
+simple-responsive-tables:
+    active: true
+tablesorter:
+    active: true
+    themes: green
+    args:
+        headers: {
+            0: { sorter: false },
+            1: { sorter: false },
+            2: { sorter: false },
+            3: { sorter: false }
+            4: { sorter: false }
+            5: { sorter: false }
+            }
+
 form:
     name: Availibility
     fields:
@@ -34,7 +43,7 @@ form:
     buttons:
         submit:
             type: submit
-            value: Speichern
+            value: 'Änderungen speichern'
     process:
         type: toggle
         label: PLUGIN_ADMIN.PROCESS

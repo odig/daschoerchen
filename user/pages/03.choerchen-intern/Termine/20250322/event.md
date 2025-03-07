@@ -17,6 +17,20 @@ checkavailibility: true
 checklabel: '20250322'
 checklist: '/choerchen-intern/choerchenmitglieder'
 
+simple-responsive-tables:
+    active: true
+tablesorter:
+    active: true
+    themes: green
+    args:
+        headers: {
+            0: { sorter: false },
+            1: { sorter: false },
+            2: { sorter: false },
+            3: { sorter: false }
+            4: { sorter: false }
+            5: { sorter: false }
+            }
 
 form:
     name: Availibility
@@ -30,7 +44,7 @@ form:
     buttons:
         submit:
           type: submit
-          value: Speichern
+          value: 'Änderungen speichern'
 
     process:
         type: toggle
@@ -38,7 +52,7 @@ form:
         help: PLUGIN_ADMIN.PROCESS_HELP
         use: keys
         save:
-          filename: "feedback-{{ form.page.header.checklabel|e }}.txt"
+          filename: "feedback-{{ form.page.folder|e }}.txt"
           operation: create
           body: "{% include 'partials/forms/choerchen_data.txt.twig' %}"
         message: Gespeichert!
