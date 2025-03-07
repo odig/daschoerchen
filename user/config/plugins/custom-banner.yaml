@@ -10,4 +10,4 @@ cdn-fix: '0'
 bg-colour: '#A1C3B2'
 fg-colour: 'rgba(0, 20, 10, 0.90)'
 box-shadow: '1'
-show-on-pages: /choerchen-admin
+show-on-pages: /choerchen-admin/test3
