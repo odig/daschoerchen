@@ -6,10 +6,10 @@ content:
         - '@page.children': /choerchen-intern/termine
         #- '@self.children'
     dateRange:
-        start: '2024-01-01'
+        start: 'today'
         #end: 'next week'
-        #end: 'next month'
-        end: '2026-12-12'
+        end: 'next month'
+        #end: '2026-12-12'
     order:
         by: date
         dir: asc

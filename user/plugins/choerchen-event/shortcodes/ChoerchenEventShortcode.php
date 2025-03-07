@@ -30,10 +30,17 @@ class ChoerchenEventShortcode extends Shortcode
         });
         $this->shortcode->getHandlers()->add('choerchen-events', function(ShortcodeInterface $sc) {
 
+            $event_path = $sc->getParameter('events');
+            $start = $sc->getParameter('start');
+            $end = $sc->getParameter('end');
+
             return $this->twig->processTemplate(
                 'partials/choerchen_events.txt.twig',
                 [
-                    'page' => $this->grav['page'], // used for image resizing
+                    'page' => $this->grav['page'], 
+                    'event_path' => "$event_path",
+                    'start' => "$start",
+                    'end' => "$end"
                 ]
             );
 

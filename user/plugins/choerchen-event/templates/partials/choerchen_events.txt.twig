@@ -1,4 +1,9 @@
-{% set collection = page.collection() %}
+{#% set collection = page.collection() %#}
+{# get collection from parameter #}
+
+{% set options = { items: {'@page.children': event_path}, 'order': {'by': 'event.start', 'dir': 'asc'}, 'pagination': false, 'dateRange': {'start':start, 'end':end }} %}
+{% set collection = page.collection(options) %}
+
 <ul>
 {% for p in collection %}
 
@@ -33,7 +38,7 @@
 	{% set txt = start ~ starttime ~ end  ~ ', ' ~ title ~ loc ~ '' %}
 
 	{% if p.header.event.status != 'scheduled' %}
-	<li><strike>{{ txt }}</strike></li>
+	<li><strike><a href={{p.url}}>{{ txt }}</a></strike></li>
 	{% else %}
 	<li><a href={{p.url}}>{{ txt }}</a></li>
 	{% endif %}
