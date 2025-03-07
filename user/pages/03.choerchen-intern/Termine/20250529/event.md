@@ -68,3 +68,10 @@ Tel.: 033745 70870</br>
 Fax: 033745 70871</br>
 E-Mail: mail@skatehotel.de</br>
 [https://www.skatehotel.de](https://www.skatehotel.de?target=_blank)</br>
+
+
+
+[ choerchen-availibility-form ]
+
+
+[ choerchen-availibility ]

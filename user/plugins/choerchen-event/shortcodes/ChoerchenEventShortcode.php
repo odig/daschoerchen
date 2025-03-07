@@ -11,7 +11,7 @@ class ChoerchenEventShortcode extends Shortcode
         $this->shortcode->getHandlers()->add('choerchen-availibility-form', function(ShortcodeInterface $sc) {
 
             return $this->twig->processTemplate(
-                'partials/xchoerchen_availibility_form.html.twig',
+                'partials/choerchen_availibility_form.html.twig',
                 [
                     'page' => $this->grav['page'], // used for image resizing
                 ]
@@ -21,7 +21,7 @@ class ChoerchenEventShortcode extends Shortcode
         $this->shortcode->getHandlers()->add('choerchen-availibility', function(ShortcodeInterface $sc) {
 
             return $this->twig->processTemplate(
-                'partials/xchoerchen_availibility.html.twig',
+                'partials/choerchen_availibility.html.twig',
                 [
                     'page' => $this->grav['page'], // used for image resizing
                 ]
