@@ -1,11 +1,13 @@
 {% if page.header.checkavailibility == true %}
-	{% set formname = page.form.name %}
+	{% set formname = page.header.form.name %}
 
 	{# loop choerlis #}
 	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
 
 	{% set checkFileName = 'user-data://' ~ formname ~ '/feedback-' ~ page.folder ~ '.txt'|join %}
+	<!-- Debug: {{ checkFileName }} -->
 	{% if file_exists(checkFileName) %}
+		<!-- Debug: {{ checkFileName }} exists -->
 		{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
 	{% endif %}
 
@@ -17,12 +19,14 @@
 		{# get last submitted value #}
 		{% set lastval = 0 %}
 		{% for key, value in submitted_data %}
+			<!-- Debug: key = {{ key }} -->
+			<!-- Debug: value = {{ value }} -->
 			{% if key == p.header.title %}
 				{% set lastval = value %}
 			{% endif %}
 		{% endfor %}
 
-	
+	<!-- Debug: lastval: {{ lastval }} -->
 
 		{% set newform = { (p.header.title) : {type :'toggle', label:p.header.title, default:(lastval), options:{3:'Ich bin da.',1:'Ich bin nicht da.',2:'Ich weiß nicht...'} }} %}
 		{% set fieldset_array = fieldset_array|merge(newform) %}

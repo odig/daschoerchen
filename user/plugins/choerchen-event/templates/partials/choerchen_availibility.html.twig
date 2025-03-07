@@ -1,9 +1,10 @@
 {% if page.header.checkavailibility == true %}
+	{% set formname = page.header.form.name %}
 	
 	{# loop choerlis #}
 	{% set options = { items: {'@page.children': page.header.checklist}, 'order': {'by': 'title', 'dir': 'asc'}, 'pagination': false } %}
 
-	{% set checkFileName = 'user-data://Availibility/feedback-' ~ form.page.folder ~ '.txt'|join %}
+	{% set checkFileName = 'user-data://' ~ formname ~ '/feedback-' ~ form.page.folder ~ '.txt'|join %}
 	{% if file_exists(checkFileName) %}
 		{% set submitted_data = (read_file(checkFileName|string)|yaml_decode) %}
 	{% endif %}
@@ -88,11 +89,11 @@
 
 </br>
 	{% markdown %}
-		|  | Sopran | Alt 1 | Alt 2 | Tenor | Bass |
+		| Wie viele sind da? | Sopran | Alt 1 | Alt 2 | Tenor | Bass |
 		|:----------|:--:|:--:|:--:|:--:|:--:|
-		| **da** | {{ SOPR_3 }} | {{ ALT1_3 }} | {{ ALT2_3 }} | {{ TENO_3 }} | {{ BASS_3 }} |
-		| **nicht da** | {{ SOPR_1 }} | {{ ALT1_1 }} | {{ ALT2_1 }} | {{ TENO_1 }} | {{ BASS_1 }} |
-		| weiß nicht | {{ SOPR_2 }} | {{ ALT1_2 }} | {{ ALT2_2 }} | {{ TENO_2 }} | {{ BASS_2 }} |
+		| **da** | **{{ SOPR_3 }}** | **{{ ALT1_3 }}** | **{{ ALT2_3 }}** | **{{ TENO_3 }}** | **{{ BASS_3 }}** |
+		| nicht da | {{ SOPR_1 }} | {{ ALT1_1 }} | {{ ALT2_1 }} | {{ TENO_1 }} | {{ BASS_1 }} |
+		| _weiß nicht_ | _{{ SOPR_2 }}_ | _{{ ALT1_2 }}_ | _{{ ALT2_2 }}_ | _{{ TENO_2 }}_ | _{{ BASS_2 }}_ |
 		{% endmarkdown %}
 
 

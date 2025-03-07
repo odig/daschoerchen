@@ -60,7 +60,12 @@ published: true
 _Ort und Uhrzeit werden noch festgelegt._
 
 
+
+[ choerchen-availibility ]
+
+</br>
+</br>
+
 [ choerchen-availibility-form ]
 
 
-[ choerchen-availibility ]

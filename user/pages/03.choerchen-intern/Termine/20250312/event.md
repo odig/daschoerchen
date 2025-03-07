@@ -62,9 +62,10 @@ form:
 
 ---
 
-[ choerchen-availibility-form ]
-
-
 [ choerchen-availibility ]
 
+</br>
+</br>
+
+[ choerchen-availibility-form ]
 

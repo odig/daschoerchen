@@ -71,7 +71,9 @@ E-Mail: mail@skatehotel.de</br>
 
 
 
-[ choerchen-availibility-form ]
-
-
 [ choerchen-availibility ]
+
+</br>
+</br>
+
+[ choerchen-availibility-form ]

@@ -56,7 +56,10 @@ form:
         message: Gespeichert!
 ---
 
+[ choerchen-availibility ]
+
+</br>
+</br>
+
 [ choerchen-availibility-form ]
 
-
-[ choerchen-availibility ]
