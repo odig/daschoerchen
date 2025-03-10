@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Ferien in Berlin 2025
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:4b0edbe8-b329-45fd-af2d-b3b8fc7b9e96
+DTSTART;VALUE=DATE:20250203
+DTEND;VALUE=DATE:20250209
+DESCRIPTION:Winterferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Winterferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/winterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:cc2f0d14-8c62-4809-8186-0d54469dbaaf
+DTSTART;VALUE=DATE:20250414
+DTEND;VALUE=DATE:20250426
+DESCRIPTION:Osterferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Osterferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/osterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:2dcca00b-80e6-48b2-a2dd-34e427fbd7b5
+DTSTART;VALUE=DATE:20250502
+DTEND;VALUE=DATE:20250503
+DESCRIPTION:Osterferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Osterferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/osterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:1b0597c6-dd45-45e1-9e2e-37c589419b06
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250531
+DESCRIPTION:Osterferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Osterferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/osterferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:933b8c43-c86b-4e98-9bc3-bef9ea3ecf0e
+DTSTART;VALUE=DATE:20250610
+DTEND;VALUE=DATE:20250611
+DESCRIPTION:Pfingstferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Pfingstferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/pfingstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:be91e3c9-7baa-463f-bbbf-147e226ae23a
+DTSTART;VALUE=DATE:20250724
+DTEND;VALUE=DATE:20250907
+DESCRIPTION:Sommerferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Sommerferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/sommerferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:ac527a5e-e8ce-4e7d-9a24-35f9313c7941
+DTSTART;VALUE=DATE:20251020
+DTEND;VALUE=DATE:20251102
+DESCRIPTION:Herbstferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Herbstferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/herbstferien
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250308T153452Z
+UID:136d855f-a742-46ed-94b5-b05f90d811da
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20260103
+DESCRIPTION:Weihnachtsferien 2025 in Berlin - Importiert von Ferienwiki
+SUMMARY:Weihnachtsferien
+URL:https://www.ferienwiki.de/ferientermine/2025/de/weihnachtsferien
+END:VEVENT
+END:VCALENDAR

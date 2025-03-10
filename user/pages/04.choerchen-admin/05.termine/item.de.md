@@ -23,6 +23,7 @@ simple-responsive-tables:
 tablesorter:
     active: true
     themes: green
+    table_nums: '1,2'
 
 
 ---
@@ -34,7 +35,7 @@ tablesorter:
 
 <span class="h2">Termine</span>
 
-[ choerchen-events ]
+[ choerchen-events events="/choerchen-intern/termine" start="today" end="next year" limit=4 ]
 
 
 [ choerchen-events-table ]

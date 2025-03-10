@@ -15,7 +15,7 @@ default_events_page: events
 events_subpage: /choerchen-intern/termine
 icalendar_folder: /ical
 icalendar_update: 0
-icalendars: null
+icalendars: user/data/calendars/ferien_berlin_2025.ics
 icalendar_recurrence: false
 enable_geocoding: false
 api_key: none

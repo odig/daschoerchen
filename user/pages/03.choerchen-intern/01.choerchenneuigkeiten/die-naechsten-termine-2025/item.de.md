@@ -16,7 +16,7 @@ content:
         dir: asc
 ---
 
-[ choerchen-events events="/choerchen-intern/termine" start="today" end="next month" ]
+[ choerchen-events events="/choerchen-intern/termine" start="today" end="next year" limit=4 ]
 
 
 [Bitte bringt alle Noten der <i class="fa fa-hand-o-right"></i> Jubiläumsliste <i class="fa fa-hand-o-left"></i> mit.](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)

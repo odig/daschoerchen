@@ -1,0 +1,17 @@
+<div class="event-item-left-column">
+	<a href="{{ event.url }}" class="event-item-image-box" style="background-image: url({{ event.media.images|first.cropResize(400,400).url() }})">
+		<time class="event-item-time dt-start" datetime="{{ event.header.event.start|date("c") }}">{{ event.header.event.start|td(null, config.plugins.events.event_item.time) }}</time>
+	</a>
+</div>
+<div class="event-item-right-column">
+	<p class="event-item-title">
+		<a href="{{ event.url }}" class="p-name u-url">{{ event.title }}</a>
+	</p>
+	{% if event.header.event.status == 'cancelled' %}
+		<p class="event-item-summary"><mark>Findet nicht statt.</mark></p>
+	{% else %}
+		{% if event.header.event.location != '' %}
+			<p class="event-item-summary">{{event.header.event.location}}</p>
+		{% endif %}
+	{% endif %}
+</div>

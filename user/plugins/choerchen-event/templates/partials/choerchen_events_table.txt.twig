@@ -1,4 +1,9 @@
-{% set collection = page.collection() %}
+{#% set collection = page.collection() %#}
+{# get collection from parameter #}
+
+{% set options = { items: {'@page.children': event_path}, 'order': {'by': 'event.start', 'dir': 'asc'}, 'pagination': false, 'dateRange': {'start':start, 'end':end }} %}
+{% set collection = page.collection(options) %}
+
 <div>
 {% markdown %}
 | Beginn |  | Ende | Titel | Location |
