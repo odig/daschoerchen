@@ -1,7 +1,7 @@
 ---
-title: Probe am 12.03.2025
+title: 'Probe am 12.03.2025'
 event:
-    status: scheduled
+    status: cancelled
     start: '12-03-2025 19:00'
     end: '12-03-2025 21:00'
     ticket_show: hidden
@@ -12,27 +12,28 @@ event:
 permissions:
     inherit: true
 cache_enable: false
-
 simple-responsive-tables:
     active: true
 tablesorter:
     active: true
     themes: green
     args:
-        headers: {
-            0: { sorter: false },
-            1: { sorter: false },
-            2: { sorter: false },
-            3: { sorter: false }
-            4: { sorter: false }
-            5: { sorter: false }
-            }
-
+        headers:
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
 checkavailibility: true
 checklabel: '20250312'
-checklist: '/choerchen-intern/choerchenmitglieder'
-
-
+checklist: /choerchen-intern/choerchenmitglieder
 form:
     name: Availibility
     fields:
@@ -40,26 +41,21 @@ form:
             type: fieldset
             id: options
             legend: 'Wer ist da?'
-            fields:
-
+            fields: null
     buttons:
         submit:
-          type: submit
-          value: 'Änderungen speichern'
-
+            type: submit
+            value: 'Änderungen speichern'
     process:
         type: toggle
         label: PLUGIN_ADMIN.PROCESS
         help: PLUGIN_ADMIN.PROCESS_HELP
         use: keys
         save:
-          filename: "feedback-{{ form.page.folder|e }}.txt"
-          operation: create
-          body: "{% include 'partials/forms/choerchen_data.txt.twig' %}"
+            filename: 'feedback-{{ form.page.folder|e }}.txt'
+            operation: create
+            body: '{% include ''partials/forms/choerchen_data.txt.twig'' %}'
         message: Gespeichert!
-
-
-
 ---
 
 [ choerchen-availibility ]

@@ -6,5 +6,7 @@ Margret: 3
 Nicola: 3
 Sabine-K: 3
 Siegmar: 3
+Steffi: 3
+Stephan: 2
 Ulla: 3
 

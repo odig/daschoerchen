@@ -38,4 +38,4 @@ tablesorter:
 [ choerchen-events events="/choerchen-intern/termine" start="today" end="next year" limit=4 ]
 
 
-[ choerchen-events-table ]
+[ choerchen-events-table events="/choerchen-intern/termine" start="today" end="next year" limit=4 ]

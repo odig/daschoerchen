@@ -1,10 +1,13 @@
 Gido: 3
 Gudrun: 3
 Ines: 3
+Margitta: 2
 Margret: 3
 Nicola: 3
 Ruth: 3
 Sabine-K: 3
 Siegmar: 3
+Steffi: 3
+Stephan: 3
 Ulla: 3
 

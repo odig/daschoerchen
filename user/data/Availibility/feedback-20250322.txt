@@ -8,5 +8,7 @@ Nicola: 3
 Ruth: 3
 Sabine-K: 3
 Siegmar: 3
+Steffi: 3
+Stephan: 1
 Ulla: 1
 
