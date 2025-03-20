@@ -5,8 +5,10 @@ Kerstin: 3
 Margitta: 3
 Margret: 3
 Nicola: 3
+Peter: 3
 Ruth: 3
-Sabine-K: 3
+Sabine-K: 1
+Sabine-S: 1
 Siegmar: 3
 Steffi: 3
 Stephan: 1

@@ -30,3 +30,9 @@ content:
 
 [<i class="fa fa-hand-o-right"></i> Proben im Februar](/choerchen-intern/choerchenneuigkeiten/februarproben2025)
 
+
+19.03.2025
+
+*  [<i class="fa fa-hand-o-right"></i> The power of a song](/choerchen-intern/choerchennoten/the_power_of_a_song)
+*  [<i class="fa fa-hand-o-right"></i> I give you my heart](/choerchen-intern/choerchennoten/i-give-you-my-heart)
+*  [<i class="fa fa-hand-o-right"></i> Der Tag mein Gott](/choerchen-intern/choerchennoten/der_tag_mein_gott_ist_nun_vergangen)

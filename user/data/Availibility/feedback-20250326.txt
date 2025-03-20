@@ -1,0 +1,6 @@
+Gido: 1
+Margitta: 3
+Margret: 2
+Ruth: 3
+Ulla: 1
+
