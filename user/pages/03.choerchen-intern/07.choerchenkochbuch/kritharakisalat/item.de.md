@@ -5,6 +5,8 @@ taxonomy:
         - Rezepte
     tag:
         - Salat
+        - herzhaft
+        - kalt
 ---
 
 Zutaten

@@ -1,3 +1,13 @@
+Anke: 3
+Gudrun: 3
+Heike: 1
+Ines: 3
+Kerstin: 3
 Margitta: 3
-Ulla: 3
+Margret: 1
+Peter: 1
+Ruth: 3
+Sabine-K: 2
+Stefan: 3
+Ulla: 1
 

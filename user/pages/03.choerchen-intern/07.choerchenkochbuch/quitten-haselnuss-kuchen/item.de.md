@@ -6,6 +6,7 @@ taxonomy:
     tag:
         - Quitte
         - Kuchen
+        - süß
 ---
 
 !! Nicht für Steffi und andere Haselnussallergiker

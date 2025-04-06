@@ -5,6 +5,8 @@ taxonomy:
         - Rezepte
     tag:
         - Quitte
+        - süß
+        - kalt
 ---
 
 Quittenmus ist vielseitig einsetzbar:

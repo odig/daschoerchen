@@ -1,0 +1,10 @@
+Gudrun: 3
+Ines: 3
+Kerstin: 1
+Margitta: 1
+Margret: 3
+Peter: 3
+Ruth: 3
+Sabine-K: 2
+Sabine-S: 3
+

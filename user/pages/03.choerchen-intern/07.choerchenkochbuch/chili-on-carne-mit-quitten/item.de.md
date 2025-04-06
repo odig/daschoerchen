@@ -7,6 +7,8 @@ taxonomy:
         - Quitte
         - Chili
         - Eintopf
+        - herzhaft
+        - warm
 ---
 
 Eine süß-scharfe Variante des altbekannten Chili con Carne...

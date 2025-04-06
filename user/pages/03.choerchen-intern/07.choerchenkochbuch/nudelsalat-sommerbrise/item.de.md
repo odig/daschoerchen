@@ -7,6 +7,8 @@ taxonomy:
         - Salat
         - Nudeln
         - Fenchel
+        - herzhaft
+        - kalt
 ---
 
 Zutaten

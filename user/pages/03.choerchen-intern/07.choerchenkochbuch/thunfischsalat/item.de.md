@@ -1,13 +1,13 @@
 ---
 title: Thunfischsalat
-
 taxonomy:
     category:
         - Rezepte
     tag:
-        - Thunfisch
         - Salat
-
+        - Thunfisch
+        - herzhaft
+        - kalt
 ---
 
 * 2 Dosen Thunfisch (natur)

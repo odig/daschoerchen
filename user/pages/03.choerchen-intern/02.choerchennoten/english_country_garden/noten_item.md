@@ -13,7 +13,6 @@ taxonomy:
         - Englisch
     instrumente:
         - Piano
-
 simple-responsive-tables:
     active: true
     themes: green
@@ -21,8 +20,44 @@ tablesorter:
     active: true
     themes: green
     table_nums: '1,2,3'
-
 ---
+
+!> Text für den Sopran
+
+How many kinds of sweet flowers grow</br>
+In an English country garden?</br>
+We'll tell you now of some that we know,</br>
+those we miss you'll surely pardon.</br>
+Daffodils, heart's ease and flox,</br>
+Meadowsweet and lady smocks,</br>
+Gentain, lupine and tall hollihocks,</br>
+Roses, foxgloves and snowdrops, fblue orget-me-nots.</br>
+In an English country garden.</br>
+
+How many insects come here and go</br>
+in an English country garden?</br>
+We'll tell you now of some that we know,</br>
+those we miss you'll surely pardon.</br>
+Fireflies, moths, gnats and bees,</br>
+Spiders climbing in the trees,</br>
+Butterflies drift in the gentle breeze.</br>
+There are snakes, ants that sting</br>
+And other creeping things.</br>
+In an English country garden.</br>
+
+How many songbirds fly to and fro</br>
+in an English country garden?</br>
+We'll tell you now of some that we know,</br>
+those we miss you'll surely pardon.</br>
+Bobolink, cuckoo and quail,</br>
+Tanager and cardinal,</br>
+Bluebird, lark and thrush and nightingale.</br>
+There is joy in the spring,</br>
+When the birds begin to sing</br>
+In an English country garden.</br>
+</br></br>
+!@
+
 
 !> Übersetzungen 
 

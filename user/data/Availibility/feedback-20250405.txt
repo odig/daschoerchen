@@ -1,15 +1,20 @@
+Anke: 3
 Gido: 3
 Gudrun: 3
+Heike: 1
 Ines: 1
 Kerstin: 1
 Margitta: 1
 Margret: 1
 Nicola: 1
-Peter: 3
-Ruth: 2
+Peter: 1
+Ruth: 3
 Sabine-K: 3
+Sabine-S: 1
 Siegmar: 1
+Stefan: 3
 Steffi: 3
 Stephan: 1
+Sven: 3
 Ulla: 3
 

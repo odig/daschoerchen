@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - Suppe
         - Zucchini
+        - warm
+        - herzhaft
 ---
 
 4 Personen

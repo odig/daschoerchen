@@ -1,0 +1,12 @@
+Gido: 2
+Gudrun: 1
+Ines: 3
+Kerstin: 1
+Margitta: 3
+Margret: 3
+Peter: 3
+Ruth: 3
+Sabine-K: 1
+Sabine-S: 1
+Ulla: 2
+

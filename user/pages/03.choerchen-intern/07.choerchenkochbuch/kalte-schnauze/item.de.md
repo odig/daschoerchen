@@ -4,7 +4,10 @@ taxonomy:
     category:
         - Rezepte
     tag:
+        - kalt
         - Kuchen
+        - süß
+        - Schokolade
 ---
 
 Zutaten:

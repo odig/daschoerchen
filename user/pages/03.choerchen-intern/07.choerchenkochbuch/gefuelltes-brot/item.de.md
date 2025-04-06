@@ -5,6 +5,8 @@ taxonomy:
         - Rezepte
     tag:
         - Brot
+        - herzhaft
+        - kalt
 ---
 
 Zutaten

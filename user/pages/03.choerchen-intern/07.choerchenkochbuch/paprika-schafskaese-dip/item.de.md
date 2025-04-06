@@ -5,6 +5,8 @@ taxonomy:
         - Rezepte
     tag:
         - Dip
+        - kalt
+        - herzhaft
 ---
 
 Zutaten:

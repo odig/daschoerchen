@@ -1,14 +1,12 @@
-Anke: 3
 Gido: 1
 Gudrun: 3
-Heike: 3
 Ines: 3
-Kerstin: 3
+Kerstin: 1
 Margitta: 3
 Margret: 3
+Peter: 1
 Ruth: 3
-Sabine-K: 1
-Stefan: 3
-Sven: 3
+Sabine-K: 3
+Sabine-S: 1
 Ulla: 1
 

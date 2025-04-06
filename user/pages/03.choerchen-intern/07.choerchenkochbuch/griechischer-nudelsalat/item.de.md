@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - Salat
         - Reisnudeln
+        - herzhaft
+        - kalt
 ---
 
 * ½ Tüte Kritharaki Reisnudeln (kochen)

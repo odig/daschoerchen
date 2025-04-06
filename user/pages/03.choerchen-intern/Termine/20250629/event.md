@@ -1,37 +1,39 @@
 ---
-title: 'Probentag am 12.04.2025'
+title: 'Konzert am 29.06.25 ?'
 event:
     status: scheduled
-    start: '12-04-2025 10:00'
-    end: '12-04-2025 14:30'
+    start: '29-06-2025 00:00'
+    end: '29-06-2025 00:00'
     ticket_show: hidden
     freq: none
     topic:
         - Probentag
-    location: 'Pfarrhaus Diedersdorf'
+    location: 'Groß Kienitz'
 permissions:
     inherit: true
 cache_enable: false
-
 checkavailibility: true
-checklabel: '20250412'
+checklabel: '20250906'
 checklist: /choerchen-intern/choerchenmitglieder
-
 simple-responsive-tables:
     active: true
 tablesorter:
     active: true
     themes: green
     args:
-        headers: {
-            0: { sorter: false },
-            1: { sorter: false },
-            2: { sorter: false },
-            3: { sorter: false }
-            4: { sorter: false }
-            5: { sorter: false }
-            }
-            
+        headers:
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
 form:
     name: Availibility
     fields:
@@ -57,7 +59,14 @@ form:
 published: true
 ---
 
+_Bitte eintragen, wer bei diesem Konzert dabei sein kann._
+
 ===
+
+Birgit schrieb am 22.03.25: 
+... "Am 29.06. könnten wir das Konzert noch in Groß Kienitz singen. Auch hier bräuchten wir eine Rückmeldung 
+"
+
 
 [ choerchen-availibility ]
 
@@ -65,3 +74,5 @@ published: true
 </br>
 
 [ choerchen-availibility-form ]
+
+

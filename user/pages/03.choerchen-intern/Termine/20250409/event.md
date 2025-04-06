@@ -1,37 +1,39 @@
 ---
-title: 'Probentag am 12.04.2025'
+title: 'Probe am 09.04.2025'
 event:
     status: scheduled
-    start: '12-04-2025 10:00'
-    end: '12-04-2025 14:30'
+    start: '09-04-2025 19:00'
+    end: '09-04-2025 21:00'
     ticket_show: hidden
     freq: none
     topic:
-        - Probentag
+        - Probe
     location: 'Pfarrhaus Diedersdorf'
 permissions:
     inherit: true
 cache_enable: false
-
 checkavailibility: true
-checklabel: '20250412'
+checklabel: '20250402'
 checklist: /choerchen-intern/choerchenmitglieder
-
 simple-responsive-tables:
     active: true
 tablesorter:
     active: true
     themes: green
     args:
-        headers: {
-            0: { sorter: false },
-            1: { sorter: false },
-            2: { sorter: false },
-            3: { sorter: false }
-            4: { sorter: false }
-            5: { sorter: false }
-            }
-            
+        headers:
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
 form:
     name: Availibility
     fields:
@@ -65,3 +67,5 @@ published: true
 </br>
 
 [ choerchen-availibility-form ]
+
+

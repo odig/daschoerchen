@@ -1,37 +1,39 @@
 ---
-title: 'Probentag am 12.04.2025'
+title: 'Konzert am 13.07.25 ?'
 event:
-    status: scheduled
-    start: '12-04-2025 10:00'
-    end: '12-04-2025 14:30'
+    status: cancelled
+    start: '13-07-2025 00:00'
+    end: '13-07-2025 00:00'
     ticket_show: hidden
     freq: none
     topic:
         - Probentag
-    location: 'Pfarrhaus Diedersdorf'
+    location: Diedersdorf
 permissions:
     inherit: true
 cache_enable: false
-
 checkavailibility: true
-checklabel: '20250412'
+checklabel: '20250906'
 checklist: /choerchen-intern/choerchenmitglieder
-
 simple-responsive-tables:
     active: true
 tablesorter:
     active: true
     themes: green
     args:
-        headers: {
-            0: { sorter: false },
-            1: { sorter: false },
-            2: { sorter: false },
-            3: { sorter: false }
-            4: { sorter: false }
-            5: { sorter: false }
-            }
-            
+        headers:
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
 form:
     name: Availibility
     fields:
@@ -57,7 +59,12 @@ form:
 published: true
 ---
 
+
+
 ===
+
+Konzert anlässlich des Dorfjubiläums
+
 
 [ choerchen-availibility ]
 
@@ -65,3 +72,5 @@ published: true
 </br>
 
 [ choerchen-availibility-form ]
+
+

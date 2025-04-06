@@ -6,6 +6,8 @@ taxonomy:
     tag:
         - Salat
         - Chinakohl
+        - herzhaft
+        - kalt
 ---
 
 Zutaten:

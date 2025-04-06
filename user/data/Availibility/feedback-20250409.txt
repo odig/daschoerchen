@@ -1,5 +1,6 @@
 Gido: 3
-Margitta: 3
+Gudrun: 3
+Kerstin: 3
 Ruth: 2
 Ulla: 3
 

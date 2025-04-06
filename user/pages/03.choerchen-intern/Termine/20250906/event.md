@@ -1,7 +1,7 @@
 ---
 title: 'Konzert am 06.09.2025'
 event:
-    status: scheduled
+    status: cancelled
     start: '06-09-2025 00:00'
     end: '06-09-2025 00:00'
     ticket_show: hidden
@@ -59,7 +59,7 @@ form:
 published: true
 ---
 
-_Bitte eintragen, wer bei diesem Konzert dabei sein kann._
+
 
 ===
 
