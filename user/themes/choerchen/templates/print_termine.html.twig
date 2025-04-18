@@ -1,0 +1,97 @@
+{% extends 'partials/base.html.twig' %}
+{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
+{% set show_breadcrumbs = header_var('show_breadcrumbs', [page, blog])|defined(true) %}
+
+{% set tags = uri.query('query') | replace({'+': " "}) %}
+
+
+{% set options = { items: {'@page.children': '/choerchen-intern/termine'}, 'order': {'by': 'event.start', 'dir': 'asc'}, 'pagination': false, 'dateRange': {'start':'today', 'end':'next year' }, 'limit':'99' } %}
+{% set collection = page.collection(options) %}
+
+
+{% block content %}
+	{% if show_breadcrumbs and config.plugins.breadcrumbs.enabled %}
+		{% include 'partials/breadcrumbs.html.twig' %}
+	{% endif %}
+
+	<div>
+		<button id="printBtn">
+			Drucken
+		</button>
+		<script type="text/javascript">
+			document.getElementById('printBtn').onclick = function printContent() {
+
+var printwin = window.open("");
+printwin.document.write(document.getElementById("DRUCK").innerHTML);
+printwin.stop();
+
+setTimeout(function () {
+printwin.print();
+}, 500);
+
+printwin.onfocus = function () {
+setTimeout(function () {
+printwin.close();
+}, 500);
+}
+
+
+}
+		</script>
+	</div>
+
+	<section id="DRUCK">
+		<div class="content-padding simplesearch">
+			<p>{{ page.content|raw }}</p>
+			<p>
+				{% if tags %}
+					<h2>{{ tags }}</h2>
+				{% else %}
+					<h2>Aktuelle Termine</h2>
+				{% endif %}
+				<small>Stand:
+					{{ now|date("d.m.Y", "Europe/Berlin") }}</small>
+			</p>
+			</br>
+				{% for p in collection %}
+	{% set title = p.title|split(' ')[0] %}
+
+	{% if p.header.event.end|td(null, config.plugins.events.event_item.time) == '00:00 ' %}
+		{% set endtime = '' %}
+	{% else %}
+		{% set endtime = ' - ' ~ p.header.event.end|td(null, config.plugins.events.event_item.time) ~ ' Uhr'  %}
+	{% endif %}
+	{% if p.header.event.start|td(null, config.plugins.events.event_item.time) == '00:00 ' %}
+		{% set starttime = '' %}
+	{% else %}
+		{% set starttime = ', ' ~ p.header.event.start|td(null, config.plugins.events.event_item.time) ~ ' Uhr'  %}
+	{% endif %}
+
+	{% set end = p.header.event.end|td(null, config.plugins.events.event_item.date) %}
+	{% set start = p.header.event.start|td(null, config.plugins.events.event_item.date) %}
+
+	{% if p.header.event.start|td(null, config.plugins.events.event_item.date) != p.header.event.end|td(null, config.plugins.events.event_item.date) %}
+		{% set end = ' - ' ~ end ~ endtime %}
+	{% else %}
+		{% set end = endtime %}
+	{% endif %}
+
+	{% if p.header.event.location != '' %}
+		{% set loc = ', '~ p.header.event.location %}
+	{% else %}
+		{% set loc = '' %}
+	{% endif %}
+
+	{% set txt = start ~ starttime ~ end  ~ ', ' ~ title ~ loc ~ '' %}
+
+	{% if p.header.event.status == 'scheduled' %}
+	<!-- <li><a href={{p.url}}>{{ txt }}</a></li> -->
+	</br>{{ txt }}</br>
+	{% endif %}
+
+				{% endfor %}
+			</br>
+		</div>
+	</section>
+	
+{% endblock %}

@@ -29,5 +29,8 @@ taxonomy:
         - hidden
 ---
 
-<span class="h2">Termine</span>
+<span class="h2">Termine</span><small>&nbsp;
+					<a target="_blank" href="/choerchen-intern/termindruckliste">
+						<i class="fa fa-print"></i>
+						Liste zum Drucken</a>&nbsp;&nbsp;</small>
 
