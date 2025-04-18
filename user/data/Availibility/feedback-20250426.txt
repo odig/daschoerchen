@@ -4,7 +4,7 @@ Gudrun: 3
 Heike: 3
 Ines: 3
 Kerstin: 2
-Margitta: 2
+Margitta: 3
 Margret: 3
 Nicola: 3
 Peter: 3

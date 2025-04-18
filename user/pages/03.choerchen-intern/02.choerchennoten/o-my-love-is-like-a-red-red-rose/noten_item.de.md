@@ -3,8 +3,7 @@ title: 'O my love is like a red, red rose'
 taxonomy:
     category:
         - Noten
-    tag:
-        - 'Jubiläumskonzert 2025'
+
     dirigat:
         - Jessica
     sprache:

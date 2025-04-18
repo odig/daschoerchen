@@ -3,8 +3,7 @@ title: 'This is the day'
 taxonomy:
     category:
         - Noten
-    tag:
-        - 'Jubiläumskonzert 2025'
+
     dirigat:
         - Birgit
     sprache:

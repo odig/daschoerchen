@@ -6,7 +6,7 @@ taxonomy:
     category:
         - Noten
     tag:
-        - 'Jubiläumskonzert 2025'
+       
 ---
 
 EG 488 Bleib bei uns, Herr, der Abend bricht herein

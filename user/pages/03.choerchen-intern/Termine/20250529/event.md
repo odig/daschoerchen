@@ -68,6 +68,9 @@ Tel.: 033745 70870</br>
 Fax: 033745 70871</br>
 E-Mail: mail@skatehotel.de</br>
 [https://www.skatehotel.de](https://www.skatehotel.de?target=_blank)</br>
+</br>
+
+Empfohlene Lektüre: [<i class="fa fa-hand-o-right"></i> Chörchenfahrt Vergiss-mich-nicht](/choerchen-intern/choerchenerinnerungen/choerchenfahrt-vergiss-mich-nicht?target=_blank)
 
 
 
