@@ -18,7 +18,8 @@ Herzliche Einladung !
 Jubliäumskonzert
 
 * <time>22. Juni 2025</time>
-* Uhrzeit und Ort werden rechtzeitig bekanntgegeben
+* 15 Uhr
+* Dorfkirche Diedersdorf
 
 
 ![choerchen-20](choerchen-20.jpg "choerchen-20")

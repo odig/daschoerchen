@@ -10,6 +10,7 @@ Nicola: 3
 Peter: 3
 Ruth: 3
 Sabine-K: 3
+Sabine-S: 2
 Siegmar: 3
 Stefan: 1
 Steffi: 3

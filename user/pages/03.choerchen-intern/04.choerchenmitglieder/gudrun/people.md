@@ -3,7 +3,7 @@ title: Gudrun
 people:
     voice: SOPRAN
     firstname: Gudrun
-    surname: 
+    surname: Degenkolb
     location: Großbeeren
     active: true
 
