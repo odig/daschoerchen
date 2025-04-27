@@ -1,9 +1,9 @@
 ---
-title: 'Konzert am 20.07.25'
+title: 'Konzert am 19.07.25'
 event:
-    status: cancelled
-    start: '20-07-2025 00:00'
-    end: '20-07-2025 00:00'
+    status: scheduled
+    start: '19-07-2025 00:00'
+    end: '19-07-2025 00:00'
     ticket_show: hidden
     freq: none
     topic:
@@ -59,7 +59,7 @@ form:
 published: true
 ---
 
-_Am 05.04.25 wurde entschieden, dass der 19.07. besser passt._
+_Bitte eintragen, wer bei diesem Konzert dabei sein kann._
 
 ===
 
@@ -77,7 +77,7 @@ Könnt ihr mir hier ein Stimmungsbild geben,
 "Hier kann man übernachten. Oder mit Womo auf unserem Grundstück in Hellburg. 
 http://www.pinocchio-pirow.de/"
 
-!! Am 05.04.25 wurde die Entscheidung für den 19.07. getroffen.
+!!!! Am 05.04.25 wurde die Entscheidung für den 19.07. getroffen.
 
 [ choerchen-availibility ]
 

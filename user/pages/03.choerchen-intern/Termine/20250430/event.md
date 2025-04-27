@@ -1,19 +1,19 @@
 ---
-title: 'Konzert am 19.07.25 ?'
+title: 'Probe am 30.04.2025'
 event:
     status: scheduled
-    start: '19-07-2025 00:00'
-    end: '19-07-2025 00:00'
+    start: '30-04-2025 19:00'
+    end: '30-04-2025 21:00'
     ticket_show: hidden
     freq: none
     topic:
-        - Probentag
-    location: Pirow/Prignitz
+        - Probe
+    location: 'Pfarrhaus Diedersdorf'
 permissions:
     inherit: true
 cache_enable: false
 checkavailibility: true
-checklabel: '20250906'
+checklabel: '20250402'
 checklist: /choerchen-intern/choerchenmitglieder
 simple-responsive-tables:
     active: true
@@ -59,25 +59,7 @@ form:
 published: true
 ---
 
-_Bitte eintragen, wer bei diesem Konzert dabei sein kann._
-
 ===
-
-**Birgit schrieb am 22.03.25:** 
-
-"Hallo ihr Lieben! 
-Wir könnten am 19. oder 20.07. in Pirow / Prignitz das Konzert nochmal singen.
-Könnt ihr mir hier ein Stimmungsbild geben, 
-1. ob ihr könnt
-2. ob der 19. oder 20. besser passt 
-3. ⁠ich würde vorschlagen: wenn es der 19. wird, dann Konzert um 17 Uhr, am 20. um 16 Uhr wegen der Heimfahrt. Ist nur ein Vorschlag, bin für Änderungen offen." 
-
-... 
-
-"Hier kann man übernachten. Oder mit Womo auf unserem Grundstück in Hellburg. 
-http://www.pinocchio-pirow.de/"
-
-!!!! Am 05.04.25 wurde die Entscheidung für den 19.07. getroffen.
 
 [ choerchen-availibility ]
 

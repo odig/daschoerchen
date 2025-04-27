@@ -34,6 +34,17 @@ content:
 | Neu: |  
 | :------------ | :----------- | 
 | 13.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für das Ständchen](/choerchen-intern/choerchennoten/staendchen#mp3) | 
+| 26.04.2025 | <strike>Thank you for the music - springfrei</strike> | 
+| 26.04.2025 | [<i class="fa fa-hand-o-right"></i> The power of a song - Tabletversion](/choerchen-intern/choerchennoten/the_power_of_a_song/pdf/THE-POWER-OF-A-SONG_Chor_Tabletversion-Partitur.pdf) | 
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> Thank you for the music - springfrei (ohne Rückblättern) und korrigierter Text (ganz neu)](/choerchen-intern/choerchennoten/thank_you_for_the_music/pdf/THANK_YOU_FOR_THE_MUSIC_Chor_Springfrei-Partitur.pdf) | 
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> Exsultate in seven - springfrei (ohne Rückblättern)](/choerchen-intern/choerchennoten/exsultate_in_seven/pdf/EXSULTATE_IN_SEVEN_Chorversion-Springfrei-Partitur.pdf) |
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> For the longest time - springfrei (ohne Rückblättern) mit neuem Tenor](/choerchen-intern/choerchennoten/for_the_longest_time/pdf/FOR-THE-LONGEST-TIME-Partitur.pdf) |
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für For the longest time](/choerchen-intern/choerchennoten/for_the_longest_time#mp3) |
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Preis und Anbetung](/choerchen-intern/choerchennoten/preis-und-anbetung#mp3) |
+| 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Gabriella](/choerchen-intern/choerchennoten/gabriellas-sang#mp3) |
+
+&nbsp;
+
 
 
 
@@ -102,3 +113,19 @@ content:
 *  [<i class="fa fa-hand-o-right"></i> Excultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven)
 *  [<i class="fa fa-hand-o-right"></i> I give you my heart](/choerchen-intern/choerchennoten/i-give-you-my-heart)
 *  [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen)
+
+
+26.04.2024
+
+*  [<i class="fa fa-hand-o-right"></i> Thank you for the music](/choerchen-intern/choerchennoten/thank_you_for_the_music)
+*  [<i class="fa fa-hand-o-right"></i> Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir)
+*  [<i class="fa fa-hand-o-right"></i> An Irish Blessing](/choerchen-intern/choerchennoten/an_irish_blessing)
+*  [<i class="fa fa-hand-o-right"></i> Daisy](/choerchen-intern/choerchennoten/daisy)
+*  [<i class="fa fa-hand-o-right"></i> Abschied vom Walde](/choerchen-intern/choerchennoten/abschied-vom-walde)
+*  [<i class="fa fa-hand-o-right"></i> English Country Garden](/choerchen-intern/choerchennoten/english_country_garden)
+*  [<i class="fa fa-hand-o-right"></i> Look at the world](/choerchen-intern/choerchennoten/look-at-the-world)
+*  [<i class="fa fa-hand-o-right"></i> Cuppa Cappuccino](/choerchen-intern/choerchennoten/cuppa-cappucino)
+*  [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again)
+*  [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen)
+*  [<i class="fa fa-hand-o-right"></i> A Clare Benediction](/choerchen-intern/choerchennoten/a-clare-benediction)
+*  [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste)

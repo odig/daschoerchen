@@ -7,7 +7,7 @@ event:
     ticket_show: hidden
     freq: none
     topic:
-        - Probentag
+        - Konzert
     location: Diedersdorf
 permissions:
     inherit: true

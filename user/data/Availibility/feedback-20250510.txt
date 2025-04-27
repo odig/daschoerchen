@@ -8,7 +8,7 @@ Margitta: 3
 Margret: 1
 Nicola: 3
 Ruth: 3
-Sabine-K: 2
+Sabine-K: 1
 Siegmar: 3
 Stefan: 3
 Steffi: 3
