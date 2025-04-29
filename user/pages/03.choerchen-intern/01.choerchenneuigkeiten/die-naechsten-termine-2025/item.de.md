@@ -42,6 +42,8 @@ content:
 | 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für For the longest time](/choerchen-intern/choerchennoten/for_the_longest_time#mp3) |
 | 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Preis und Anbetung](/choerchen-intern/choerchennoten/preis-und-anbetung#mp3) |
 | 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Gabriella](/choerchen-intern/choerchennoten/gabriellas-sang#mp3) |
+| 29.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Come again](/choerchen-intern/choerchennoten/come-again#mp3) |
+| 29.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir#mp3) |
 
 &nbsp;
 
