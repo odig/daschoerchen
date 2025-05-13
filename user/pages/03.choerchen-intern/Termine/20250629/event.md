@@ -1,7 +1,7 @@
 ---
 title: 'Konzert am 29.06.25 ?'
 event:
-    status: scheduled
+    status: cancelled
     start: '29-06-2025 00:00'
     end: '29-06-2025 00:00'
     ticket_show: hidden

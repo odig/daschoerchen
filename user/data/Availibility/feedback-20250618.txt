@@ -1,0 +1,4 @@
+Gudrun: 3
+Margret: 3
+Sabine-K: 1
+

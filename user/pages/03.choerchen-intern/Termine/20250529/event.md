@@ -2,7 +2,7 @@
 title: 'Chorfahrt vom 29.05. bis 01.06.2025'
 event:
     status: scheduled
-    start: '29-05-2025 15:00'
+    start: '29-05-2025 12:00'
     end: '01-06-2025 12:00'
     ticket_show: price
     freq: none
@@ -13,26 +13,28 @@ event:
 permissions:
     inherit: true
 cache_enable: false
-
 checkavailibility: true
 checklabel: '20250529'
 checklist: /choerchen-intern/choerchenmitglieder
-
 simple-responsive-tables:
     active: true
 tablesorter:
     active: true
     themes: green
     args:
-        headers: {
-            0: { sorter: false },
-            1: { sorter: false },
-            2: { sorter: false },
-            3: { sorter: false }
-            4: { sorter: false }
-            5: { sorter: false }
-            }
-            
+        headers:
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
+            -
+                sorter: false
 form:
     name: Availibility
     fields:

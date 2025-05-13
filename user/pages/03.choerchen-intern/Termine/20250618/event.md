@@ -1,19 +1,19 @@
 ---
-title: 'Jubiläumskonzert am 22.06.2025'
+title: 'Probe am 18.06.2025'
 event:
     status: scheduled
-    start: '22-06-2025 15:00'
-    end: '22-06-2025 17:00'
+    start: '18-06-2025 19:00'
+    end: '18-06-2025 21:00'
     ticket_show: hidden
     freq: none
     topic:
-        - Konzert
-    location: 'Dorfkirche Diedersdorf'
+        - Probe
+    location: 'Pfarrhaus Diedersdorf'
 permissions:
     inherit: true
 cache_enable: false
 checkavailibility: true
-checklabel: '20250622'
+checklabel: '20250402'
 checklist: /choerchen-intern/choerchenmitglieder
 simple-responsive-tables:
     active: true
@@ -59,10 +59,7 @@ form:
 published: true
 ---
 
-[<i class="fa fa-hand-o-right"></i> <b>Konzertflyer</b> <i class="fa fa-hand-o-left"></i>](/home/ankuendigungen-fuer-2025/Jubiläumskonzert-22-Juni-2025-Flyer.pdf)
-
 ===
-
 
 [ choerchen-availibility ]
 

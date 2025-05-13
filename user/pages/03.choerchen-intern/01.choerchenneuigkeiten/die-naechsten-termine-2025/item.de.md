@@ -9,12 +9,12 @@ simple-responsive-tables:
 tablesorter:
     active: true
     themes: green
-
 content:
     items:
-        - '@page.children': /choerchen-intern/termine
+        -
+            '@page.children': /choerchen-intern/termine
     dateRange:
-        start: 'today'
+        start: today
         end: 'next month'
     order:
         by: date
@@ -25,10 +25,11 @@ content:
 
 
 
-[Bitte tragt eure An-/Abwesenheit bei den kommenden <i class="fa fa-hand-o-right"></i> Terminen <i class="fa fa-hand-o-left"></i> ein.](/choerchen-intern/termine)
-
-
-[Bitte bringt alle Noten der <i class="fa fa-hand-o-right"></i> Jubiläumsliste <i class="fa fa-hand-o-left"></i> mit. (Aktualisiert am 12.04.2025)](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)
+[Bitte tragt eure An-/Abwesenheit bei den kommenden <i class="fa fa-hand-o-right"></i><b> Terminen </b><i class="fa fa-hand-o-left"></i> ein.](/choerchen-intern/termine)
+<br>
+[Bitte bringt alle Noten der <i class="fa fa-hand-o-right"></i><b> Jubiläumsliste </b><i class="fa fa-hand-o-left"></i> mit. (Aktualisiert am 12.04.2025)](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)
+<br>
+[Hier gibt es den <i class="fa fa-hand-o-right"></i><b> Jubiläumskonzertflyer </b><i class="fa fa-hand-o-left"></i> zum Verteilen und Versenden.](/home/ankuendigungen-fuer-2025/Jubiläumskonzert-22-Juni-2025-Flyer.pdf)
 
 
 | Neu: |  
@@ -44,6 +45,8 @@ content:
 | 27.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Gabriella](/choerchen-intern/choerchennoten/gabriellas-sang#mp3) |
 | 29.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Come again](/choerchen-intern/choerchennoten/come-again#mp3) |
 | 29.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir#mp3) |
+| 09.05.2025 | [<i class="fa fa-hand-o-right"></i> Korrigierte MP3s für For the longest time](/choerchen-intern/choerchennoten/for_the_longest_time#mp3) |
+| 09.05.2025 | [<i class="fa fa-hand-o-right"></i> Korrigierte Version: For the longest time - springfrei (ohne Rückblättern) mit neuem Tenor](/choerchen-intern/choerchennoten/for_the_longest_time/pdf/FOR-THE-LONGEST-TIME_250509_Partitur.pdf) |
 
 &nbsp;
 
@@ -56,10 +59,9 @@ content:
 
 [<i class="fa fa-hand-o-right"></i> <b>Jubiläumsliste</b> <i class="fa fa-hand-o-left"></i>](/choerchen-intern/choerchennoten/tag:Jubiläumskonzert%202025/query:Jubiläumskonzert%202025)
 
+[<i class="fa fa-hand-o-right"></i> <b>Jubiläumskonzertflyer</b> <i class="fa fa-hand-o-left"></i>](/home/ankuendigungen-fuer-2025/Jubiläumskonzert-22-Juni-2025-Flyer.pdf)
 
-| Neu: |  
-| :------------ | :----------- | 
-| 13.04.2025 | [<i class="fa fa-hand-o-right"></i> MP3s für das Ständchen](/choerchen-intern/choerchennoten/staendchen#mp3) | 
+
 
 
 
@@ -131,3 +133,39 @@ content:
 *  [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen)
 *  [<i class="fa fa-hand-o-right"></i> A Clare Benediction](/choerchen-intern/choerchennoten/a-clare-benediction)
 *  [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste)
+
+
+30.04.2025
+
+*  [<i class="fa fa-hand-o-right"></i> The power of a song](/choerchen-intern/choerchennoten/the_power_of_a_song)
+*  [<i class="fa fa-hand-o-right"></i> Excultate in Seven](/choerchen-intern/choerchennoten/exsultate_in_seven)
+*  [<i class="fa fa-hand-o-right"></i> For the longest time](/choerchen-intern/choerchennoten/for_the_longest_time)
+*  [<i class="fa fa-hand-o-right"></i> Thank you for the music](/choerchen-intern/choerchennoten/thank_you_for_the_music)
+
+
+07.05.2025
+
+*  [<i class="fa fa-hand-o-right"></i> English Country Garden](/choerchen-intern/choerchennoten/english_country_garden)
+*  [<i class="fa fa-hand-o-right"></i> Look at the world](/choerchen-intern/choerchennoten/look-at-the-world)
+*  [<i class="fa fa-hand-o-right"></i> Erlaube mir](/choerchen-intern/choerchennoten/erlaube-mir)
+*  [<i class="fa fa-hand-o-right"></i> Ständchen](/choerchen-intern/choerchennoten/staendchen)
+*  [<i class="fa fa-hand-o-right"></i> Thank you for the music](/choerchen-intern/choerchennoten/thank_you_for_the_music)
+*  [<i class="fa fa-hand-o-right"></i> For the longest time](/choerchen-intern/choerchennoten/for_the_longest_time)
+*  [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste)
+
+
+10.05.2025
+
+*  [<i class="fa fa-hand-o-right"></i> English Country Garden](/choerchen-intern/choerchennoten/english_country_garden)
+*  [<i class="fa fa-hand-o-right"></i> Locus iste](/choerchen-intern/choerchennoten/locus_iste)
+*  [<i class="fa fa-hand-o-right"></i> The power of a song](/choerchen-intern/choerchennoten/the_power_of_a_song)
+*  [<i class="fa fa-hand-o-right"></i> You'll never walk alone](/choerchen-intern/choerchennoten/you-ll-never-walk-alone)
+*  [<i class="fa fa-hand-o-right"></i> Come again](/choerchen-intern/choerchennoten/come-again)
+*  [<i class="fa fa-hand-o-right"></i> Im Vorübergehen](/choerchen-intern/choerchennoten/im_voruebergehen)
+*  [<i class="fa fa-hand-o-right"></i> I give you my heart](/choerchen-intern/choerchennoten/i-give-you-my-heart)
+*  [<i class="fa fa-hand-o-right"></i> Preis und Anbetung](/choerchen-intern/choerchennoten/preis-und-anbetung)
+*  [<i class="fa fa-hand-o-right"></i> Gabriella](/choerchen-intern/choerchennoten/gabriellas-sang)
+*  [<i class="fa fa-hand-o-right"></i> Home](/choerchen-intern/choerchennoten/home)
+
+
+
